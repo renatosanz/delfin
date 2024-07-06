@@ -1,0 +1,351 @@
+\documentclass[9pt,twocolumn,a4paper]{opticajnl}
+
+\nonstopmode
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+\usepackage[usefilenames,DefaultFeatures={Ligatures=Common}]{plex-otf} %
+\usepackage{hyperref}
+\usepackage{graphicx} 
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=purple,
+    pdftitle={Proyecto Instancia Delfín SLR 2024},
+    }
+
+
+\usepackage{listings}
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\usepackage[style=alphabetic,sorting=ynt]{biblatex}
+\addbibresource{refs.bib}
+
+\definecolor{color2}{RGB}{59,90,198} % author email, doi
+\definecolor{color2b}{RGB}{105,105,105} % Header, authors, table lines
+
+\title{Proyecto Instancia Delfín}
+\author{Renato Sánchez Loeza}
+
+\begin{document}
+\maketitle
+\section*{Introducción}
+Desde los inicios de la astronomía, nuestra visión del firmamento ha estado limitada por la capacidad tecnológica para observarlo. Pasando por etapas tempranas donde el ojo humano se apoyaba con los primeros telescopios ópticos para la definición de objetos celestes, tal como el holandés Hans Lippershey, quien construyó uno de los primeros telescopios en 1608, y Galileo Galilei, quien mejoró este modelo en 1610 \cite{cana-2015}.
+
+Posteriormente, la fotografía mejoró la precisión de las mediciones. El primero en hacerlo fue John William Draper, quien en 1840 utilizó un proceso de daguerrotipo\footnote{Técnica fotográfica primitiva mediante la cual las imágenes captadas con la cámara oscura se fijan sobre una chapa metálica convenientemente preparada.} para capturar una imagen de la Luna. Cinco años más tarde, Foucault y Fizeau fotografiaron el Sol desde París \cite{olsen2021birth}. Pero los obstáculos se encuentran en la dificultad de compartir la información obtenida con base en este método.
+
+Más recientemente, los CCD revolucionaron las observaciones astronómicas con una captura de entre el 90\% y el 95\% de la luz que llega a ellos, además de permitir la distribución de las fotografías obtenidas \cite{las-cumbres}. A estos avances se incorpora el análisis del espectro electromagnético (ondas de radio, infrarrojo, ultravioleta, rayos X y Gamma) y la espectroscopia, siendo la segunda la encargada de extraer datos sobre la distribución de la energía en una región del plano con el método de la rendija, donde por esta se permite entrar la luz del segmento a estudiar para posteriormente estudiar su espectrograma.
+
+En la búsqueda de métodos que combinen lo mejor de la fotometría y la espectroscopia, se han propuesto diversas técnicas. Entre ellas, destacan el barrido con rendijas, el interferómetro de Fabry-Pérot (Etalon) y la espectroscopia multiobjetos (MOS). El barrido con rendijas implica observar la luz de una fuente a través de una rendija estrecha. Esto permite analizar su espectro y obtener información sobre composición química, velocidad y temperatura, mientras que el Fabry-Pérot es una técnica que utiliza múltiples reflexiones entre dos superficies altamente reflectantes y cercanas entre sí \cite{olmo-nave}. Por otro lado, la MOS emplea máscaras con múltiples aperturas para capturar espectros de varios objetos simultáneamente \cite{oconnell_astr511}, a menudo utilizando una matriz de fibras para capturar parte del campo de visión. Estas fibras se encuentran en el plano focal del instrumento de imagen. Luego, las fibras se redirigen y se alinean en la ranura de entrada del espectrógrafo, dispersando la luz en un detector. Se emplea en estudios de objetos débiles, como cúmulos de galaxias. Ejemplo de estos sistemas son el \textit{Low Resolution Imaging Spectrometer} (LRIS) en el Keck I y el \textit{VIsible MultiObject Spectrograph} (VIMOS) \footnote{“VIMOS operates in three different modes: Imaging (IMG), Multi-Object Spectroscopy (MOS), and with Integral Field Unit (IFU).” \cite{eso_vimos}} en el VLT \cite{oke_1995}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{ifus.jpg}
+    \caption{Visualización de un cubo de datos resultante de una IFS. Crédito: ESO/MUSE consortium/R. Bacon/L. Calçada}
+    \label{fig:ifus}
+\end{figure}
+
+\section*{Espectroscopia Integral de Campo}
+Sin embargo, el sistema que hoy en día se usa con más frecuencia es la espectroscopia integral de campo o IFS (Integral Field Spectrograph), la cual nos permite obtener un espectrograma de una región de 2 dimensiones del espacio. Un IFS genera un "cubo de datos" (Fig. 1), que contiene el campo de visión en 2 dimensiones y una dimensión espectral, formado por un bloque de imágenes de la misma región, cada una en una longitud de onda diferente \cite{UW-Madison-IFS}. Los astrónomos pueden medir, por ejemplo, el movimiento del gas en una galaxia lejana o las distancias a las diferentes galaxias detectadas en un campo de visión, utilizando la riqueza de la información de los espectrógrafos de campo integral.
+
+En este proceso se encuentran las Unidades Integrales de Campo o IFU (Integral Field Units), los cuales son ampliamente utilizados para estudiar objetos de gran extensión, como cúmulos, galaxias o nebulosas, en una sola toma. Durante este proceso, la señal de cada una de las celdas se procesa en un espectrógrafo, el cual genera un espectro para cada uno de los píxeles, generando así un \textit{spaxel}, y al final del proceso obtenemos un cubo de datos o \textit{datacube}.
+
+\subsection*{Métodos de IFS}
+\subsubsection*{Arreglo de lentes o Lenslet arrays}
+Utiliza imágenes de pupila para distribuir espectros cortos. La magnificación y espacio entre espectros es importante para evitar mezcla de luz de diferentes longitudes de onda (Fig. 2) \cite{allington2006basic}.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{lensletsimg1.png}
+    \caption{Ejemplo de arreglo de lentes hexagonales con 3 tamaños de spaxels. Crédito: \cite{schmoll2006design}}
+    \label{fig:lensletsimg1}
+\end{figure}
+
+\subsubsection*{Arreglo de fibras o Fibre arrays} 
+Esta técnica consiste en acoplar una serie de fibras y un arreglo de microlentes \footnote{Los arreglos de microlentes son necesarios para las IFU acopladas a fibras. Adaptan el cono de luz entrante a la fibra, al mismo tiempo que optimizan el factor de llenado del conjunto de entrada. \cite{schmoll2006design}} que redirigen la luz a las rendijas para la generación de espectrogramas. Cada fibra recoge la luz de una ubicación específica en el campo de visión (Fig. 3). Además, requiere menos espacio muerto y, por lo tanto, tiene el potencial de aumentar la densidad de información \cite{allington2006basic}.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{fibrefeed.png}
+    \caption{A la izquierda se muestra la cara del primer prototipo de IFU de 127 fibras. A la derecha se muestra la carcasa de la férula que sostiene la IFU y permite enchufarla a la placa SDSS. \cite{sdss_bundle_ferrule}}
+    \label{fig:fibrefeed}
+\end{figure}
+
+
+\subsubsection*{Cortador o Slicer}
+Un cortador de imágenes se compone generalmente de un conjunto de espejos cortadores ubicados en el plano de la imagen del telescopio y asociados a una fila de espejos pupilares y una fila de espejos de rendija \cite{vives2005original}. Esta técnica busca dividir la imagen en tiras para después dispersarlas y formar un espectro (Fig. 4).
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{slicerimg1.png}
+    \caption{Visualización de un IFU Slicer. Crédito: \cite{vives2005original}}
+    \label{fig:slicerimg1}
+\end{figure}
+
+
+\section*{Visualización y Análisis}
+Si bien se ha avanzado de forma significativa para mejorar nuestros métodos para observar las regiones espaciales, ahora es el momento de analizar dichos datos para obtener un aporte al conocimiento mucho más sofisticado. 
+Hoy en día podremos encontrar distintos software de procesamiento de datos de este tipo para modelos y usos muy específicos. Sin embargo, no podemos decir que existe una herramienta universal que nos dé las herramientas suficientes para manipular datos de cualquier procedencia, con una interfaz intuitiva y gran variedad de opciones para procesar los datos.
+
+\subsection*{Soluciones existentes}
+ \subsubsection*{Marvin}
+Actualmente se encuentra Marvin \cite{marvin}, un conjunto de herramientas que incluye un paquete de Python, una API y una aplicación web, diseñado para trabajar con los datos del proyecto MaNGA de SDSS-IV1.
+Este software esta equipado con datos generales de las galaxias como las coordenadas celestes, la fecha de observacion y una imagen de la galaxia observada, asi como la visualizacion espectral en un spaxel especifico (espectro observado y modelo de ajuste) con la opcion de marcar los componentes quimicos que refleja la espectroscopia. Incluye mapas de propiedades de la galaxia en cuestion, con datos como la velocidad estelar y el flujo de lineas de emisión \textbf{(Fig. 5)}.
+\begin{figure}
+	\centering
+  	\includegraphics[width=0.8\linewidth]{interfaceMarvin}
+	\caption{Interfaz web de Marvin.}
+	\label{fig:interfacemarvin}
+\end{figure}
+
+\subsubsection*{Starlink}
+Tambien contamos con Starlink \cite{Berry_Starlink}, un proyecto de codigo abierto para el procesamiento de datos astronomicos. Este proyecto termino en el 2005, el software sigue en desarrorllo por la \textit{East Asian Observatory}. Una desventaja con este software es el hecho de que las tecnologias que ocupa son muy desactualizadas, dentro de estas tecnologias se encuentran Fortran/C. Toda la referencia e instrucciones para la compilacion del software se encuentra en el documento Starlink SSN/78 y su repositorio de GitHub. Su interfaz al igual que todo el sistema esta implementada en tecnologias obsoletas y dificiles de mantener hoy en dia \textbf{(Fig. 6)}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\linewidth]{starlinkcap}
+	\caption{Interfaz del software Starlink}
+	\label{fig:starlinkcap}
+\end{figure}
+
+\section*{Metodologia}
+Una vez claro el marco de referencia en el que nos encontramos se procede a iniciar el proceso de analisis de datos y exploracion de tecnologias a utilizar. Para ello nos dirigiremos en un principio a la pagina web de \href{https://magrathea.sdss.org/marvin/}{Marvin } con el fin de hallar una galaxia que nos resulte interesante para comenzar a analizarla. Por ahora tomaremos la galaxia \verb|manga 7495-6102| y descargaremos su cubo de datos \textbf{lineal}\footnote{Optamos por el cubo de datos lineal ya que el modelo logaritmico requiere de más tecnica para poder manipularse} de la siguiente manera:
+\begin{enumerate}
+    \item En el inicio de la pagina click en el botón \textbf{Go to SkyServer}
+    \item El la barra lateral derecha click al enlace \textbf{Explore}
+    \item Al final de la pagina click en \textbf{MaNGA observation(s)}
+    \item Click en \textbf{LIN Data Cube}
+\end{enumerate}
+Acontinuacion empezara la descarga de nuestro cubo de datos. Este archivo que se descargara sera del tipo \verb|.fits.gz| lo que indica que nuestro archivo esta comprimido pero no sera necesario descomprimirlo para el procesamiento.
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{manga-7495-6102.png}
+    \caption{Galaxia 7495-6102 - MaNGA - https://magrathea.sdss.org/marvin/galaxy/7495-6102/}
+    \label{fig:interfacemarvin}
+\end{figure}
+ 
+\subsection*{Procesamiento con Python}
+Una vez descargado el cubo de datos podremos analizarlo con la ayuda de \textbf{Python}, un lenguaje de programacion interpretado multiplataform ademas de una libreria llamada \textbf{Astropy}, una libreria de python enfocada al analisis y procesamiento astronomico. Ademas de \textbf{numpy} y \textbf{matplotlib} para la graficacion de nuestros datos.
+
+\subsubsection*{Implementación en codigo}
+
+Primero verificaremos cuales son las dimensiones de nuestro cubo de datos.
+
+\begin{lstlisting}[language=Python]
+    from astropy.io import fits
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    fits_file = './manga-7495-6102-LINCUBE.fits.gz' #ruta del archivo .fits
+    hdul = fits.open(fits_file) #abre el archivo .fits
+    flux = hdul["FLUX"].data #lee los datos de flujo
+    print(flux.shape) #dimensiones del cubo de datos (espectral x espacial x espacial)
+    #resultado: (6732, 54, 54)
+\end{lstlisting}
+
+El resultado del codigo anterior indica que tenemos un cubo de datos de 54(espacial) x 54(espacial) = 2916 spaxels. Con una profundida de 6732 espectros. Dando como total 19,630,512 voxels.
+
+\begin{lstlisting}[language=Python]
+    from astropy.io import fits
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import matplotlib.ticker as ticker
+    fits_file = '../manga-7495-6102-LINCUBE.fits.gz'
+    #ruta del archivo .fits
+    hdul = fits.open(fits_file) #abre el archivo .fits
+    flux = hdul["FLUX"].data #lee los datos de flujo
+    print(flux.shape) #dimensiones del cubo de datos
+    #(espectral x espacial x espacial)
+    #el nmero de espectros es (6732, 54, 54)
+    
+    flg=plt.figure()
+    ax = flg.add_subplot(111)
+    ax.plot(flux[:,27,27])
+    ax.set_ymargin(0.1)
+    #ax.set_xlim(self.datacube.getData("WAVE")[0])
+    ax.xaxis.set_major_formatter( ticker.FuncFormatter( lambda x, pos: '{}{}'.format('', str(int(x)+self.datacube.getData("WAVE")[0]))))
+    ax.set_xlabel("Longitud de onda Å")
+    ax.set_ylabel("Flujo [10-17 erg/cm2/s/Å]")
+    ax.set_title("Galaxia: manga-7495-6102 \nSpaxel: 27,27") 
+    
+    #extrayendo un corte del cubo en la longitud de onda 900 a través de toda la imagen y aplicando log10 - devuelve una imagen  
+    fig=plt.figure()
+    bx=fig.add_subplot(111) 
+    cx = bx.imshow(np.log10(flux[900,:,:]))
+    
+    plt.show() #muestra los gráficos
+\end{lstlisting}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{espectro1_python.png}
+    \caption{Espectro en (:, 27, 27)}
+    \label{fig:espectro1_python}
+\end{figure}
+
+Al ejecutar este codigo se desplegaran 2 ventanas: una grafica de con el espectro del spaxel {\ttfamily(espectro: todos, espacial:27px, espacial:27px)} \textbf{Fig. 8}, una grafica con la imagen de la galaxia en {\ttfamily(espectro: 900, espacial:todos, espacial:todos)} \textbf{Fig. 9}.
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{imagen1_python.png}
+    \caption{Imagen en (900, :, :) con logaritmo base 10 aplicado}
+    \label{fig:imagen1_python}
+\end{figure}
+
+\subsubsection*{Ajuste de longitud de onda en los datos}
+Dado que los datos de los espectros están situados en una longitud de onda específica, no empezando en 0, debemos adjuntar como información del eje x los datos que conforman las longitudes de onda específicas para cada espectro. Estos datos se hallan dentro del mismo archivo .fits en el apartado "WAVE".
+
+\subsubsection*{Ajuste de redshift o corrimiento al rojo}
+Gracias al efecto Doppler, nuestros datos presentan un desfase en las longitudes que nos son presentadas. Por lo tanto, debemos realizar otro ajuste a las longitudes de onda basándonos en la cantidad de corrimiento al rojo. Para ello, recurriremos al DAPall del SDSS, un resumen de tablas finales de los resultados de MaNGA Data Analysis Pipeline (DAP), en el cual se encuentra la cantidad de redshift de nuestra galaxia en base al PLATEIFU.
+
+Para ello se ocupara el siguiente codigo:
+
+\begin{lstlisting}[language=Python]
+    from astropy.io import fits
+    import numpy as np 
+    import matplotlib.pyplot as plt
+    nombre_arch="./manga-7495-6102-LINCUBE.fits.gz"
+    hdu=fits.open(nombre_arch)
+    flujo = hdu["FLUX"].data
+    print("Dimensiones: ",flujo.shape)
+    hdu_catalog=fits.open( "./redshift_catalog/dapall-v3_1_1-3.1.0.fits")
+    data_catalog=hdu_catalog[1].data
+    ix=np.where(data_catalog["plateifu"] == "7495-6102") 
+    redshift=data_catalog[ "nsa_z"][ix][0]
+    longitud=hdu[ "WAVE"].data
+    wave=longitud/(1.0 + redshift)
+    fig=plt.figure()
+    ax=fig.add_subplot(111)
+    ax.plot(longitud, flujo[:,27,27]) 
+    ax.plot(wave,flujo[:,27,27])
+    plt.show()
+\end{lstlisting}
+
+Lo que nos da como resultado una gráfica con los dos espectros: espectro observado (azul) y el estado en reposo o rest frame (naranja), ambos ya calibrados en la longitud de onda respectivamente \textbf{Fig. 10}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{redshift_ajuste.png}
+    \caption{Ajuste de longitud de onda por redshift}
+    \label{fig:redshift_ajuste}
+\end{figure}
+
+Para obtener una manipulación completa de los datos, me he basado en la información de la página del \href{https://data.sdss.org/datamodel/files/MANGA_SPECTRO_DATA/MJD5/sdR.html}{Modelo de Datos del SDSS}, en la que se especifican los apartados de un archivo \verb|.fits|.
+
+\subsection*{Creación de interfaz}
+Con el fin de facilitar el uso de la anterior implementación, me propuse crear un entorno gráfico para esta. Entre varias alternativas que hay en Python, he escogido \href{https://dearpygui.readthedocs.io/en/latest/}{Dearpygui}, ya que es una librería gráfica multiplataforma, dinámica, acelerada por GPU y fácil de usar, un kit de herramientas de interfaz de usuario (GUI) para Python. Ya que en esta ocasión se manejarán grandes volúmenes de datos y requerimos una interfaz de alto rendimiento, cabe mencionar que esta librería también permite hacer gráficas o "plots", así que para el apartado del espectro me tomé la libertad de usar la alternativa de Dearpygui.
+
+\textit{InterVisor} permite abrir un nuevo archivo .fits, .gz o .fitz.gz desde el explorador de archivos con el botón \textbf{Open a new file}. Además de manejar un registro de los archivos abiertos con anterioridad, para ello está el botón \textbf{Recent files}. Para finalizar el programa, está la opción \textbf{Exit} \textbf{(Fig. 11-13)}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{menuprincipal1.png}
+    \caption{Menu principal}
+    \label{fig:menuprincipal1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{file_explorer_visor.png}
+    \caption{Explorador de archivos}
+    \label{fig:file_explorer_visor}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{recent_files.png}
+    \caption{Archivos Recientes}
+    \label{fig:recent_files}
+\end{figure}
+
+Al abrir algún archivo\footnote{Si se trata de abrir 2 veces el mismo archivo, el programa no realizará esa nueva apertura.} se procede a la siguiente pantalla en la cual se presentan las diferentes opciones para procesar el archivo \textbf{Fig. 14}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{modes.png}
+    \caption{Ventana de modos de procesamiento.}
+    \label{fig:modes}
+\end{figure}
+
+Actualmente, se cuenta con los siguientes modos de procesamiento:
+
+\begin{enumerate}
+    \item \textbf{Visor de espectro:} En este apartado se permite escoger el spaxel (i,j) en el rango de longitud de onda en el que se quiere ver el espectro \textbf{(Fig. 15)}.
+    \item \textbf{Extractor de imagen:} Después de ingresar una longitud de onda específica, se muestra la imagen del mapa. También está la opción de aplicar $log_{10}$ y $log_{2}$ \textbf{(Fig. 16)}.
+    \item \textbf{Más información:} Un apartado para observar más datos sobre el archivo .fits \textbf{(Fig. 17)}.
+\end{enumerate}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{spectrum_visor.png}
+    \caption{Visor de espectro.}
+    \label{fig:spectrum_visor}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{VIsor_heatmap.png}
+    \caption{Extractor de imagen.}
+    \label{fig:VIsor_heatmap}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{moreinfo.png}
+    \caption{Mas informacion.}
+    \label{fig:moreinfo}
+\end{figure}
+
+\section*{Observación de Líneas de Emisión}
+Cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por uno.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{emisionLine1.png}
+    \caption{Ejemplo de linea de emisión.}
+    \label{fig:moreinfo}
+\end{figure}
+
+\newpage
+
+\section*{Definiciones}
+\begin{description}[style=nextline]
+  \item[pixel] Un píxel se refiere a un píxel físico del detector que es leído por una serie de dispositivos electrónicos.
+  \item[spaxel] Un spaxel (píxel espacial) se refiere a un elemento espacial de un cubo de datos reconstruido.
+  \item[voxel] Un voxel (píxel volumétrico) se refiere a un elemento de volumen (espacial × espacial × espectral) de un cubo de datos. 
+  \item[redshift] El desplazamiento al rojo, como lo dice su nombre, sucede cuando las ondas de luz se estiran por el efecto Doppler y tienden a la region roja del espectro.
+  \item[pársec] Unidad de medida de distancia utilizada en astronomía, equivalente a aproximadamente 3.26 años luz.
+  \item[SDSS] El \textit{Sloan Digital Sky Survey} es uno de los proyectos de investigación astronómica más grandes jamás emprendidos. Este tiene como objetivo la expansión del conocimiento humano sobre la evolución y estructura del espacio, formación de estrellas y galaxias.
+  \item[MaNGA] \textit{Mapping Nearby Galaxies at APO} es un estudio espectroscópico de campo integral de galaxias dentro del Sloan Digital Sky Survey de cuarta generación (SDSS-IV) \cite{weijmans2015manga}.
+  \item[Unidad Astronomica / au] La unidad astronómica de distancia es una unidad de longitud que se utiliza en astronomía para las dimensiones típicas del Sistema Solar y se define 1 au como una longitud igual a exactamente 149 597 870 700 metros.
+  \item[S/N] La relación señal-ruido, SNR (Signal/Noise Ratio), S/N, mide qué tan bien se mide un objeto. Valores tipicos:\\
+  S/N = 2-3: objeto apenas detectado\\
+  S/N = 10: podemos comenzar a hacer mediciones\\
+  S/N = 100: medición excelente.\\
+  \item[Archivos .fits] FITS (Flexible Image Transport System) es el formato de datos más utilizado dentro de la astronomía para transportar, analizar y archivar archivos de datos. FITS es mucho más que otro formato de imagen (como como JPG o GIF) y está diseñado principalmente para almacenar conjuntos de datos científicos que consta de matrices multidimensionales (imágenes) y tablas bidimensionales organizados en filas y columnas de información.
+\end{description}
+
+\printbibliography
+
+\end{document}

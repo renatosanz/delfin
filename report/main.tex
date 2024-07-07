@@ -318,7 +318,13 @@ Actualmente, se cuenta con los siguientes modos de procesamiento:
 \end{figure}
 
 \section*{Observación de Líneas de Emisión}
-Cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por uno.
+Cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por una longitud de onda en especifico.
+
+Para iniciar hay que marcar el metodo que ocuparemos. Primero hay que encontrar el valor mas alto en el espectro actual $m$  al igual que la longitud onda en la que se encuentra este valor $l$, a lo que procederemos a obtener el segmento de datos que conforman la linea de emision tanto en el espectro $flujo[]$ como en las longitudes de onda $long[]$, para esto definimos un margen $p$ alrededor de $l$, de forma que obtenemos los intervalos cerrados de $flujo[l-p:l+p]$ y $long[l-p:l+p]$. 
+
+En seguida dividiremos ambos intervalos en en 3 partes, 2 laterales y una central, esto con el fin de obtener un promedio del continuo del espectro y obtener un mejor calculo de las lineas de emisión. Y la parte central sera ulilizada para la generacion de una campana gausiana la cual representa la linea de emisión completa. Para finalizar, calculamos la integral de la anterior gausiana y la almacenamos en una matriz de $n*m$ deacuerdo al tamaño de la imagen en el cubo de datos. 
+
+Este proceso tiene que realizarse para cada pixel en la imagen del cubo de datos. De esta manera obtendremos un mapa de lineas de emisión.
 
 \begin{figure}
     \centering

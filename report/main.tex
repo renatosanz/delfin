@@ -294,6 +294,7 @@ Actualmente, se cuenta con los siguientes modos de procesamiento:
     \item \textbf{Visor de espectro:} En este apartado se permite escoger el spaxel (i,j) en el rango de longitud de onda en el que se quiere ver el espectro \textbf{(Fig. 15)}.
     \item \textbf{Extractor de imagen:} Después de ingresar una longitud de onda específica, se muestra la imagen del mapa. También está la opción de aplicar $log_{10}$ y $log_{2}$ \textbf{(Fig. 16)}.
     \item \textbf{Más información:} Un apartado para observar más datos sobre el archivo .fits \textbf{(Fig. 17)}.
+    \item \textbf{Visor de lineas de emisión: } Se calcula el valor total las lineas mas importantes del espectro de cada uno de los pixeles en el cubo de datos. Para esta caracteriztica se calcula la integral de una gausiana ajustada al segmento de datosque representa la linea de emision, todo esto de forma iterativa. 
 \end{enumerate}
 
 \begin{figure}
@@ -320,15 +321,27 @@ Actualmente, se cuenta con los siguientes modos de procesamiento:
 \section*{Observación de Líneas de Emisión}
 Cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por una longitud de onda en especifico.
 
-Para iniciar hay que marcar el metodo que ocuparemos. Primero hay que encontrar el valor mas alto en el espectro actual $m$  al igual que la longitud onda en la que se encuentra este valor $l$, a lo que procederemos a obtener el segmento de datos que conforman la linea de emision tanto en el espectro $flujo[]$ como en las longitudes de onda $long[]$, para esto definimos un margen $p$ alrededor de $l$, de forma que obtenemos los intervalos cerrados de $flujo[l-p:l+p]$ y $long[l-p:l+p]$. 
+Para iniciar hay que marcar el metodo que ocuparemos. Primero hay que encontrar el valor mas alto en el espectro actual ($m$)  al igual que la longitud onda en la que se encuentra este valor ($l$), a lo que procederemos a obtener el segmento de datos que conforman la linea de emision tanto en el espectro ($flujo[]$) como en las longitudes de onda ($long[]$), para esto definimos un margen $p$ alrededor de $l$, de forma que obtenemos los intervalos cerrados de ($flujo[l-p:l+p]$) y ($long[l-p:l+p]$). 
 
 En seguida dividiremos ambos intervalos en en 3 partes, 2 laterales y una central, esto con el fin de obtener un promedio del continuo del espectro y obtener un mejor calculo de las lineas de emisión. Y la parte central sera ulilizada para la generacion de una campana gausiana la cual representa la linea de emisión completa. Para finalizar, calculamos la integral de la anterior gausiana y la almacenamos en una matriz de $n*m$ deacuerdo al tamaño de la imagen en el cubo de datos. 
 
 Este proceso tiene que realizarse para cada pixel en la imagen del cubo de datos. De esta manera obtendremos un mapa de lineas de emisión.
+Para generar la gausiana utilizamos la siguiente formula:
+
+$$
+f(x) = a \cdot \exp\left( -\frac{(x - x_0)^2}{2\sigma^2} \right)
+$$
+
+Ademas usamos la funcion \textbf{curve fit} de la libreria \textbf{scipy.integrate} para hacer la gausiana con un ajuste a los datos.
+El codigo utilizado se encuentra en mi repositorio de \href{https://github.com/renatosanz/delfin}{GitHub}. 
+
+De manera que se puede observa en la \textbf{(Fig. 18)} se encuentra el espectro observado, la campana de Gauss, los margenes que se emplearon para calcular la media del continuo alrededor de la linea de emision y el valor de la integral en la gausiana generada.
+
+Una vez con el proceso claro para un pixel en especifico en el cubo de datos podemos proceder a automatizar este proceso para cada uno de los pixeles en el cubo. Al igual que almacenar los datos en un arreglo de 2 dimensiones para al final generar una imagen (mapa) de lineas de emision.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{emisionLine1.png}
+    \includegraphics[width=1\linewidth]{extraccion_linea.png}
     \caption{Ejemplo de linea de emisión.}
     \label{fig:moreinfo}
 \end{figure}

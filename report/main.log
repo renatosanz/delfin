@@ -1,8 +1,7 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.6.29)  7 JUL 2024 13:25
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.6.29)  8 JUL 2024 17:17
  restricted system commands enabled.
- file:line:error style messages enabled.
-**/home/renato/Documentos/delfin/report/main.tex
-(/home/renato/Documentos/delfin/report/main.tex
+**main.tex
+(./main.tex
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
@@ -2442,8 +2441,7 @@ Package: logreq 2010/08/04 v1.0 xml request logger
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 
-/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.sty:213: Package bibl
-atex Error: Incompatible package 'multibib'.
+! Package biblatex Error: Incompatible package 'multibib'.
 
 See the biblatex package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -2454,8 +2452,7 @@ l.213 \blx@packageincompatibility
 The 'multibib' package and biblatex are incompatible.
 
 
-/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.sty:213: Package bibl
-atex Error: Incompatible package 'natbib'.
+! Package biblatex Error: Incompatible package 'natbib'.
 
 See the biblatex package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -2516,8 +2513,7 @@ The 'natbib' package and biblatex are incompatible.
 \bibinitsep=\skip84
 \bibparsep=\skip85
 
-/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.sty:899: LaTeX Error:
- Command \bibhang already defined.
+! LaTeX Error: Command \bibhang already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -2629,8 +2625,7 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip99
 
 
-/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.sty:12674: LaTeX Erro
-r: Command \citename already defined.
+! LaTeX Error: Command \citename already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -2671,8 +2666,7 @@ File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip22
 
 
-/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.def:339: LaTeX Error:
- Command \bibfont already defined.
+! LaTeX Error: Command \bibfont already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -2693,8 +2687,7 @@ Package biblatex Warning: Redefining '\citeauthor'.
 Package biblatex Warning: Redefining '\citeyear'.
 
 
-/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.def:2625: LaTeX Error
-: Command \Citeauthor already defined.
+! LaTeX Error: Command \Citeauthor already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -2759,7 +2752,17 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count489
 \@quotereset=\count490
-(./main.aux)
+(./main.aux
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+
+
+LaTeX Warning: Label `fig:interfacemarvin' multiply defined.
+
+
+LaTeX Warning: Label `fig:moreinfo' multiply defined.
+
+)
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -2790,11 +2793,12 @@ LaTeX Font Info:    ... okay on input line 52.
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
 Package hyperref Info: Link coloring ON on input line 52.
+ (./main.out)
+(./main.out)
 \@outlinefile=\write5
 
 \openout5 = main.out
-
-(/usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count491
 \scratchdimen=\dimen268
@@ -2873,7 +2877,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: Trying Plan B...
 
-/home/renato/Documentos/delfin/report/main.tex:52: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journalref 
             
 l.52 \begin{document}
@@ -2884,7 +2888,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:52: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journalref 
             
 l.52 \begin{document}
@@ -2895,7 +2899,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:52: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journalref 
             
 l.52 \begin{document}
@@ -3063,7 +3067,7 @@ Package luatex.def Info: fibrefeed.png  used on input line 89.
 (luatex.def)             Requested size: 200.11874pt x 93.18709pt.
 
 
-/home/renato/Documentos/delfin/report/main.tex:93: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journallongtype 
                  
 l.93 
@@ -3074,7 +3078,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:93: Undefined control sequence.
+! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
 l.93 
@@ -3115,7 +3119,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-/home/renato/Documentos/delfin/report/main.tex:132: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journallongtype 
                  
 l.132     \item
@@ -3126,8 +3130,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:132: Undefined control sequence.
-
+! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
 l.132     \item
@@ -3172,7 +3175,7 @@ Package luatex.def Info: imagen1_python.png  used on input line 211.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
-/home/renato/Documentos/delfin/report/main.tex:218: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journallongtype 
                  
 l.218 
@@ -3183,8 +3186,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:218: Undefined control sequence.
-
+! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
 l.218 
@@ -3209,7 +3211,7 @@ Package luatex.def Info: redshift_ajuste.png  used on input line 249.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
-/home/renato/Documentos/delfin/report/main.tex:255: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journallongtype 
                  
 l.255 
@@ -3220,8 +3222,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:255: Undefined control sequence.
-
+! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
 l.255 
@@ -3258,24 +3259,24 @@ Package luatex.def Info: modes.png  used on input line 286.
 <spectrum_visor.png, id=170, 599.23875pt x 800.9925pt>
 File: spectrum_visor.png Graphic file (type png)
 <use spectrum_visor.png>
-Package luatex.def Info: spectrum_visor.png  used on input line 301.
+Package luatex.def Info: spectrum_visor.png  used on input line 302.
 (luatex.def)             Requested size: 250.14749pt x 334.36124pt.
 <VIsor_heatmap.png, id=171, 501.875pt x 605.26125pt>
 File: VIsor_heatmap.png Graphic file (type png)
 <use VIsor_heatmap.png>
-Package luatex.def Info: VIsor_heatmap.png  used on input line 308.
+Package luatex.def Info: VIsor_heatmap.png  used on input line 309.
 (luatex.def)             Requested size: 250.14749pt x 301.6786pt.
 <moreinfo.png, id=172, 500.87125pt x 301.125pt>
 File: moreinfo.png Graphic file (type png)
 <use moreinfo.png>
-Package luatex.def Info: moreinfo.png  used on input line 315.
+Package luatex.def Info: moreinfo.png  used on input line 316.
 (luatex.def)             Requested size: 250.14749pt x 150.3921pt.
 
 
-/home/renato/Documentos/delfin/report/main.tex:324: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.324 
+l.323 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3283,11 +3284,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:324: Undefined control sequence.
-
+! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.324 
+l.323 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3298,17 +3298,17 @@ and I'll forget about whatever was undefined.
 [5<./menuprincipal1.png><./file_explorer_visor.png><./recent_files.png><./modes.
 png>]
 
-<emisionLine1.png, id=194, 169.63374pt x 233.87375pt>
-File: emisionLine1.png Graphic file (type png)
-<use emisionLine1.png>
-Package luatex.def Info: emisionLine1.png  used on input line 331.
-(luatex.def)             Requested size: 125.07375pt x 172.43933pt.
+<extraccion_linea.png, id=196, 462.528pt x 346.896pt>
+File: extraccion_linea.png Graphic file (type png)
+<use extraccion_linea.png>
+Package luatex.def Info: extraccion_linea.png  used on input line 346.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
-/home/renato/Documentos/delfin/report/main.tex:336: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.336 \newpage
+l.351 \newpage
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3316,11 +3316,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:336: Undefined control sequence.
-
+! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.336 \newpage
+l.351 \newpage
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3328,18 +3327,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[6<./spectrum_visor.png><./VIsor_heatmap.png><./moreinfo.png><./emisionLine1.png
->]
-Underfull \hbox (badness 10000) in paragraph at lines 348--352
+[6<./spectrum_visor.png><./VIsor_heatmap.png><./moreinfo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 363--367
 
  []
 
 
 
-/home/renato/Documentos/delfin/report/main.tex:356: Undefined control sequence.
+! Undefined control sequence.
 <argument> \aj 
     
-l.356 
+l.371 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3347,10 +3345,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:356: Undefined control sequence.
+! Undefined control sequence.
 <argument> \aj 
     
-l.356 
+l.371 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3358,10 +3356,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:356: Undefined control sequence.
+! Undefined control sequence.
 <argument> \aj 
     
-l.356 
+l.371 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3371,22 +3369,36 @@ and I'll forget about whatever was undefined.
 
 
 
-/home/renato/Documentos/delfin/report/main.tex:357: Undefined control sequence.
+! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.357 \end{document}
-                  
+l.371 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/renato/Documentos/delfin/report/main.tex:357: Undefined control sequence.
-
+! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.357 \end{document}
+l.371 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7<./extraccion_linea.png>]
+
+
+
+! Undefined control sequence.
+<argument> \journallongtype 
+                 
+l.372 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3394,7 +3406,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7] 
+! Undefined control sequence.
+\f@nch@elh ...{\journallongtype }} & \journalname 
+                                                  \hspace {21pt}\thepage \\ ...
+l.372 \end{document}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[8
+
+] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./main.aux
 LaTeX Info: Redefining \sptext on input line 39.
@@ -3410,43 +3435,26 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package lastpage Warning: Rerun to get the references right on input line 357.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 31172 strings out of 475931
- 305235,1977958 words of node,token memory allocated
- 1036 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 13 glue, 4 kern, 1 penalty, 3 glyph, 5
-8 attribute, 90 glue_spec, 31 attribute_list, 1 write, 15 pdf_action nodes
-   avail lists: 1:5,2:6684,3:819,4:1360,5:3867,6:132,7:19531,8:108,9:8356,10:24,
+ 31183 strings out of 475931
+ 305239,1977958 words of node,token memory allocated
+ 1042 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 13 glue, 4 kern, 1 penalty, 3 glyph, 6
+0 attribute, 90 glue_spec, 32 attribute_list, 1 write, 15 pdf_action nodes
+   avail lists: 1:7,2:6681,3:801,4:1360,5:3867,6:132,7:19528,8:108,9:8356,10:23,
 11:2466,12:1
  53037 multiletter control sequences out of 65536+600000
  185 fonts using 23246415 bytes
- 87i,18n,106p,1572b,1886s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,18n,106p,1534b,1843s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexMono-Regular
 .otf></home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSerif-B
 old.otf></home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSans
@@ -3456,13 +3464,14 @@ x/IBMPlexSerif-Regular.otf></home/renato/.miktex/texmfs/install/fonts/opentype/i
 bm/plex/IBMPlexSans-Italic.otf></home/renato/.miktex/texmfs/install/fonts/openty
 pe/ibm/plex/IBMPlexSans-Bold.otf></home/renato/.miktex/texmfs/install/fonts/open
 type/ibm/plex/IBMPlexSans-Regular.otf></usr/local/share/miktex-texmf/fonts/type1
-/public/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/
-amsfonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/
-cm/cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy9.
-pfb>
-Output written on main.pdf (7 pages, 2725098 bytes).
+/public/amsfonts/cmextra/cmex9.pfb></usr/local/share/miktex-texmf/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
+cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+>
+Output written on main.pdf (8 pages, 2772618 bytes).
 
-PDF statistics: 317 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 131072)
+PDF statistics: 329 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

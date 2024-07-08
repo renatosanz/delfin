@@ -27,6 +27,7 @@ class ExtractLineEmision:
             no_collapse=True,
             min_size=[500, 500],
             pos=[0, 0],
+            
             on_close=self.close,
         ):
             with dpg.group(horizontal=True):

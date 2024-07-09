@@ -10,7 +10,7 @@ def gaussiana(x, a, x0, sigma):
 
 
 def ajuste(wv, sp, max_val, index_max_val):
-    popt, pconv = curve_fit(gaussiana, wv, sp, p0=[max_val, index_max_val, 1])
+    popt, pconv = curve_fit(gaussiana, wv, sp, p0=[max_val, index_max_val, 0.05])
     return popt
 
 
@@ -27,21 +27,25 @@ class ExtractLineEmision:
             no_collapse=True,
             min_size=[500, 500],
             pos=[0, 0],
-            
             on_close=self.close,
         ):
             with dpg.group(horizontal=True):
-                dpg.add_colormap_scale(tag="colormap_scale",
-                                height=400,
-                                max_scale=max(self.img),
-                                min_scale=min(self.img))
-                dpg.bind_colormap(dpg.last_item(),
-                            dpg.mvPlotColormap_Spectral)
-            
-                with dpg.plot(width=400, label="", tag="espectrum_v2", height=400,crosshairs=True):
+                dpg.add_colormap_scale(
+                    tag="colormap_scale",
+                    height=400,
+                    max_scale=max(self.img),
+                    min_scale=min(self.img),
+                )
+                dpg.bind_colormap(dpg.last_item(), dpg.mvPlotColormap_Spectral)
+
+                with dpg.plot(
+                    width=400, label="", tag="espectrum_v2", height=400, crosshairs=True
+                ):
                     dpg.bind_colormap(dpg.last_item(), dpg.mvPlotColormap_Spectral)
                     dpg.add_plot_legend()
-                    dpg.add_plot_axis(dpg.mvXAxis, label="Wavelength Å", tag="x_axis_v2")
+                    dpg.add_plot_axis(
+                        dpg.mvXAxis, label="Wavelength Å", tag="x_axis_v2"
+                    )
                     dpg.add_plot_axis(
                         dpg.mvYAxis,
                         label=self.datacube.getHeaderInfo("FLUX", "BUNIT"),
@@ -118,7 +122,7 @@ class ExtractLineEmision:
                 except:
                     self.img.append(0)
                     print(f"{i,j} : listo")
-                self.img=self.applyFunction(self.img)
+                self.img = self.applyFunction(self.img)
 
     def close(self):
         dpg.delete_item(self.datacube.plate_ifu + "LineEmision")

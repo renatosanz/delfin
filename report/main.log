@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.6.29)  8 JUL 2024 17:17
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.6.29)  8 JUL 2024 17:27
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -3301,14 +3301,14 @@ png>]
 <extraccion_linea.png, id=196, 462.528pt x 346.896pt>
 File: extraccion_linea.png Graphic file (type png)
 <use extraccion_linea.png>
-Package luatex.def Info: extraccion_linea.png  used on input line 346.
+Package luatex.def Info: extraccion_linea.png  used on input line 344.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.351 \newpage
+l.349 \newpage
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3319,7 +3319,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.351 \newpage
+l.349 \newpage
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3328,7 +3328,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [6<./spectrum_visor.png><./VIsor_heatmap.png><./moreinfo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 363--367
+Underfull \hbox (badness 10000) in paragraph at lines 361--365
 
  []
 
@@ -3337,7 +3337,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--367
 ! Undefined control sequence.
 <argument> \aj 
     
-l.371 
+l.369 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3348,7 +3348,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.371 
+l.369 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3359,7 +3359,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.371 
+l.369 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3372,7 +3372,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.371 
+l.369 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3383,7 +3383,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.371 
+l.369 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3398,7 +3398,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.372 \end{document}
+l.370 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3409,7 +3409,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.372 \end{document}
+l.370 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3469,7 +3469,7 @@ blic/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/ams
 fonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
 cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 >
-Output written on main.pdf (8 pages, 2772618 bytes).
+Output written on main.pdf (8 pages, 2772617 bytes).
 
 PDF statistics: 329 PDF objects out of 1000 (max. 8388607)
  113 named destinations out of 1000 (max. 131072)

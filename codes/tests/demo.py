@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from astropy.io import fits
 from scipy.optimize import curve_fit
 from scipy.integrate import quad
-import math
+import math, os
 
 
 def gaussiana(x, a, x0, sigma):
@@ -27,8 +27,9 @@ def getClosestValue(array, k):
 
 
 # Cargar los datos del archivo FITS
-nombre = "../../../datacubes/manga-7495-6102-LINCUBE.fits.gz"
+nombre = "../../../datacubes/manga-8988-6104-LINCUBE.fits.gz"
 hdu = fits.open(nombre)
+plateifu = hdu["FLUX"].header["plateifu"]
 flujos = hdu["FLUX"].data
 wave = hdu["WAVE"].data
 
@@ -43,7 +44,7 @@ wave = wave / (1 + redshift)
 wave = wave.astype(int)
 
 lineas = [
-    {"nombre": "Ha", "x": 6564},
+    {"nombre": "[NII]", "x": 6584},
 ]
 
 lineas1 = [
@@ -58,7 +59,10 @@ lineas1 = [
     # {"nombre": "[SII]", "x": 6731},
 ]
 
-for k in lineas:
+margen = 8
+submargen = 4
+
+for k in lineas1:
     img = np.zeros((img_h, img_w))
     longOnda = k["x"]
     nom = k["nombre"]
@@ -74,22 +78,25 @@ for k in lineas:
                 max_element_index = np.where(wave == longOnda)[0][0]
                 max_val = espectro[max_element_index]
 
-                wv_ini = wave[max_element_index - 30]
-                wv_fin = wave[max_element_index + 30]
+                wv_ini = wave[max_element_index - margen]
+                wv_fin = wave[max_element_index + margen]
 
-                continuo_ini = wave[max_element_index - 10]
-                continuo_fin = wave[max_element_index + 10]
+                continuo_ini = wave[max_element_index - submargen]
+                continuo_fin = wave[max_element_index + submargen]
 
                 t = np.where((wave > wv_ini) & (wave < wv_fin))
                 wv = wave[t]
                 sp = espectro[t]
                 max_val = max(sp)
-                continuo_avr = (np.mean(sp[:20]) + np.mean(sp[40:])) / 2
+                continuo_avr = (
+                    np.mean(sp[: margen - submargen])
+                    + np.mean(sp[margen + submargen :])
+                ) / 2
 
                 medium_height = (max_val - continuo_avr) / 2 + continuo_avr
-                leftSide = sp[:30]
-                rightSide = sp[30:]
-                print(leftSide, rightSide)
+                leftSide = sp[:margen]
+                rightSide = sp[margen:]
+                # print(leftSide, rightSide)
                 leftPoint = getClosestValue(leftSide, medium_height)
                 rightPoint = getClosestValue(rightSide, medium_height)
                 print(leftPoint, rightPoint)
@@ -103,52 +110,8 @@ for k in lineas:
                 integral, _ = quad(
                     gaussiana, wv[0], wv[-1], args=(res[0], res[1], res[2])
                 )
-                img[i, j] = integral - continuo_avr * (wv[-1] - wv[0])
+                img[i, j] = integral - continuo_avr * int(margen / 3)
                 print(f"{i,j} : {img[i,j]} - listo - fwahm : {fwahm}")
-
-                # Generar la gráfica si i y j son 27
-                if i == 49 and j == 29:
-                    gaus = gaussiana(wv, res[0], res[1], res[2])
-
-                    flg = plt.figure()
-                    ax = flg.add_subplot(111)
-                    ax.set_xlabel("Longitud de onda")
-                    ax.set_ylabel(hdu["FLUX"].header["BUNIT"])
-                    ax.plot(wv, sp, color="#26854c", label="Espectro")
-                    ax.plot(
-                        wv, gaus, color="#ec273f", label="Campana Gauss"
-                    )
-                    ax.set_title(f"integral: {integral} : (27,27)")
-                    ax.text(0, 0, f"fwahm : {fwahm}")
-                    ax.axhline(y=continuo_avr, color="#ffffff", linestyle="-")
-                    ax.axhline(y=medium_height, color="#f6d", linestyle="-")
-                    ax.vlines(
-                        wave[max_element_index],
-                        ymin=0,
-                        colors="#de5d3a",
-                        linestyles="dashdot",
-                        ymax=max_val,
-                        label="l",
-                    )
-                    ax.vlines(
-                        continuo_ini,
-                        ymin=0,
-                        colors="#26854c",
-                        ymax=max_val,
-                        label="l-p",
-                    )
-                    ax.vlines(
-                        continuo_fin,
-                        ymin=0,
-                        colors="#26854c",
-                        ymax=max_val,
-                        label="l+p",
-                    )
-                    plt.fill_between(wv, gaus, color="#26854c83")
-                    plt.grid()
-                    plt.legend()
-                    plt.show()
-
             except:
                 img[i, j] = None
 
@@ -159,4 +122,33 @@ for k in lineas:
     plt.title("Mapa " + str(longOnda) + str(nom))
     plt.xlabel("X")
     plt.ylabel("Y")
-    plt.savefig("./imgs/img" + str(longOnda) + str(nom) + ".png")
+    if not os.path.exists("./imgs/" + f"imgs{plateifu}_lines"):
+        os.makedirs("./imgs/" + f"imgs{plateifu}_lines")
+    plt.savefig(
+        "./imgs/"
+        + f"imgs{plateifu}_lines"
+        + "/img"
+        + str(plateifu)
+        + "_"
+        + str(nom)
+        + "_"
+        + str(longOnda)
+        + "_"
+        + ".png"
+    )
+    hdu = fits.PrimaryHDU(data=img)
+    hdul = fits.HDUList([hdu])
+    if not os.path.exists("./fits/" + f"fits{plateifu}_lines"):
+        os.makedirs("./fits/" + f"fits{plateifu}_lines")
+    hdul.writeto(
+        "./fits/"
+        + f"fits{plateifu}_lines"
+        + "/fits"
+        + str(plateifu)
+        + "_"
+        + str(nom)
+        + "_"
+        + str(longOnda)
+        + "_"
+        + ".fits"
+    )

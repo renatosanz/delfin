@@ -27,7 +27,7 @@ def getClosestValue(array, k):
 
 
 # Cargar los datos del archivo FITS
-nombre = "../../../datacubes/manga-8988-6104-LINCUBE.fits.gz"
+nombre = "../../../datacubes/manga-7495-6102-LINCUBE.fits.gz"
 hdu = fits.open(nombre)
 plateifu = hdu["FLUX"].header["plateifu"]
 flujos = hdu["FLUX"].data
@@ -55,8 +55,8 @@ lineas1 = [
     {"nombre": "Hb", "x": 4861},
     {"nombre": "[OIII]", "x": 4959},
     {"nombre": "[OII]", "x": 3727},
-    # {"nombre": "[SII]", "x": 6717},
-    # {"nombre": "[SII]", "x": 6731},
+    {"nombre": "[SII]", "x": 6717},
+    {"nombre": "[SII]", "x": 6731},
 ]
 
 margen = 8
@@ -150,5 +150,6 @@ for k in lineas1:
         + "_"
         + str(longOnda)
         + "_"
-        + ".fits"
+        + ".fits",
+        overwrite=True,
     )

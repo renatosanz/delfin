@@ -84,21 +84,18 @@ for k in lineas:
                 wv = wave[t]
                 sp = espectro[t]
                 max_val = max(sp)
-                continuo_avr = (
-                    np.mean(espectro[wv_ini:continuo_ini])
-                    + np.mean(espectro[continuo_fin:wv_fin])
-                ) / 2
+                continuo_avr = (np.mean(sp[:20]) + np.mean(sp[40:])) / 2
 
                 medium_height = (max_val - continuo_avr) / 2 + continuo_avr
                 leftSide = sp[:30]
                 rightSide = sp[30:]
-                print(leftSide,rightSide)
+                print(leftSide, rightSide)
                 leftPoint = getClosestValue(leftSide, medium_height)
                 rightPoint = getClosestValue(rightSide, medium_height)
-                print(leftPoint,rightPoint)
-                leftPoint_wave = wv[np.where(sp==leftPoint)[0]]
-                rightPoint_wave = wv[np.where(sp==rightPoint)[0]]
-                print(leftPoint_wave,rightPoint_wave)
+                print(leftPoint, rightPoint)
+                leftPoint_wave = wv[np.where(sp == leftPoint)[0]]
+                rightPoint_wave = wv[np.where(sp == rightPoint)[0]]
+                print(leftPoint_wave, rightPoint_wave)
 
                 fwahm = abs(rightPoint_wave[0] - leftPoint_wave[0])
 
@@ -110,7 +107,7 @@ for k in lineas:
                 print(f"{i,j} : {img[i,j]} - listo - fwahm : {fwahm}")
 
                 # Generar la gráfica si i y j son 27
-                if i == 20 and j == 27:
+                if i == 49 and j == 29:
                     gaus = gaussiana(wv, res[0], res[1], res[2])
 
                     flg = plt.figure()
@@ -119,7 +116,7 @@ for k in lineas:
                     ax.set_ylabel(hdu["FLUX"].header["BUNIT"])
                     ax.plot(wv, sp, color="#26854c", label="Espectro")
                     ax.plot(
-                        wv, gaus + continuo_avr, color="#ec273f", label="Campana Gauss"
+                        wv, gaus, color="#ec273f", label="Campana Gauss"
                     )
                     ax.set_title(f"integral: {integral} : (27,27)")
                     ax.text(0, 0, f"fwahm : {fwahm}")
@@ -147,7 +144,7 @@ for k in lineas:
                         ymax=max_val,
                         label="l+p",
                     )
-                    plt.fill_between(wv, gaus + continuo_avr, color="#26854c83")
+                    plt.fill_between(wv, gaus, color="#26854c83")
                     plt.grid()
                     plt.legend()
                     plt.show()

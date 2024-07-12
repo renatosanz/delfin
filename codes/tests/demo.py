@@ -6,15 +6,18 @@ from scipy.integrate import quad
 import math, os
 
 
+# Función gaussiana para el ajuste
 def gaussiana(x, a, x0, sigma):
     return a * np.exp(-((x - x0) ** 2) / (2 * sigma**2))
 
 
+# Función para ajustar la gaussiana a los datos
 def ajuste(wv, sp, max_val, index_max_val, sigma):
     popt, pconv = curve_fit(gaussiana, wv, sp, p0=[max_val, index_max_val, sigma])
     return popt
 
 
+# Función para calcular la integral de la gaussiana
 def integralGauss(x):
     total = 0
     for n in x:
@@ -22,6 +25,7 @@ def integralGauss(x):
     return total
 
 
+# Función para encontrar el valor más cercano en un array
 def getClosestValue(array, k):
     return min(array, key=lambda x: abs(x - k))
 
@@ -33,16 +37,21 @@ plateifu = hdu["FLUX"].header["plateifu"]
 flujos = hdu["FLUX"].data
 wave = hdu["WAVE"].data
 
+# Dimensiones de la imagen
 img_h = flujos.shape[1]
 img_w = flujos.shape[2]
 
+# Cargar el catálogo de redshift
 hdul_catalog = fits.open("../../../datacubes/redshift_catalog/dapall-v3_1_1-3.1.0.fits")
 data_catalog = hdul_catalog[1].data
 ix = np.where(data_catalog["PLATEIFU"] == hdu["FLUX"].header["PLATEIFU"])
 redshift = data_catalog["nsa_z"][ix][0]
+
+# Ajustar las longitudes de onda por el redshift
 wave = wave / (1 + redshift)
 wave = wave.astype(int)
 
+# Líneas de emisión a analizar
 lineas = [
     {"nombre": "[NII]", "x": 6584},
 ]
@@ -59,9 +68,11 @@ lineas1 = [
     {"nombre": "[SII]", "x": 6731},
 ]
 
+# Márgenes para el ajuste
 margen = 8
 submargen = 4
 
+# Loop sobre las líneas de emisión
 for k in lineas1:
     img = np.zeros((img_h, img_w))
     longOnda = k["x"]
@@ -96,7 +107,6 @@ for k in lineas1:
                 medium_height = (max_val - continuo_avr) / 2 + continuo_avr
                 leftSide = sp[:margen]
                 rightSide = sp[margen:]
-                # print(leftSide, rightSide)
                 leftPoint = getClosestValue(leftSide, medium_height)
                 rightPoint = getClosestValue(rightSide, medium_height)
                 print(leftPoint, rightPoint)
@@ -115,6 +125,7 @@ for k in lineas1:
             except:
                 img[i, j] = None
 
+    # Generar y guardar la imagen
     fig = plt.figure()
     bx = fig.add_subplot(111)
     cx = bx.imshow(img)
@@ -136,6 +147,8 @@ for k in lineas1:
         + "_"
         + ".png"
     )
+
+    # Guardar los datos en un archivo FITS
     hdu = fits.PrimaryHDU(data=img)
     hdul = fits.HDUList([hdu])
     if not os.path.exists("./fits/" + f"fits{plateifu}_lines"):

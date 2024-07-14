@@ -31,7 +31,8 @@ redshift = data_catalog["nsa_z"][ix][0]
 
 wave = wave_data / (1 + redshift)
 wave = wave.astype(int)
-longOnda = 5007
+
+longOnda = 3727
 index = np.where(wave == longOnda)[0][0]
 print(index)
 # index_redshift = int(index * (1 + redshift))
@@ -76,22 +77,20 @@ if res is not None:
     ax = flg.add_subplot(111)
     ax.set_xlabel("Longitud de onda ")
     ax.set_ylabel(hdu["FLUX"].header["BUNIT"])
-    ax.plot(wv, sp, color="#26854c", label="Espectro")
-    ax.plot(wv, gaus + continuo_avr, color="#ec273f", label="Campana Gauss")
+    ax.plot(
+        wv,
+        sp,
+        color="#26854c",
+    )
+    ax.plot(wv, gaus + continuo_avr, color="#ec273f")
     ax.set_title(f"integral: {integral} : (20,20)")
     ax.axhline(y=continuo_avr, color="#ffffff", linestyle="-")
     ax.axhline(y=medium_height, color="#f6d", linestyle="-")
-    ax.vlines(
-        wave[index],
-        ymin=0,
-        colors="#de5d3a",
-        linestyles="dashdot",
-        ymax=lambda0,
-        label="l",
-    )
-    ax.vlines(continuo_ini, ymin=0, colors="#26854c", ymax=lambda0, label="l-p")
-    ax.vlines(continuo_fin, ymin=0, colors="#26854c", ymax=lambda0, label="l+p")
+    ax.vlines(wave[index], ymin=0, colors="#de5d3a", linestyles="dashdot", ymax=lambda0)
+    ax.vlines(continuo_ini, ymin=0, colors="#26854c", ymax=lambda0)
+    ax.vlines(continuo_fin, ymin=0, colors="#26854c", ymax=lambda0)
     plt.fill_between(wv, gaus + continuo_avr, color="#26854c83")
+    plt.fill_between(wv, continuo_avr, color="#ff854c83")
     plt.grid()
     plt.legend()
     plt.show()

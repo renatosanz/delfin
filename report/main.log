@@ -1,14 +1,14 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.6.29)  8 JUL 2024 17:27
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.13)  13 JUL 2024 19:33
  restricted system commands enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2024-06-01> patch level 1
+LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
 ollection.
-luaotfload | conf : Root cache directory is "/home/renato/.miktex/texmfs/data/lu
+luaotfload | conf : Root cache directory is "/home/riprtx/.miktex/texmfs/data/lu
 atex-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
 olved path "/usr/local/share/miktex-texmf/tex/luatex/luaotfload/fontloader-2023-
@@ -20,7 +20,7 @@ Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/renato/.miktex/texmfs/data/lu
+luaotfload | conf : Root cache directory is "/home/riprtx/.miktex/texmfs/data/lu
 atex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
@@ -41,11 +41,11 @@ Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'. (./opticajnl.cls
 Document Class: opticajnl 2023/03/03, v1.01
-(/home/renato/.miktex/texmfs/install/tex/latex/extsizes/extarticle.cls
+(/home/riprtx/.miktex/texmfs/install/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/home/renato/.miktex/texmfs/install/tex/latex/extsizes/size9.clo
+(/home/riprtx/.miktex/texmfs/install/tex/latex/extsizes/size9.clo
 File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/renato/.miktex/texmfs/da
+luaotfload | db : Font names database loaded from /home/riprtx/.miktex/texmfs/da
 ta/luatex-cache/generic/names/luaotfload-names.luc.gz)
 (/usr/local/share/miktex-texmf/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
@@ -77,7 +77,7 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 ) (/usr/local/share/miktex-texmf/tex/generic/babel/babel.sty
-Package: babel 2024/06/02 v24.6 The Babel package
+Package: babel 2024/06/26 v24.7 The Babel package
 
 (/usr/local/share/miktex-texmf/tex/generic/babel/luababel.def
 \bbl@readstream=\read2
@@ -176,7 +176,7 @@ Package babel Info: Non-standard hyphenation setup on input line 118.
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/babel-spanish/spanish.ldf
+(/home/riprtx/.miktex/texmfs/install/tex/latex/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks19
 \es@quotdepth=\count267
@@ -270,7 +270,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/local/share/miktex-texmf/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/psnfss/helvet.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/psnfss/helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 
 (/usr/local/share/miktex-texmf/tex/latex/graphics/keyval.sty
@@ -295,22 +295,22 @@ Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
 (/usr/local/share/miktex-texmf/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(/home/renato/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(/home/riprtx/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/home/renato/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+) (/home/riprtx/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(/home/renato/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+(/home/riprtx/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 (/usr/local/share/miktex-texmf/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/home/renato/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+(/home/riprtx/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -318,19 +318,19 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks26
 ))
-(/home/renato/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (/usr/local/share/miktex-texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-(/home/renato/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/home/renato/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.
+(/home/riprtx/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.
 sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/home/renato/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+ (/home/riprtx/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count280
@@ -339,7 +339,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count281
 )
-(/home/renato/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+(/home/riprtx/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
@@ -350,7 +350,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 (/usr/local/share/miktex-texmf/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
 )
-(/home/renato/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+(/home/riprtx/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count284
@@ -370,10 +370,10 @@ Package hyperref Info: Bookmarks ON on input line 4424.
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen153
 
-(/home/renato/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+(/home/riprtx/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/home/renato/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+(/home/riprtx/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -409,11 +409,11 @@ with kernel methods
 \Fld@listcount=\count290
 \c@bookmark@seq@number=\count291
 
-(/home/renato/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.st
+(/home/riprtx/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.st
 y
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(/home/renato/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.st
+(/home/riprtx/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.st
 y
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -421,7 +421,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip54
-) (/home/renato/.miktex/texmfs/install/tex/latex/preprint/authblk.sty
+) (/home/riprtx/.miktex/texmfs/install/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip55
 \@affilsep=\skip56
@@ -429,7 +429,7 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count293
 \c@affil=\count294
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/xifthen/xifthen.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
 (/usr/local/share/miktex-texmf/tex/latex/tools/calc.sty
@@ -448,7 +448,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/local/share/miktex-texmf/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/ifmtarg/ifmtarg.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ))
 (/usr/local/share/miktex-texmf/tex/latex/base/textcomp.sty
@@ -493,7 +493,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
 
 (/usr/local/share/miktex-texmf/tex/latex/tools/array.sty
@@ -510,7 +510,7 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \minrowclearance=\skip62
 \rownum=\count298
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen162
 \lightrulewidth=\dimen163
@@ -530,12 +530,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count302
 \@thisrulewidth=\dimen174
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/changepage/changepage.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count303
 \cp@tempcnt=\count304
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/share/miktex-texmf/tex/generic/iftex/ifvtex.sty
@@ -554,11 +554,11 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen182
 \Gm@dimlist=\toks29
 
-(/home/renato/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
-(/home/renato/.miktex/texmfs/install/tex/latex/caption/caption.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/riprtx/.miktex/texmfs/install/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(/home/renato/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen183
 \captionmargin=\dimen184
@@ -573,7 +573,7 @@ Package caption Info: Standard document class detected.
 Package caption Info: Option `figurename' requires the `newfloat' package on in
 put line 172.
 
-(/home/renato/.miktex/texmfs/install/tex/latex/newfloat/newfloat.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/newfloat/newfloat.sty
 Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
 Package newfloat Info: Unsupported document class, or \@chapter 
 (newfloat)             was already redefined by another package.
@@ -593,7 +593,7 @@ Package caption Info: changepage package is loaded.
 \caption@adjustwidth@linewidth=\dimen192
 Package caption Info: hyperref package is loaded.
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip63
 \bibsep=\skip64
@@ -604,7 +604,7 @@ LaTeX Info: Redefining \cite on input line 694.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
 1.
 
-(/home/renato/.miktex/texmfs/install/tex/latex/psnfss/t1phv.fd
+(/home/riprtx/.miktex/texmfs/install/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -621,7 +621,7 @@ Package: jabbrv 2010/08/18 v0.2 Automatic Journal Title Abbreviation Package
 \c@jabbrv@loop@max=\count314
 \c@jabbrv@word@count=\count315
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip66
@@ -634,18 +634,18 @@ Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 \f@nch@O@olf=\skip73
 \f@nch@O@orf=\skip74
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/lastpage/lastpage.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2024/04/27 v2.1a lastpage: 2.09 or 2e? (HMM)
 
-(/home/renato/.miktex/texmfs/install/tex/latex/lastpage/lastpage2e.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/lastpage/lastpage2e.sty
 Package: lastpage2e 2024/04/27 v2.1a Decide which 2e lastpage version to use (H
 MM)
 
-(/home/renato/.miktex/texmfs/install/tex/latex/lastpage/lastpagemodern.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/lastpage/lastpagemodern.sty
 Package: lastpagemodern 2024-04-27 v2.1a Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count316
 ) 
-)) (/home/renato/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
+)) (/home/riprtx/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box56
 \beforetitleunit=\skip75
@@ -660,7 +660,7 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \c@ttlp@side=\count317
 \ttlp@side=\count318
 
-(/home/renato/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip77
 \enit@outerparindent=\dimen198
@@ -669,7 +669,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count319
 \enitdp@description=\count320
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/lineno/lineno.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/lineno/lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 \linenopenalty=\count321
 \output=\toks34
@@ -688,7 +688,7 @@ Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 \linenoamsmath@ams@eqpen=\count328
 LaTeX Info: Redefining \\ on input line 3180.
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/multibib/multibib.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/multibib/multibib.sty
 Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
 \mb@biblabelwidth=\count329
 )
@@ -697,7 +697,7 @@ Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
 (./fullrefs.aux)
 \openout3 = fullrefs.aux
 
-(/home/renato/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 (/usr/local/share/miktex-texmf/tex/latex/l3packages/xparse/xparse.sty
@@ -712,7 +712,7 @@ Inserting `l3color' in `luaotfload.parse_color'.
 ))
 Package: xparse 2024-05-08 L3 Experimental document command parser
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/silence/silence.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/silence/silence.sty
 Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
 sages
 \sl@Save=\count331
@@ -736,11 +736,11 @@ LaTeX Info: Redefining \GenericWarning on input line 433.
 \sl@BankOfErrors=\toks42
 LaTeX Info: Redefining \GenericError on input line 601.
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/xpatch/xpatch.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )
 Banner added to title page.
-) (/home/renato/.miktex/texmfs/install/tex/latex/microtype/microtype.sty
+) (/home/riprtx/.miktex/texmfs/install/tex/latex/microtype/microtype.sty
 Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
 \MT@toks=\toks43
 \MT@tempbox=\box60
@@ -754,7 +754,7 @@ LaTeX Info: Redefining \textls on input line 1392.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
 \MT@listname@count=\count342
 
-(/home/renato/.miktex/texmfs/install/tex/latex/microtype/microtype-luatex.def
+(/home/riprtx/.miktex/texmfs/install/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2024/03/29 v3.1b Definitions specific to luatex (RS)
 
 Lua module: microtype 2024/03/29 3.1b microtype module.
@@ -765,13 +765,13 @@ LaTeX Info: Redefining \lslig on input line 693.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/home/renato/.miktex/texmfs/install/tex/latex/microtype/microtype.cfg
+(/home/riprtx/.miktex/texmfs/install/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
 ))
 (/usr/local/share/miktex-texmf/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/plex-otf/plex-otf.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/plex-otf/plex-otf.sty
 Package: plex-otf 2023/09/10 v. 0.08a (Herbert Voss) Supports plex OpenType for
  lualatex/xelatex.
 
@@ -2433,11 +2433,11 @@ File: lstlang1.sty 2024/05/25 1.10b listings language file
 (/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
-(/home/renato/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
+(/home/riprtx/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count363
 
-(/home/renato/.miktex/texmfs/install/tex/latex/logreq/logreq.def
+(/home/riprtx/.miktex/texmfs/install/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 
@@ -2538,7 +2538,11 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(/home/riprtx/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.dbx
+File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
+)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count410
@@ -2577,38 +2581,48 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedshortauthor=\count443
 \c@shorteditor=\count444
 \c@savedshorteditor=\count445
-\c@labelname=\count446
-\c@savedlabelname=\count447
-\c@institution=\count448
-\c@savedinstitution=\count449
-\c@lista=\count450
-\c@savedlista=\count451
-\c@listb=\count452
-\c@savedlistb=\count453
-\c@listc=\count454
-\c@savedlistc=\count455
-\c@listd=\count456
-\c@savedlistd=\count457
-\c@liste=\count458
-\c@savedliste=\count459
-\c@listf=\count460
-\c@savedlistf=\count461
-\c@location=\count462
-\c@savedlocation=\count463
-\c@organization=\count464
-\c@savedorganization=\count465
-\c@origlocation=\count466
-\c@savedoriglocation=\count467
-\c@origpublisher=\count468
-\c@savedorigpublisher=\count469
-\c@publisher=\count470
-\c@savedpublisher=\count471
-\c@language=\count472
-\c@savedlanguage=\count473
-\c@origlanguage=\count474
-\c@savedoriglanguage=\count475
-\c@pageref=\count476
-\c@savedpageref=\count477
+\c@narrator=\count446
+\c@savednarrator=\count447
+\c@execproducer=\count448
+\c@savedexecproducer=\count449
+\c@execdirector=\count450
+\c@savedexecdirector=\count451
+\c@with=\count452
+\c@savedwith=\count453
+\c@labelname=\count454
+\c@savedlabelname=\count455
+\c@institution=\count456
+\c@savedinstitution=\count457
+\c@lista=\count458
+\c@savedlista=\count459
+\c@listb=\count460
+\c@savedlistb=\count461
+\c@listc=\count462
+\c@savedlistc=\count463
+\c@listd=\count464
+\c@savedlistd=\count465
+\c@liste=\count466
+\c@savedliste=\count467
+\c@listf=\count468
+\c@savedlistf=\count469
+\c@location=\count470
+\c@savedlocation=\count471
+\c@organization=\count472
+\c@savedorganization=\count473
+\c@origlocation=\count474
+\c@savedoriglocation=\count475
+\c@origpublisher=\count476
+\c@savedorigpublisher=\count477
+\c@publisher=\count478
+\c@savedpublisher=\count479
+\c@language=\count480
+\c@savedlanguage=\count481
+\c@origlanguage=\count482
+\c@savedoriglanguage=\count483
+\c@citation=\count484
+\c@savedcitation=\count485
+\c@pageref=\count486
+\c@savedpageref=\count487
 \shorthandwidth=\skip86
 \shortjournalwidth=\skip87
 \shortserieswidth=\skip88
@@ -2652,14 +2666,14 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/share/miktex-texmf/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count478
-\c@textcitetotal=\count479
-\c@textcitemaxnames=\count480
-\c@biburlbigbreakpenalty=\count481
-\c@biburlbreakpenalty=\count482
-\c@biburlnumpenalty=\count483
-\c@biburlucpenalty=\count484
-\c@biburllcpenalty=\count485
+\c@textcitecount=\count488
+\c@textcitetotal=\count489
+\c@textcitemaxnames=\count490
+\c@biburlbigbreakpenalty=\count491
+\c@biburlbreakpenalty=\count492
+\c@biburlnumpenalty=\count493
+\c@biburlucpenalty=\count494
+\c@biburllcpenalty=\count495
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
@@ -2679,7 +2693,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\c@smartand=\count486
+\c@smartand=\count496
 
 Package biblatex Warning: Redefining '\citeauthor'.
 
@@ -2701,34 +2715,52 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
- (/usr/local/share/miktex-texmf/tex/latex/biblatex/bbx/alphabetic.bbx
-File: alphabetic.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+ (/home/riprtx/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.bbx
+File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/share/miktex-texmf/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count487
-\c@bbx:relatedtotal=\count488
-))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
+\c@bbx:relatedcount=\count497
+\c@bbx:relatedtotal=\count498
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
 
-(/usr/local/share/miktex-texmf/tex/latex/biblatex/cbx/alphabetic.cbx
-File: alphabetic.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+(/home/riprtx/.miktex/texmfs/install/tex/latex/biblatex-apa/apa.cbx
+File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
 Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
 Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
+Lua function BLTXAPAifInParensTF = 29)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -2750,11 +2782,11 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count489
-\@quotereset=\count490
+\@quotelevel=\count499
+\@quotereset=\count500
 (./main.aux
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
 
 
 LaTeX Warning: Label `fig:interfacemarvin' multiply defined.
@@ -2800,16 +2832,16 @@ Package hyperref Info: Link coloring ON on input line 52.
 \openout5 = main.out
  (/usr/local/share/miktex-texmf/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count491
+\scratchcounter=\count501
 \scratchdimen=\dimen268
 \scratchbox=\box63
-\nofMPsegments=\count492
-\nofMParguments=\count493
+\nofMPsegments=\count502
+\nofMParguments=\count503
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count494
+\MPscratchCnt=\count504
 \MPscratchDim=\dimen269
-\MPnumerator=\count495
-\makeMPintoPDFobject=\count496
+\MPnumerator=\count505
+\makeMPintoPDFobject=\count506
 \everyMPtoPDFconversion=\toks49
 ) (/usr/local/share/miktex-texmf/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2998,12 +3030,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono(0)/b/n on input line 52
 .
-\c@lstlisting=\count497
+\c@lstlisting=\count507
+Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
+Package biblatex Info: ... file 'spanish-apa.lbx' found.
+(/home/riprtx/.miktex/texmfs/install/tex/latex/biblatex-apa/spanish-apa.lbx
+File: spanish-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
+
 (/usr/local/share/miktex-texmf/tex/latex/biblatex/lbx/spanish.lbx
 File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+(/usr/local/share/miktex-texmf/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+))
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -3012,14 +3055,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = main.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 52.
+Package biblatex Info: Reference segment=0 on input line 52.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `IBMPlexSans' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
-Package biblatex Info: Reference section=0 on input line 52.
-Package biblatex Info: Reference segment=0 on input line 52.
+
 
 LaTeX Font Warning: Font shape `TU/IBMPlexSans(0)/b/sc' undefined
 (Font)              using `TU/IBMPlexSans(0)/b/n' instead on input line 53.
@@ -3029,7 +3072,7 @@ LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
 (/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/microtype/mt-msa.cfg
+(/home/riprtx/.miktex/texmfs/install/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
@@ -3038,14 +3081,14 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
 (/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/microtype/mt-msb.cfg
+(/home/riprtx/.miktex/texmfs/install/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-(/home/renato/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
+(/home/riprtx/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-<ifus.jpg, id=12, 481.8pt x 301.125pt>
+<ifus.jpg, id=5, 481.8pt x 301.125pt>
 File: ifus.jpg Graphic file (type jpg)
 <use ifus.jpg>
 Package luatex.def Info: ifus.jpg  used on input line 65.
@@ -3055,12 +3098,12 @@ Underfull \vbox (badness 3148) has occurred while \output is active []
 
 
 
-<lensletsimg1.png, id=15, 736.7525pt x 739.76375pt>
+<lensletsimg1.png, id=6, 736.7525pt x 739.76375pt>
 File: lensletsimg1.png Graphic file (type png)
 <use lensletsimg1.png>
 Package luatex.def Info: lensletsimg1.png  used on input line 80.
 (luatex.def)             Requested size: 200.11874pt x 200.9354pt.
-<fibrefeed.png, id=20, 599.23875pt x 279.0425pt>
+<fibrefeed.png, id=8, 599.23875pt x 279.0425pt>
 File: fibrefeed.png Graphic file (type png)
 <use fibrefeed.png>
 Package luatex.def Info: fibrefeed.png  used on input line 89.
@@ -3089,26 +3132,23 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[1{/home/renato/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}
+[1{/home/riprtx/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}
 
 
 <./ifus.jpg>]
-<slicerimg1.png, id=49, 910.40125pt x 789.95125pt>
+<slicerimg1.png, id=25, 910.40125pt x 789.95125pt>
 File: slicerimg1.png Graphic file (type png)
 <use slicerimg1.png>
 Package luatex.def Info: slicerimg1.png  used on input line 99.
 (luatex.def)             Requested size: 250.14749pt x 217.05043pt.
-<interfaceMarvin.png, id=52, 1431.09656pt x 746.79pt>
+<interfaceMarvin.png, id=26, 1431.09656pt x 746.79pt>
 File: interfaceMarvin.png Graphic file (type png)
 <use interfaceMarvin.png>
 Package luatex.def Info: interfaceMarvin.png  used on input line 115.
 (luatex.def)             Requested size: 200.11874pt x 104.42453pt.
 
-Underfull \vbox (badness 1152) has occurred while \output is active []
 
-
-
-<starlinkcap.png, id=54, 685.05937pt x 513.41812pt>
+<starlinkcap.png, id=27, 685.05937pt x 513.41812pt>
 File: starlinkcap.png Graphic file (type png)
 <use starlinkcap.png>
 Package luatex.def Info: starlinkcap.png  used on input line 124.
@@ -3143,7 +3183,7 @@ and I'll forget about whatever was undefined.
 
 [2<./lensletsimg1.png><./fibrefeed.png><./slicerimg1.png><./interfaceMarvin.png>
 ]
-<manga-7495-6102.png, id=74, 440.64626pt x 429.605pt>
+<manga-7495-6102.png, id=42, 440.64626pt x 429.605pt>
 File: manga-7495-6102.png Graphic file (type png)
 <use manga-7495-6102.png>
 Package luatex.def Info: manga-7495-6102.png  used on input line 142.
@@ -3163,12 +3203,12 @@ Overfull \hbox (8.89255pt too wide) in paragraph at lines 186--187
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-<espectro1_python.png, id=75, 462.528pt x 346.896pt>
+<espectro1_python.png, id=43, 462.528pt x 346.896pt>
 File: espectro1_python.png Graphic file (type png)
 <use espectro1_python.png>
 Package luatex.def Info: espectro1_python.png  used on input line 201.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
-<imagen1_python.png, id=76, 462.528pt x 346.896pt>
+<imagen1_python.png, id=44, 462.528pt x 346.896pt>
 File: imagen1_python.png Graphic file (type png)
 <use imagen1_python.png>
 Package luatex.def Info: imagen1_python.png  used on input line 211.
@@ -3204,7 +3244,7 @@ Overfull \hbox (4.09254pt too wide) in paragraph at lines 232--233
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-<redshift_ajuste.png, id=130, 462.528pt x 346.896pt>
+<redshift_ajuste.png, id=98, 462.528pt x 346.896pt>
 File: redshift_ajuste.png Graphic file (type png)
 <use redshift_ajuste.png>
 Package luatex.def Info: redshift_ajuste.png  used on input line 249.
@@ -3234,39 +3274,39 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [4<./espectro1_python.png><./imagen1_python.png><./redshift_ajuste.png>]
-<menuprincipal1.png, id=165, 833.1125pt x 480.79625pt>
+<menuprincipal1.png, id=133, 833.1125pt x 480.79625pt>
 File: menuprincipal1.png Graphic file (type png)
 <use menuprincipal1.png>
 Package luatex.def Info: menuprincipal1.png  used on input line 263.
 (luatex.def)             Requested size: 250.14749pt x 144.35736pt.
-<file_explorer_visor.png, id=166, 510.90875pt x 420.57124pt>
+<file_explorer_visor.png, id=134, 510.90875pt x 420.57124pt>
 File: file_explorer_visor.png Graphic file (type png)
 <use file_explorer_visor.png>
 Package luatex.def Info: file_explorer_visor.png  used on input line 270.
 (luatex.def)             Requested size: 250.14749pt x 205.91486pt.
-<recent_files.png, id=167, 607.26875pt x 406.51875pt>
+<recent_files.png, id=135, 607.26875pt x 406.51875pt>
 File: recent_files.png Graphic file (type png)
 <use recent_files.png>
 Package luatex.def Info: recent_files.png  used on input line 277.
 (luatex.def)             Requested size: 250.14749pt x 167.44913pt.
-<modes.png, id=169, 553.06625pt x 306.14375pt>
+<modes.png, id=137, 553.06625pt x 306.14375pt>
 File: modes.png Graphic file (type png)
 <use modes.png>
 Package luatex.def Info: modes.png  used on input line 286.
 (luatex.def)             Requested size: 250.14749pt x 138.46411pt.
 
 
-<spectrum_visor.png, id=170, 599.23875pt x 800.9925pt>
+<spectrum_visor.png, id=138, 599.23875pt x 800.9925pt>
 File: spectrum_visor.png Graphic file (type png)
 <use spectrum_visor.png>
 Package luatex.def Info: spectrum_visor.png  used on input line 302.
 (luatex.def)             Requested size: 250.14749pt x 334.36124pt.
-<VIsor_heatmap.png, id=171, 501.875pt x 605.26125pt>
+<VIsor_heatmap.png, id=139, 501.875pt x 605.26125pt>
 File: VIsor_heatmap.png Graphic file (type png)
 <use VIsor_heatmap.png>
 Package luatex.def Info: VIsor_heatmap.png  used on input line 309.
 (luatex.def)             Requested size: 250.14749pt x 301.6786pt.
-<moreinfo.png, id=172, 500.87125pt x 301.125pt>
+<moreinfo.png, id=140, 500.87125pt x 301.125pt>
 File: moreinfo.png Graphic file (type png)
 <use moreinfo.png>
 Package luatex.def Info: moreinfo.png  used on input line 316.
@@ -3276,8 +3316,8 @@ Package luatex.def Info: moreinfo.png  used on input line 316.
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.323 
-    
+l.329   \item {
+             [OIII] \textbf{4363} Oxígeno ionizado (doubly ionized)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3287,8 +3327,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.323 
-    
+l.329   \item {
+             [OIII] \textbf{4363} Oxígeno ionizado (doubly ionized)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3298,18 +3338,13 @@ and I'll forget about whatever was undefined.
 [5<./menuprincipal1.png><./file_explorer_visor.png><./recent_files.png><./modes.
 png>]
 
-<extraccion_linea.png, id=196, 462.528pt x 346.896pt>
-File: extraccion_linea.png Graphic file (type png)
-<use extraccion_linea.png>
-Package luatex.def Info: extraccion_linea.png  used on input line 344.
-(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.349 \newpage
-            
+l.359 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3319,8 +3354,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.349 \newpage
-            
+l.359 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3328,52 +3363,25 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [6<./spectrum_visor.png><./VIsor_heatmap.png><./moreinfo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 361--365
+<extraccion_linea.png, id=192, 462.528pt x 346.896pt>
+File: extraccion_linea.png Graphic file (type png)
+<use extraccion_linea.png>
+Package luatex.def Info: extraccion_linea.png  used on input line 385.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
+<img7495-6102_Ha_6564_.png, id=193, 462.528pt x 346.896pt>
+File: img7495-6102_Ha_6564_.png Graphic file (type png)
+<use img7495-6102_Ha_6564_.png>
+Package luatex.def Info: img7495-6102_Ha_6564_.png  used on input line 393.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
- []
-
-
-
-! Undefined control sequence.
-<argument> \aj 
-    
-l.369 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \aj 
-    
-l.369 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \aj 
-    
-l.369 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.369 
-    
+l.398 \newpage
+            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3383,7 +3391,25 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.369 
+l.398 \newpage
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7<./extraccion_linea.png><./img7495-6102_Ha_6564_.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 411--415
+
+ []
+
+
+
+! Undefined control sequence.
+<argument> \aj 
+    
+l.419 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3391,14 +3417,34 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7<./extraccion_linea.png>]
+! Undefined control sequence.
+<argument> \aj 
+    
+l.419 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \aj 
+    
+l.419 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.370 \end{document}
+l.420 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3409,7 +3455,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.370 \end{document}
+l.420 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3417,17 +3463,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[8
-
-] 
+[8] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./main.aux
-LaTeX Info: Redefining \sptext on input line 39.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \sptext on input line 52.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
 )
  ***********
-LaTeX2e <2024-06-01> patch level 1
+LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 
@@ -3435,43 +3479,51 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 31183 strings out of 475931
- 305239,1977958 words of node,token memory allocated
- 1042 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 13 glue, 4 kern, 1 penalty, 3 glyph, 6
-0 attribute, 90 glue_spec, 32 attribute_list, 1 write, 15 pdf_action nodes
-   avail lists: 1:7,2:6681,3:801,4:1360,5:3867,6:132,7:19528,8:108,9:8356,10:23,
-11:2466,12:1
- 53037 multiletter control sequences out of 65536+600000
+ 31776 strings out of 475915
+ 305336,1977958 words of node,token memory allocated
+ 1025 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 13 glue, 4 kern, 1 penalty, 3 glyph, 5
+8 attribute, 89 glue_spec, 31 attribute_list, 1 write, 14 pdf_action nodes
+   avail lists: 1:4,2:6672,3:856,4:1359,5:3870,6:131,7:19707,8:88,9:8356,10:23,1
+1:2510,12:1
+ 53604 multiletter control sequences out of 65536+600000
  185 fonts using 23246415 bytes
- 87i,18n,106p,1534b,1843s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexMono-Regular
-.otf></home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSerif-B
-old.otf></home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSans
--BoldItalic.otf></home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBM
-PlexSerif-Italic.otf></home/renato/.miktex/texmfs/install/fonts/opentype/ibm/ple
-x/IBMPlexSerif-Regular.otf></home/renato/.miktex/texmfs/install/fonts/opentype/i
-bm/plex/IBMPlexSans-Italic.otf></home/renato/.miktex/texmfs/install/fonts/openty
-pe/ibm/plex/IBMPlexSans-Bold.otf></home/renato/.miktex/texmfs/install/fonts/open
+ 87i,18n,106p,1534b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexMono-Regular
+.otf></home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSerif-B
+old.otf></home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSans
+-BoldItalic.otf></home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBM
+PlexSerif-Italic.otf></home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/ple
+x/IBMPlexSerif-Regular.otf></home/riprtx/.miktex/texmfs/install/fonts/opentype/i
+bm/plex/IBMPlexSans-Italic.otf></home/riprtx/.miktex/texmfs/install/fonts/openty
+pe/ibm/plex/IBMPlexSans-Bold.otf></home/riprtx/.miktex/texmfs/install/fonts/open
 type/ibm/plex/IBMPlexSans-Regular.otf></usr/local/share/miktex-texmf/fonts/type1
 /public/amsfonts/cmextra/cmex9.pfb></usr/local/share/miktex-texmf/fonts/type1/pu
 blic/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/ams
 fonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
 cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 >
-Output written on main.pdf (8 pages, 2772617 bytes).
+Output written on main.pdf (8 pages, 2788166 bytes).
 
-PDF statistics: 329 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 131072)
+PDF statistics: 331 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

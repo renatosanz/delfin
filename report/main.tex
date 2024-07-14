@@ -13,7 +13,7 @@
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=purple,
-    pdftitle={Proyecto Instancia Delfín SLR 2024},
+    pdftitle={Proyecto Estancia Delfín SLR 2024},
     }
 
 
@@ -40,13 +40,13 @@
   tabsize=3
 }
 
-\usepackage[style=alphabetic,sorting=ynt]{biblatex}
+\usepackage[style=apa,sorting=ynt]{biblatex}
 \addbibresource{refs.bib}
 
 \definecolor{color2}{RGB}{59,90,198} % author email, doi
 \definecolor{color2b}{RGB}{105,105,105} % Header, authors, table lines
 
-\title{Proyecto Instancia Delfín}
+\title{Proyecto Estancia Delfín}
 \author{Renato Sánchez Loeza}
 
 \begin{document}
@@ -68,7 +68,7 @@ En la búsqueda de métodos que combinen lo mejor de la fotometría y la espectr
 \end{figure}
 
 \section*{Espectroscopia Integral de Campo}
-Sin embargo, el sistema que hoy en día se usa con más frecuencia es la espectroscopia integral de campo o IFS (Integral Field Spectrograph), la cual nos permite obtener un espectrograma de una región de 2 dimensiones del espacio. Un IFS genera un "cubo de datos" (Fig. 1), que contiene el campo de visión en 2 dimensiones y una dimensión espectral, formado por un bloque de imágenes de la misma región, cada una en una longitud de onda diferente \cite{UW-Madison-IFS}. Los astrónomos pueden medir, por ejemplo, el movimiento del gas en una galaxia lejana o las distancias a las diferentes galaxias detectadas en un campo de visión, utilizando la riqueza de la información de los espectrógrafos de campo integral.
+Sin embargo, el sistema que hoy en día se usa con más frecuencia es la espectroscopia integral de campo o IFS (Integral Field Spectrograph), la cual nos permite obtener un espectrograma de una región de 2 dimensiones del espacio. Un IFS genera un cubo de datos (Fig. 1), que contiene el campo de visión en 2 dimensiones y una dimensión espectral, formado por un bloque de imágenes de la misma región, cada una en una longitud de onda diferente \cite{UW-Madison-IFS}. Los astrónomos pueden medir, por ejemplo, el movimiento del gas en una galaxia lejana o las distancias a las diferentes galaxias detectadas en un campo de visión, utilizando la riqueza de la información de los espectrógrafos de campo integral.
 
 En este proceso se encuentran las Unidades Integrales de Campo o IFU (Integral Field Units), los cuales son ampliamente utilizados para estudiar objetos de gran extensión, como cúmulos, galaxias o nebulosas, en una sola toma. Durante este proceso, la señal de cada una de las celdas se procesa en un espectrógrafo, el cual genera un espectro para cada uno de los píxeles, generando así un \textit{spaxel}, y al final del proceso obtenemos un cubo de datos o \textit{datacube}.
 
@@ -319,30 +319,79 @@ Actualmente, se cuenta con los siguientes modos de procesamiento:
 \end{figure}
 
 \section*{Observación de Líneas de Emisión}
-Cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por una longitud de onda en especifico.
+\subsection*{Lineas de emisión de interés}
 
-Para iniciar hay que marcar el metodo que ocuparemos. Primero hay que encontrar el valor mas alto en el espectro actual ($m$)  al igual que la longitud onda en la que se encuentra este valor ($l$), a lo que procederemos a obtener el segmento de datos que conforman la linea de emision tanto en el espectro ($flujo[]$) como en las longitudes de onda ($long[]$), para esto definimos un margen $p$ alrededor de $l$, de forma que obtenemos los intervalos cerrados de ($flujo[l-p:l+p]$) y ($long[l-p:l+p]$). 
+\begin{enumerate}
+  \item {[OII] \textbf{3727} Oxígeno ionizado (singly ionized)}
+  \item {[NeIII] \textbf{3869} Neón ionizado (doubly ionized)}
+  \item {Hδ \textbf{4102} Hidrógeno delta}
+  \item {Hγ \textbf{4340} Hidrógeno gamma}
+  \item {[OIII] \textbf{4363} Oxígeno ionizado (doubly ionized)}
+  \item {[OIII] \textbf{4959} Oxígeno ionizado (doubly ionized)}
+  \item {[OIII] \textbf{5007} Oxígeno ionizado (doubly ionized)}
+  \item {HeI \textbf{5876} Helio neutro}
+  \item {[OI] \textbf{6300} Oxígeno neutro}
+  \item {[OI] \textbf{6364} Oxígeno neutro}
+  \item {[NII] \textbf{6584} Nitrógeno ionizado (singly ionized)}
+  \item {HeI \textbf{6678} Helio neutro}
+  \item {[SII] \textbf{6717} Azufre ionizado (singly ionized)}
+  \item {[SII] \textbf{6731} Azufre ionizado (singly ionized)}
+  \item {HeI \textbf{7065} Helio neutro}
+  \item {[ArIII] \textbf{7136} Argón ionizado (doubly ionized)}
+  \item {[OII] \textbf{7320} Oxígeno ionizado (singly ionized)}
+  \item {[ArIII] \textbf{7751} Argón ionizado (doubly ionized)}
+\end{enumerate}
 
-En seguida dividiremos ambos intervalos en en 3 partes, 2 laterales y una central, esto con el fin de obtener un promedio del continuo del espectro y obtener un mejor calculo de las lineas de emisión. Y la parte central sera ulilizada para la generacion de una campana gausiana la cual representa la linea de emisión completa. Para finalizar, calculamos la integral de la anterior gausiana y la almacenamos en una matriz de $n*m$ deacuerdo al tamaño de la imagen en el cubo de datos. 
+En base a estas lineas de emisión se puede obtener multiples tipos de mapas:
+\begin{itemize}
+  \item{Mapa de intesidad: Area bajo la curva gausiana ajustada a los datos        } 
+  \item{Mapa de cinetica: Movimiento de rotacion de la galaxia                     } 
+  \item{Mapa de temperatura: Diferencias entre los anchos de las lineas de emision } 
+  \item{Estrellas Antiguas: Varianza entre las alturas del continuo                } 
+  \item{Razon Ionica:  [SII] 6717 / [SII] 6731                                     } 
+\end{itemize}
 
-Este proceso tiene que realizarse para cada pixel en la imagen del cubo de datos. De esta manera obtendremos un mapa de lineas de emisión.
-Para generar la gausiana utilizamos la siguiente formula:
+
+\subsection*{Mapa de intesidad}
+cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por una longitud de onda en especifico.
+
+\textbf{Objetivo: } Hallar el area bajo la curva gausiana con ajuste a la linea de emision $n$. 
+
+para iniciar hay que definir el método y nomenclatura que ocuparemos:
+\subsubsection*{Extracción de datos de la linea de emisión}
+\begin{enumerate}
+  \item Definir el margen $m$ usado para extraer el intervalo de datos referente a la linea de emisión $n$ que comprende $flujo[m-m:n+m]$.
+  \item Definimos un submargen $p$ lateral para calcular la media del continuo al los costados de la linea de emisión.
+  \item Calcular el FWHM de la linea de emisión, un proceso que nos ofrece un sigma mas acertado para la generacion de una campana gausiana.
+  \item Calcular la gausiana ajustada a los datos de la linea de emisión.
+  \item Integral el area bajo la curva gausiana (sin el area entre 0 y la media del continuo) y almacenar este dato en una matriz de 2 dimensiones.
+  \item Generación de la imagen con los datos de las lineas de emisión $n$.
+\end{enumerate}
+
+este proceso tiene que realizarse para cada pixel en la imagen del cubo de datos en cada una de las lineas de emisión que nos interesa analizar. De esta manera obtendremos un mapa de lineas de emisión.
+para generar la gausiana utilizamos la siguiente formula:
 
 $$
 f(x) = a \cdot \exp\left( -\frac{(x - x_0)^2}{2\sigma^2} \right)
 $$
 
-Ademas usamos la funcion \textbf{curve fit} de la libreria \textbf{scipy.integrate} para hacer la gausiana con un ajuste a los datos.
-El codigo utilizado se encuentra en mi repositorio de \href{https://github.com/renatosanz/delfin}{GitHub}. 
+ademas usamos la funcion \textbf{curve fit} de la libreria \textbf{scipy.integrate} para hacer la gausiana con un ajuste a los datos.
+el codigo utilizado se encuentra en mi repositorio de \href{https://github.com/renatosanz/delfin}{GitHub}. 
 
-De manera que se puede observa en la \textbf{(Fig. 18)} se encuentra el espectro observado, la campana de Gauss, los margenes que se emplearon para calcular la media del continuo alrededor de la linea de emision y el valor de la integral en la gausiana generada.
-
-Una vez con el proceso claro para un pixel en especifico en el cubo de datos podemos proceder a automatizar este proceso para cada uno de los pixeles en el cubo. Al igual que almacenar los datos en un arreglo de 2 dimensiones para al final generar una imagen (mapa) de lineas de emisión.
+una vez con el proceso claro para un pixel en especifico en el cubo de datos podemos proceder a automatizar este proceso para cada uno de los pixeles en el cubo. Al igual que almacenar los datos en un arreglo de 2 dimensiones para al final generar una imagen (mapa) de lineas de emisión.
 
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{extraccion_linea.png}
-    \caption{Ejemplo de linea de emisión.}
+    \caption{Visualización del proceso de extracción de la intesidad de lineas de emisión}
+    \label{fig:extraccion_linea.}
+\end{figure}
+Como resultado se obtienen imagenes de las lineas de emisión:
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{img7495-6102_Ha_6564_.png}
+    \caption{PLATEIFU : 7495-6102 - \textit{Ha 6564}}
     \label{fig:moreinfo}
 \end{figure}
 
@@ -354,6 +403,7 @@ Una vez con el proceso claro para un pixel en especifico en el cubo de datos pod
   \item[spaxel] Un spaxel (píxel espacial) se refiere a un elemento espacial de un cubo de datos reconstruido.
   \item[voxel] Un voxel (píxel volumétrico) se refiere a un elemento de volumen (espacial × espacial × espectral) de un cubo de datos. 
   \item[redshift] El desplazamiento al rojo, como lo dice su nombre, sucede cuando las ondas de luz se estiran por el efecto Doppler y tienden a la region roja del espectro.
+  \item[FWHM]La anchura completa a la mitad de la altura (FWHM, por sus siglas en inglés) es una medida del ancho de una distribución de intensidad en el punto donde la intensidad es máxima. A menudo se utiliza para determinar el ancho de una línea espectral o el rango de longitudes de onda en luz monocromática. 
   \item[pársec] Unidad de medida de distancia utilizada en astronomía, equivalente a aproximadamente 3.26 años luz.
   \item[SDSS] El \textit{Sloan Digital Sky Survey} es uno de los proyectos de investigación astronómica más grandes jamás emprendidos. Este tiene como objetivo la expansión del conocimiento humano sobre la evolución y estructura del espacio, formación de estrellas y galaxias.
   \item[MaNGA] \textit{Mapping Nearby Galaxies at APO} es un estudio espectroscópico de campo integral de galaxias dentro del Sloan Digital Sky Survey de cuarta generación (SDSS-IV) \cite{weijmans2015manga}.

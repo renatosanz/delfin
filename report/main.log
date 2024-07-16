@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.13)  13 JUL 2024 19:33
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.13)  16 JUL 2024 17:24
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -3343,8 +3343,8 @@ png>]
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.359 
-    
+l.361 ...diente en el arreglo bidimensional. \item P
+                                                  osterior a aplicar el reds...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3354,8 +3354,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.359 
-    
+l.361 ...diente en el arreglo bidimensional. \item P
+                                                  osterior a aplicar el reds...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3366,12 +3366,12 @@ and I'll forget about whatever was undefined.
 <extraccion_linea.png, id=192, 462.528pt x 346.896pt>
 File: extraccion_linea.png Graphic file (type png)
 <use extraccion_linea.png>
-Package luatex.def Info: extraccion_linea.png  used on input line 385.
+Package luatex.def Info: extraccion_linea.png  used on input line 395.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 <img7495-6102_Ha_6564_.png, id=193, 462.528pt x 346.896pt>
 File: img7495-6102_Ha_6564_.png Graphic file (type png)
 <use img7495-6102_Ha_6564_.png>
-Package luatex.def Info: img7495-6102_Ha_6564_.png  used on input line 393.
+Package luatex.def Info: img7495-6102_Ha_6564_.png  used on input line 402.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
@@ -3380,7 +3380,7 @@ Package luatex.def Info: img7495-6102_Ha_6564_.png  used on input line 393.
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.398 \newpage
+l.407 \newpage
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3391,7 +3391,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.398 \newpage
+l.407 \newpage
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3400,7 +3400,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [7<./extraccion_linea.png><./img7495-6102_Ha_6564_.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 411--415
+Underfull \hbox (badness 10000) in paragraph at lines 420--424
 
  []
 
@@ -3409,7 +3409,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 411--415
 ! Undefined control sequence.
 <argument> \aj 
     
-l.419 
+l.428 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3420,7 +3420,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.419 
+l.428 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3431,7 +3431,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.419 
+l.428 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3444,7 +3444,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.420 \end{document}
+l.429 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3455,7 +3455,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.420 \end{document}
+l.429 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3497,12 +3497,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31776 strings out of 475915
+ 31778 strings out of 475915
  305336,1977958 words of node,token memory allocated
  1025 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 13 glue, 4 kern, 1 penalty, 3 glyph, 5
 8 attribute, 89 glue_spec, 31 attribute_list, 1 write, 14 pdf_action nodes
-   avail lists: 1:4,2:6672,3:856,4:1359,5:3870,6:131,7:19707,8:88,9:8356,10:23,1
+   avail lists: 1:4,2:6672,3:856,4:1359,5:3871,6:131,7:19707,8:88,9:8356,10:23,1
 1:2510,12:1
  53604 multiletter control sequences out of 65536+600000
  185 fonts using 23246415 bytes
@@ -3521,9 +3521,9 @@ blic/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/ams
 fonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
 cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 >
-Output written on main.pdf (8 pages, 2788166 bytes).
+Output written on main.pdf (8 pages, 2789096 bytes).
 
-PDF statistics: 331 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 131072)
+PDF statistics: 333 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

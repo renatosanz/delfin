@@ -353,7 +353,17 @@ En base a estas lineas de emisión se puede obtener multiples tipos de mapas:
 
 
 \subsection*{Mapa de intesidad}
-cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por una longitud de onda en especifico.
+
+\textbf{Aclaraciones}
+Antes de analizar los bloques de datos he decidido realizar las siguientes operaciones con los mismos:
+
+\begin{enumerate}
+  \item Discriminación de bloques de datos fuera del area observada : usando la funcion numpy.all() se detecta si un arreglo de datos esta lleno de ceros y tambien si contiene valores inf no validos para nuestro proceso, en este caso se procede a insertar None en la posición correspondiente en el arreglo bidimensional. \item Posterior a aplicar el redshift o corrimiento al rojo sobre el conjunto de datos de la longitud de onda del espectro se procede a convertir estos datos a valores \textbf{int} para una mejor manipulación de los mismos. 
+\end{enumerate}
+
+
+
+Cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por una longitud de onda en especifico.
 
 \textbf{Objetivo: } Hallar el area bajo la curva gausiana con ajuste a la linea de emision $n$. 
 
@@ -361,10 +371,10 @@ para iniciar hay que definir el método y nomenclatura que ocuparemos:
 \subsubsection*{Extracción de datos de la linea de emisión}
 \begin{enumerate}
   \item Definir el margen $m$ usado para extraer el intervalo de datos referente a la linea de emisión $n$ que comprende $flujo[m-m:n+m]$.
-  \item Definimos un submargen $p$ lateral para calcular la media del continuo al los costados de la linea de emisión.
+  \item Definir un submargen $p$ lateral para calcular la media del continuo al los costados de la linea de emisión.
   \item Calcular el FWHM de la linea de emisión, un proceso que nos ofrece un sigma mas acertado para la generacion de una campana gausiana.
   \item Calcular la gausiana ajustada a los datos de la linea de emisión.
-  \item Integral el area bajo la curva gausiana (sin el area entre 0 y la media del continuo) y almacenar este dato en una matriz de 2 dimensiones.
+  \item Integrar el area bajo la curva gausiana (sin el area entre 0 y la media del continuo) y almacenar este dato en una matriz de 2 dimensiones.
   \item Generación de la imagen con los datos de las lineas de emisión $n$.
 \end{enumerate}
 
@@ -386,7 +396,6 @@ una vez con el proceso claro para un pixel en especifico en el cubo de datos pod
     \caption{Visualización del proceso de extracción de la intesidad de lineas de emisión}
     \label{fig:extraccion_linea.}
 \end{figure}
-Como resultado se obtienen imagenes de las lineas de emisión:
 
 \begin{figure}
     \centering

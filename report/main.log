@@ -1,6 +1,6 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.13)  16 JUL 2024 17:24
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.17)  17 JUL 2024 16:49
  restricted system commands enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -3088,22 +3088,19 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-<ifus.jpg, id=5, 481.8pt x 301.125pt>
+<ifus.jpg, id=12, 481.8pt x 301.125pt>
 File: ifus.jpg Graphic file (type jpg)
 <use ifus.jpg>
 Package luatex.def Info: ifus.jpg  used on input line 65.
 (luatex.def)             Requested size: 200.11874pt x 125.07022pt.
 
-Underfull \vbox (badness 3148) has occurred while \output is active []
 
-
-
-<lensletsimg1.png, id=6, 736.7525pt x 739.76375pt>
+<lensletsimg1.png, id=15, 736.7525pt x 739.76375pt>
 File: lensletsimg1.png Graphic file (type png)
 <use lensletsimg1.png>
 Package luatex.def Info: lensletsimg1.png  used on input line 80.
 (luatex.def)             Requested size: 200.11874pt x 200.9354pt.
-<fibrefeed.png, id=8, 599.23875pt x 279.0425pt>
+<fibrefeed.png, id=20, 599.23875pt x 279.0425pt>
 File: fibrefeed.png Graphic file (type png)
 <use fibrefeed.png>
 Package luatex.def Info: fibrefeed.png  used on input line 89.
@@ -3136,34 +3133,30 @@ and I'll forget about whatever was undefined.
 
 
 <./ifus.jpg>]
-<slicerimg1.png, id=25, 910.40125pt x 789.95125pt>
+<slicerimg1.png, id=49, 910.40125pt x 789.95125pt>
 File: slicerimg1.png Graphic file (type png)
 <use slicerimg1.png>
 Package luatex.def Info: slicerimg1.png  used on input line 99.
 (luatex.def)             Requested size: 250.14749pt x 217.05043pt.
-<interfaceMarvin.png, id=26, 1431.09656pt x 746.79pt>
+<interfaceMarvin.png, id=52, 1431.09656pt x 746.79pt>
 File: interfaceMarvin.png Graphic file (type png)
 <use interfaceMarvin.png>
 Package luatex.def Info: interfaceMarvin.png  used on input line 115.
 (luatex.def)             Requested size: 200.11874pt x 104.42453pt.
 
 
-<starlinkcap.png, id=27, 685.05937pt x 513.41812pt>
+<starlinkcap.png, id=54, 685.05937pt x 513.41812pt>
 File: starlinkcap.png Graphic file (type png)
 <use starlinkcap.png>
 Package luatex.def Info: starlinkcap.png  used on input line 124.
 (luatex.def)             Requested size: 200.11874pt x 149.97638pt.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `IBMPlexMono' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.132     \item
-              En el inicio de la pagina click en el botón \textbf{Go to Sky...
+l.128 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3173,8 +3166,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.132     \item
-              En el inicio de la pagina click en el botón \textbf{Go to Sky...
+l.128 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3183,7 +3176,11 @@ and I'll forget about whatever was undefined.
 
 [2<./lensletsimg1.png><./fibrefeed.png><./slicerimg1.png><./interfaceMarvin.png>
 ]
-<manga-7495-6102.png, id=42, 440.64626pt x 429.605pt>
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `IBMPlexMono' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<manga-7495-6102.png, id=74, 440.64626pt x 429.605pt>
 File: manga-7495-6102.png Graphic file (type png)
 <use manga-7495-6102.png>
 Package luatex.def Info: manga-7495-6102.png  used on input line 142.
@@ -3194,31 +3191,26 @@ Underfull \hbox (badness 1558) in paragraph at lines 143--143
 2 - MaN-GA - https://-ma- 
  []
 
-
-
 (/usr/local/share/miktex-texmf/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/05/25 1.10b listings language file
 )
+
+
 Overfull \hbox (8.89255pt too wide) in paragraph at lines 186--187
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-<espectro1_python.png, id=43, 462.528pt x 346.896pt>
+<espectro1_python.png, id=75, 462.528pt x 346.896pt>
 File: espectro1_python.png Graphic file (type png)
 <use espectro1_python.png>
 Package luatex.def Info: espectro1_python.png  used on input line 201.
-(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
-<imagen1_python.png, id=44, 462.528pt x 346.896pt>
-File: imagen1_python.png Graphic file (type png)
-<use imagen1_python.png>
-Package luatex.def Info: imagen1_python.png  used on input line 211.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.218 
+l.207 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3229,7 +3221,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.218 
+l.207 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3238,13 +3230,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [3<./starlinkcap.png><./manga-7495-6102.png>]
+<imagen1_python.png, id=129, 462.528pt x 346.896pt>
+File: imagen1_python.png Graphic file (type png)
+<use imagen1_python.png>
+Package luatex.def Info: imagen1_python.png  used on input line 211.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
+
 
 
 Overfull \hbox (4.09254pt too wide) in paragraph at lines 232--233
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-<redshift_ajuste.png, id=98, 462.528pt x 346.896pt>
+<redshift_ajuste.png, id=130, 462.528pt x 346.896pt>
 File: redshift_ajuste.png Graphic file (type png)
 <use redshift_ajuste.png>
 Package luatex.def Info: redshift_ajuste.png  used on input line 249.
@@ -3254,7 +3252,7 @@ Package luatex.def Info: redshift_ajuste.png  used on input line 249.
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.255 
+l.261 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3265,7 +3263,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.255 
+l.261 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3274,50 +3272,50 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [4<./espectro1_python.png><./imagen1_python.png><./redshift_ajuste.png>]
-<menuprincipal1.png, id=133, 833.1125pt x 480.79625pt>
+<menuprincipal1.png, id=164, 833.1125pt x 480.79625pt>
 File: menuprincipal1.png Graphic file (type png)
 <use menuprincipal1.png>
-Package luatex.def Info: menuprincipal1.png  used on input line 263.
+Package luatex.def Info: menuprincipal1.png  used on input line 266.
 (luatex.def)             Requested size: 250.14749pt x 144.35736pt.
-<file_explorer_visor.png, id=134, 510.90875pt x 420.57124pt>
+<file_explorer_visor.png, id=165, 510.90875pt x 420.57124pt>
 File: file_explorer_visor.png Graphic file (type png)
 <use file_explorer_visor.png>
-Package luatex.def Info: file_explorer_visor.png  used on input line 270.
+Package luatex.def Info: file_explorer_visor.png  used on input line 273.
 (luatex.def)             Requested size: 250.14749pt x 205.91486pt.
-<recent_files.png, id=135, 607.26875pt x 406.51875pt>
+<recent_files.png, id=166, 607.26875pt x 406.51875pt>
 File: recent_files.png Graphic file (type png)
 <use recent_files.png>
-Package luatex.def Info: recent_files.png  used on input line 277.
+Package luatex.def Info: recent_files.png  used on input line 274.
 (luatex.def)             Requested size: 250.14749pt x 167.44913pt.
-<modes.png, id=137, 553.06625pt x 306.14375pt>
+<modes.png, id=168, 553.06625pt x 306.14375pt>
 File: modes.png Graphic file (type png)
 <use modes.png>
-Package luatex.def Info: modes.png  used on input line 286.
+Package luatex.def Info: modes.png  used on input line 283.
 (luatex.def)             Requested size: 250.14749pt x 138.46411pt.
-
-
-<spectrum_visor.png, id=138, 599.23875pt x 800.9925pt>
-File: spectrum_visor.png Graphic file (type png)
-<use spectrum_visor.png>
-Package luatex.def Info: spectrum_visor.png  used on input line 302.
-(luatex.def)             Requested size: 250.14749pt x 334.36124pt.
-<VIsor_heatmap.png, id=139, 501.875pt x 605.26125pt>
+<VIsor_heatmap.png, id=169, 501.875pt x 605.26125pt>
 File: VIsor_heatmap.png Graphic file (type png)
 <use VIsor_heatmap.png>
-Package luatex.def Info: VIsor_heatmap.png  used on input line 309.
-(luatex.def)             Requested size: 250.14749pt x 301.6786pt.
-<moreinfo.png, id=140, 500.87125pt x 301.125pt>
+Package luatex.def Info: VIsor_heatmap.png  used on input line 298.
+(luatex.def)             Requested size: 200.11874pt x 241.34288pt.
+<spectrum_visor.png, id=170, 599.23875pt x 800.9925pt>
+File: spectrum_visor.png Graphic file (type png)
+<use spectrum_visor.png>
+Package luatex.def Info: spectrum_visor.png  used on input line 299.
+(luatex.def)             Requested size: 200.11874pt x 267.49387pt.
+<moreinfo.png, id=171, 500.87125pt x 301.125pt>
 File: moreinfo.png Graphic file (type png)
 <use moreinfo.png>
-Package luatex.def Info: moreinfo.png  used on input line 316.
-(luatex.def)             Requested size: 250.14749pt x 150.3921pt.
+Package luatex.def Info: moreinfo.png  used on input line 300.
+(luatex.def)             Requested size: 200.11874pt x 120.31001pt.
+
+
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.329   \item {
-             [OIII] \textbf{4363} Oxígeno ionizado (doubly ionized)}
+l.317   \item {
+             [OIII] \textbf{4959} Oxígeno ionizado (doubly ionized)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3327,8 +3325,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.329   \item {
-             [OIII] \textbf{4363} Oxígeno ionizado (doubly ionized)}
+l.317   \item {
+             [OIII] \textbf{4959} Oxígeno ionizado (doubly ionized)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3343,8 +3341,8 @@ png>]
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.361 ...diente en el arreglo bidimensional. \item P
-                                                  osterior a aplicar el reds...
+l.361   \item D
+             efinir un submargen $p$ lateral para calcular la media del cont...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3354,33 +3352,52 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.361 ...diente en el arreglo bidimensional. \item P
-                                                  osterior a aplicar el reds...
+l.361   \item D
+             efinir un submargen $p$ lateral para calcular la media del cont...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[6<./spectrum_visor.png><./VIsor_heatmap.png><./moreinfo.png>]
-<extraccion_linea.png, id=192, 462.528pt x 346.896pt>
+[6<./VIsor_heatmap.png><./spectrum_visor.png><./moreinfo.png>]
+<extraccion_linea.png, id=219, 462.528pt x 346.896pt>
 File: extraccion_linea.png Graphic file (type png)
 <use extraccion_linea.png>
-Package luatex.def Info: extraccion_linea.png  used on input line 395.
-(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
-<img7495-6102_Ha_6564_.png, id=193, 462.528pt x 346.896pt>
-File: img7495-6102_Ha_6564_.png Graphic file (type png)
-<use img7495-6102_Ha_6564_.png>
-Package luatex.def Info: img7495-6102_Ha_6564_.png  used on input line 402.
+Package luatex.def Info: extraccion_linea.png  used on input line 382.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
+<../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[OIII]_5007_.png, id=222,
+ 462.528pt x 346.896pt>
+File: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[OIII]_5007_.png Gra
+phic file (type png)
+<use ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[OIII]_5007_.png>
+Package luatex.def Info: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[
+OIII]_5007_.png  used on input line 395.
+(luatex.def)             Requested size: 200.11874pt x 150.08867pt.
+<../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.png, id=223, 462
+.528pt x 346.896pt>
+File: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.png Graphic
+ file (type png)
+<use ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.png>
+Package luatex.def Info: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_H
+a_6564_.png  used on input line 396.
+(luatex.def)             Requested size: 200.11874pt x 150.08867pt.
+<../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[NII]_6548_.png, id=224, 
+462.528pt x 346.896pt>
+File: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[NII]_6548_.png Grap
+hic file (type png)
+<use ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[NII]_6548_.png>
+Package luatex.def Info: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[
+NII]_6548_.png  used on input line 397.
+(luatex.def)             Requested size: 200.11874pt x 150.08867pt.
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.407 \newpage
+l.402 \newpage
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3391,7 +3408,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.407 \newpage
+l.402 \newpage
             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3399,53 +3416,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7<./extraccion_linea.png><./img7495-6102_Ha_6564_.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 420--424
+[7<./extraccion_linea.png><../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_
+[OIII]_5007_.png><../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.
+png><../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[NII]_6548_.png>]
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--425
 
  []
 
 
 
 ! Undefined control sequence.
-<argument> \aj 
-    
-l.428 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \aj 
-    
-l.428 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \aj 
-    
-l.428 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.429 \end{document}
-                  
+l.429 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3455,7 +3441,56 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.429 \end{document}
+l.429 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[8]
+! Undefined control sequence.
+<argument> \aj 
+    
+l.429 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \aj 
+    
+l.429 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \aj 
+    
+l.429 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+
+
+! Undefined control sequence.
+<argument> \journallongtype 
+                 
+l.430 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3463,7 +3498,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[8] 
+! Undefined control sequence.
+\f@nch@orh ...{\journallongtype }} & \journalname 
+                                                  \hspace {21pt}\thepage \\ ...
+l.430 \end{document}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[9
+
+] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./main.aux
 LaTeX Info: Redefining \sptext on input line 52.
@@ -3479,34 +3527,26 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 31778 strings out of 475915
- 305336,1977958 words of node,token memory allocated
- 1025 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 13 glue, 4 kern, 1 penalty, 3 glyph, 5
-8 attribute, 89 glue_spec, 31 attribute_list, 1 write, 14 pdf_action nodes
-   avail lists: 1:4,2:6672,3:856,4:1359,5:3871,6:131,7:19707,8:88,9:8356,10:23,1
-1:2510,12:1
- 53604 multiletter control sequences out of 65536+600000
+ 31819 strings out of 475915
+ 305340,1977958 words of node,token memory allocated
+ 1039 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 15 glue, 4 kern, 1 penalty, 3 glyph, 6
+0 attribute, 89 glue_spec, 32 attribute_list, 1 write, 13 pdf_action nodes
+   avail lists: 1:6,2:6595,3:693,4:1352,5:3809,6:127,7:19966,8:88,9:8323,10:23,1
+1:2513,12:1
+ 53641 multiletter control sequences out of 65536+600000
  185 fonts using 23246415 bytes
- 87i,18n,106p,1534b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,18n,106p,1530b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexMono-Regular
 .otf></home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSerif-B
 old.otf></home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSans
@@ -3521,9 +3561,9 @@ blic/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/ams
 fonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
 cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 >
-Output written on main.pdf (8 pages, 2789096 bytes).
+Output written on main.pdf (9 pages, 2832794 bytes).
 
-PDF statistics: 333 PDF objects out of 1000 (max. 8388607)
- 140 named destinations out of 1000 (max. 131072)
+PDF statistics: 358 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

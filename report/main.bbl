@@ -18,76 +18,89 @@
 
 
 \refsection{0}
-  \datalist[entry]{ynt/global//global/global/global}
+  \datalist[entry]{ynt/apasortcite//global/global/global}
     \entry{oke_1995}{article}{}{}
       \name{author}{11}{}{%
-        {{hash=71ea8657c35bc588ac12f391b027413c}{%
+        {{un=0,uniquepart=base,hash=71ea8657c35bc588ac12f391b027413c}{%
            family={Oke},
            familyi={O\bibinitperiod},
            given={J.\bibnamedelimi B.},
-           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=93f765349a540cc7bb1bdb127cbafc54}{%
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93f765349a540cc7bb1bdb127cbafc54}{%
            family={Cohen},
            familyi={C\bibinitperiod},
            given={J.\bibnamedelimi G.},
-           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=d14b1f766b5ea212310d917e77cf7a3e}{%
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d14b1f766b5ea212310d917e77cf7a3e}{%
            family={Carr},
            familyi={C\bibinitperiod},
            given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=eab3fb242a200e7fb4a448335be70b37}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eab3fb242a200e7fb4a448335be70b37}{%
            family={Cromer},
            familyi={C\bibinitperiod},
            given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=7e27a843c8d0560fb4404a5f7c9da2f4}{%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e27a843c8d0560fb4404a5f7c9da2f4}{%
            family={Dingizian},
            familyi={D\bibinitperiod},
            given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=bd5a838426c3165b4173e15050086b9e}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd5a838426c3165b4173e15050086b9e}{%
            family={Harris},
            familyi={H\bibinitperiod},
            given={F.\bibnamedelimi H.},
-           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=77a910aa91954fa4f15760becc90bfb3}{%
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77a910aa91954fa4f15760becc90bfb3}{%
            family={Labrecque},
            familyi={L\bibinitperiod},
            given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=6fad90b8ded36a8e6ca2dfdb307319db}{%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fad90b8ded36a8e6ca2dfdb307319db}{%
            family={Lucinio},
            familyi={L\bibinitperiod},
            given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=761ab7f0c54ef38878ab644fb3e3afbc}{%
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=761ab7f0c54ef38878ab644fb3e3afbc}{%
            family={Schaal},
            familyi={S\bibinitperiod},
            given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=c36aeca48ebb450be78ab462add48a57}{%
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c36aeca48ebb450be78ab462add48a57}{%
            family={Epps},
            familyi={E\bibinitperiod},
            given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=b81b02625bcd438cba12ac5c27c156cb}{%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b81b02625bcd438cba12ac5c27c156cb}{%
            family={Miller},
            familyi={M\bibinitperiod},
            given={J.},
-           giveni={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{888ed33a0c8e4433cacb328ac7c8fd6d}
       \strng{fullhash}{ba34acb008f713b0b1724e8b11b42161}
       \strng{fullhashraw}{ba34acb008f713b0b1724e8b11b42161}
-      \strng{bibnamehash}{888ed33a0c8e4433cacb328ac7c8fd6d}
-      \strng{authorbibnamehash}{888ed33a0c8e4433cacb328ac7c8fd6d}
+      \strng{bibnamehash}{ba34acb008f713b0b1724e8b11b42161}
+      \strng{authorbibnamehash}{ba34acb008f713b0b1724e8b11b42161}
       \strng{authornamehash}{888ed33a0c8e4433cacb328ac7c8fd6d}
       \strng{authorfullhash}{ba34acb008f713b0b1724e8b11b42161}
       \strng{authorfullhashraw}{ba34acb008f713b0b1724e8b11b42161}
-      \field{labelalpha}{Oke+95}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
@@ -108,16 +121,18 @@
     \endentry
     \entry{vives2005original}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=79acdb9dc14abe25181ebcd07088156d}{%
+        {{un=0,uniquepart=base,hash=79acdb9dc14abe25181ebcd07088156d}{%
            family={Vivès},
            familyi={V\bibinitperiod},
            given={Sébastien},
-           giveni={S\bibinitperiod}}}%
-        {{hash=66c8b54ed5fefbf4cc3ac06600c71f47}{%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66c8b54ed5fefbf4cc3ac06600c71f47}{%
            family={Prieto},
            familyi={P\bibinitperiod},
            given={Eric},
-           giveni={E\bibinitperiod}}}%
+           giveni={E\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{1047df0983fcbef1c6924bb4a2dbcda0}
       \strng{fullhash}{1047df0983fcbef1c6924bb4a2dbcda0}
@@ -127,9 +142,11 @@
       \strng{authornamehash}{1047df0983fcbef1c6924bb4a2dbcda0}
       \strng{authorfullhash}{1047df0983fcbef1c6924bb4a2dbcda0}
       \strng{authorfullhashraw}{1047df0983fcbef1c6924bb4a2dbcda0}
-      \field{labelalpha}{VP05}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physics > Optics}
@@ -144,11 +161,12 @@
     \endentry
     \entry{allington2006basic}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=dc739558f50b84a39d142c2d1a374916}{%
+        {{un=0,uniquepart=base,hash=dc739558f50b84a39d142c2d1a374916}{%
            family={Allington-Smith},
            familyi={A\bibinithyphendelim S\bibinitperiod},
            given={Jeremy},
-           giveni={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
@@ -161,9 +179,11 @@
       \strng{authornamehash}{dc739558f50b84a39d142c2d1a374916}
       \strng{authorfullhash}{dc739558f50b84a39d142c2d1a374916}
       \strng{authorfullhashraw}{dc739558f50b84a39d142c2d1a374916}
-      \field{labelalpha}{All06}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New Astronomy Reviews}
@@ -185,33 +205,38 @@
     \endentry
     \entry{schmoll2006design}{article}{}{}
       \name{author}{3}{}{%
-        {{hash=c4e72bfffb654cb0b2acb92b9d7a6566}{%
+        {{un=0,uniquepart=base,hash=c4e72bfffb654cb0b2acb92b9d7a6566}{%
            family={Schmoll},
            familyi={S\bibinitperiod},
            given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b413b9ec56d72ed6915d134a4e9e0f6b}{%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b413b9ec56d72ed6915d134a4e9e0f6b}{%
            family={Robertson},
            familyi={R\bibinitperiod},
            given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=f33c1991ee9ff0572c72817706c65001}{%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f33c1991ee9ff0572c72817706c65001}{%
            family={Ryder},
            familyi={R\bibinitperiod},
            given={D.},
-           giveni={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{9e58b2d3308561e2241d35de34d5b058}
+      \strng{namehash}{c1d9f7adef90f15827c96472ebe416ef}
       \strng{fullhash}{9e58b2d3308561e2241d35de34d5b058}
       \strng{fullhashraw}{9e58b2d3308561e2241d35de34d5b058}
       \strng{bibnamehash}{9e58b2d3308561e2241d35de34d5b058}
       \strng{authorbibnamehash}{9e58b2d3308561e2241d35de34d5b058}
-      \strng{authornamehash}{9e58b2d3308561e2241d35de34d5b058}
+      \strng{authornamehash}{c1d9f7adef90f15827c96472ebe416ef}
       \strng{authorfullhash}{9e58b2d3308561e2241d35de34d5b058}
       \strng{authorfullhashraw}{9e58b2d3308561e2241d35de34d5b058}
-      \field{labelalpha}{SRR06}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design and manufacture of micro-optical arrays using 3D diamond machining techniques}
@@ -224,9 +249,10 @@
       \endverb
     \endentry
     \entry{sdss_bundle_ferrule}{misc}{}{}
-      \field{labelalpha}{14}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{note}{Image from the Sloan Digital Sky Survey (SDSS)}
       \field{title}{Bundle Ferrule Image}
@@ -240,11 +266,12 @@
     \endentry
     \entry{cana-2015}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=e4c99e0f5236d0c8958201de94594977}{%
+        {{un=0,uniquepart=base,hash=e4c99e0f5236d0c8958201de94594977}{%
            family={Álvarez},
            familyi={Á\bibinitperiod},
            given={Enrique\bibnamedelima Joven},
-           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{e4c99e0f5236d0c8958201de94594977}
       \strng{fullhash}{e4c99e0f5236d0c8958201de94594977}
@@ -254,9 +281,11 @@
       \strng{authornamehash}{e4c99e0f5236d0c8958201de94594977}
       \strng{authorfullhash}{e4c99e0f5236d0c8958201de94594977}
       \strng{authorfullhashraw}{e4c99e0f5236d0c8958201de94594977}
-      \field{labelalpha}{Álv15}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Instituto de Astrofísica de Canarias • IAC}
@@ -272,11 +301,12 @@
     \endentry
     \entry{weijmans2015manga}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=99c84abac8d94b0939d23b79fdda862d}{%
+        {{un=0,uniquepart=base,hash=99c84abac8d94b0939d23b79fdda862d}{%
            family={Weijmans},
            familyi={W\bibinitperiod},
            given={Anne-Marie},
-           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+           giveni={A\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{99c84abac8d94b0939d23b79fdda862d}
       \strng{fullhash}{99c84abac8d94b0939d23b79fdda862d}
@@ -286,9 +316,11 @@
       \strng{authornamehash}{99c84abac8d94b0939d23b79fdda862d}
       \strng{authorfullhash}{99c84abac8d94b0939d23b79fdda862d}
       \strng{authorfullhashraw}{99c84abac8d94b0939d23b79fdda862d}
-      \field{labelalpha}{Wei15}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1508.04314}
@@ -303,88 +335,104 @@
     \endentry
     \entry{marvin}{article}{}{}
       \name{author}{14}{}{%
-        {{hash=aeb1aa6fab49864f540adddd23976f9a}{%
+        {{un=0,uniquepart=base,hash=aeb1aa6fab49864f540adddd23976f9a}{%
            family={{Cherinka}},
            familyi={C\bibinitperiod},
            given={Brian},
-           giveni={B\bibinitperiod}}}%
-        {{hash=169ee5b8c8541f16498eab41564b45dd}{%
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=169ee5b8c8541f16498eab41564b45dd}{%
            family={{Andrews}},
            familyi={A\bibinitperiod},
            given={Brett\bibnamedelima H.},
-           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=0bd35e6b5051c7633c66bfe7e66301c9}{%
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bd35e6b5051c7633c66bfe7e66301c9}{%
            family={{Sánchez-Gallego}},
            familyi={S\bibinitperiod},
            given={José},
-           giveni={J\bibinitperiod}}}%
-        {{hash=db30bfd5be1087f494644688e9ce1227}{%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db30bfd5be1087f494644688e9ce1227}{%
            family={{Brownstein}},
            familyi={B\bibinitperiod},
            given={Joel},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f4675f833be9ada8afc3b99ba97decf3}{%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4675f833be9ada8afc3b99ba97decf3}{%
            family={{Argudo-Fernández}},
            familyi={A\bibinitperiod},
            given={María},
-           giveni={M\bibinitperiod}}}%
-        {{hash=642739c2601b9bf895267dcc16cba01f}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=642739c2601b9bf895267dcc16cba01f}{%
            family={{Blanton}},
            familyi={B\bibinitperiod},
            given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6034e15f4464e1cbd1aebdc823843712}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6034e15f4464e1cbd1aebdc823843712}{%
            family={{Bundy}},
            familyi={B\bibinitperiod},
            given={Kevin},
-           giveni={K\bibinitperiod}}}%
-        {{hash=cdb2f632bf89bc9702633821c2f43cdf}{%
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdb2f632bf89bc9702633821c2f43cdf}{%
            family={{Jones}},
            familyi={J\bibinitperiod},
            given={Amy},
-           giveni={A\bibinitperiod}}}%
-        {{hash=64dfe4028d2f550a20674a51584dc084}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64dfe4028d2f550a20674a51584dc084}{%
            family={{Masters}},
            familyi={M\bibinitperiod},
            given={Karen},
-           giveni={K\bibinitperiod}}}%
-        {{hash=1f7e20a14f0cea8550ee515cc98fe451}{%
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7e20a14f0cea8550ee515cc98fe451}{%
            family={{Law}},
            familyi={L\bibinitperiod},
            given={David\bibnamedelima R.},
-           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=b688f45fca619ddb5a0f3b21102cf483}{%
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b688f45fca619ddb5a0f3b21102cf483}{%
            family={{Rowlands}},
            familyi={R\bibinitperiod},
            given={Kate},
-           giveni={K\bibinitperiod}}}%
-        {{hash=99c84abac8d94b0939d23b79fdda862d}{%
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99c84abac8d94b0939d23b79fdda862d}{%
            family={{Weijmans}},
            familyi={W\bibinitperiod},
            given={Anne-Marie},
-           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
-        {{hash=d7d81c6690738fed57566c957d4fe09c}{%
+           giveni={A\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7d81c6690738fed57566c957d4fe09c}{%
            family={{Westfall}},
            familyi={W\bibinitperiod},
            given={Kyle},
-           giveni={K\bibinitperiod}}}%
-        {{hash=af04805a40521fbf6e12c85b1860c20e}{%
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af04805a40521fbf6e12c85b1860c20e}{%
            family={{Yan}},
            familyi={Y\bibinitperiod},
            given={Renbin},
-           giveni={R\bibinitperiod}}}%
+           giveni={R\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{6d07f30a6da3bfc1f0275a536cb783de}
       \strng{fullhash}{f8ecc911e5e0501d19f139bc8cd7a320}
       \strng{fullhashraw}{f8ecc911e5e0501d19f139bc8cd7a320}
-      \strng{bibnamehash}{6d07f30a6da3bfc1f0275a536cb783de}
-      \strng{authorbibnamehash}{6d07f30a6da3bfc1f0275a536cb783de}
+      \strng{bibnamehash}{f8ecc911e5e0501d19f139bc8cd7a320}
+      \strng{authorbibnamehash}{f8ecc911e5e0501d19f139bc8cd7a320}
       \strng{authornamehash}{6d07f30a6da3bfc1f0275a536cb783de}
       \strng{authorfullhash}{f8ecc911e5e0501d19f139bc8cd7a320}
       \strng{authorfullhashraw}{f8ecc911e5e0501d19f139bc8cd7a320}
-      \field{labelalpha}{Che+19}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eid}{74}
@@ -408,11 +456,12 @@
     \endentry
     \entry{olsen2021birth}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=f57e35da9771c74354c3a7bbd91e0dc5}{%
+        {{un=0,uniquepart=base,hash=f57e35da9771c74354c3a7bbd91e0dc5}{%
            family={Olsen},
            familyi={O\bibinitperiod},
            given={Christopher},
-           giveni={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{f57e35da9771c74354c3a7bbd91e0dc5}
       \strng{fullhash}{f57e35da9771c74354c3a7bbd91e0dc5}
@@ -422,9 +471,11 @@
       \strng{authornamehash}{f57e35da9771c74354c3a7bbd91e0dc5}
       \strng{authorfullhash}{f57e35da9771c74354c3a7bbd91e0dc5}
       \strng{authorfullhashraw}{f57e35da9771c74354c3a7bbd91e0dc5}
-      \field{labelalpha}{Ols21}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{4}
@@ -439,48 +490,56 @@
     \endentry
     \entry{Berry_Starlink}{article}{}{}
       \name{author}{6}{}{%
-        {{hash=3f9e58456957f37644c807c37ed6e3ba}{%
+        {{un=0,uniquepart=base,hash=3f9e58456957f37644c807c37ed6e3ba}{%
            family={Berry},
            familyi={B\bibinitperiod},
            given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=bfb3f9f99c0d94f89755b23b351039cc}{%
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfb3f9f99c0d94f89755b23b351039cc}{%
            family={Graves},
            familyi={G\bibinitperiod},
            given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=de7a3c583cddb18f7064f6b51c2af722}{%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de7a3c583cddb18f7064f6b51c2af722}{%
            family={Bell},
            familyi={B\bibinitperiod},
            given={G.\bibnamedelimi S.},
-           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=262d4f9099c2e1612aee07a2352a90a2}{%
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=262d4f9099c2e1612aee07a2352a90a2}{%
            family={Currie},
            familyi={C\bibinitperiod},
            given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a07293c2876071fb3067962f45ad52ba}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a07293c2876071fb3067962f45ad52ba}{%
            family={Draper},
            familyi={D\bibinitperiod},
            given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=fc16cf880e7cfaecac1c3e20ac8c37d9}{%
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc16cf880e7cfaecac1c3e20ac8c37d9}{%
            family={Jenness},
            familyi={J\bibinitperiod},
            given={T.},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{fb023526a398305fd831bbc56ac698c9}
       \strng{fullhash}{a534f1bc8b5da325694ecba848adce71}
       \strng{fullhashraw}{a534f1bc8b5da325694ecba848adce71}
-      \strng{bibnamehash}{fb023526a398305fd831bbc56ac698c9}
-      \strng{authorbibnamehash}{fb023526a398305fd831bbc56ac698c9}
+      \strng{bibnamehash}{a534f1bc8b5da325694ecba848adce71}
+      \strng{authorbibnamehash}{a534f1bc8b5da325694ecba848adce71}
       \strng{authornamehash}{fb023526a398305fd831bbc56ac698c9}
       \strng{authorfullhash}{a534f1bc8b5da325694ecba848adce71}
       \strng{authorfullhashraw}{a534f1bc8b5da325694ecba848adce71}
-      \field{labelalpha}{Ber+22}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{NASA/ADS}
@@ -494,9 +553,44 @@
       \verb https://ui.adsabs.harvard.edu/abs/2022ASPC..532..559B/abstract
       \endverb
     \endentry
+    \entry{suzuki2023fwhm}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a68df78c304ba71db4a1dc80d4d514d4}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Toshikazu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{fullhash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{fullhashraw}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{bibnamehash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{authorbibnamehash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{authornamehash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{authorfullhash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{authorfullhashraw}{a68df78c304ba71db4a1dc80d4d514d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{note}{Updated March 28, 2024}
+      \field{title}{What is Full Width at Half Maximum (FWHM)?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.pulstec.net/what-is-full-width-at-half-maximum/
+      \endverb
+      \verb{url}
+      \verb https://www.pulstec.net/what-is-full-width-at-half-maximum/
+      \endverb
+    \endentry
     \entry{UW-Madison-IFS}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=c56cbe4987ed8f6db3e1c6ada86f81fb}{%
+        {{un=0,uniquepart=base,hash=c56cbe4987ed8f6db3e1c6ada86f81fb}{%
            family={{Department of Astronomy, UW–Madison}},
            familyi={D\bibinitperiod}}}%
       }
@@ -508,9 +602,10 @@
       \strng{authornamehash}{c56cbe4987ed8f6db3e1c6ada86f81fb}
       \strng{authorfullhash}{c56cbe4987ed8f6db3e1c6ada86f81fb}
       \strng{authorfullhashraw}{c56cbe4987ed8f6db3e1c6ada86f81fb}
-      \field{labelalpha}{Dep}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.astro.wisc.edu/research/integral-field-spectroscopy/}}
@@ -519,13 +614,15 @@
     \endentry
     \entry{olmo-nave}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=fa141e64dc32a55c9eea1a72c1841a9b}{%
+        {{un=0,uniquepart=base,hash=fa141e64dc32a55c9eea1a72c1841a9b}{%
            family={{HyperPhysics}},
            familyi={H\bibinitperiod},
            given={R.\bibnamedelimi Nave},
            giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0,
            suffix={M.\bibnamedelimi Olmo},
-           suffixi={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+           suffixi={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           suffixun=0}}%
       }
       \strng{namehash}{fa141e64dc32a55c9eea1a72c1841a9b}
       \strng{fullhash}{fa141e64dc32a55c9eea1a72c1841a9b}
@@ -535,9 +632,10 @@
       \strng{authornamehash}{fa141e64dc32a55c9eea1a72c1841a9b}
       \strng{authorfullhash}{fa141e64dc32a55c9eea1a72c1841a9b}
       \strng{authorfullhashraw}{fa141e64dc32a55c9eea1a72c1841a9b}
-      \field{labelalpha}{Hyp}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{n.d.}
@@ -549,43 +647,14 @@
       \verb http://hyperphysics.phy-astr.gsu.edu/hbasees/phyopt/fabry.html
       \endverb
     \endentry
-    \entry{oconnell_astr511}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=562fe90b66393b72881e47e1e5a64bca}{%
-           family={O'Connell},
-           familyi={O\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{562fe90b66393b72881e47e1e5a64bca}
-      \strng{fullhash}{562fe90b66393b72881e47e1e5a64bca}
-      \strng{fullhashraw}{562fe90b66393b72881e47e1e5a64bca}
-      \strng{bibnamehash}{562fe90b66393b72881e47e1e5a64bca}
-      \strng{authorbibnamehash}{562fe90b66393b72881e47e1e5a64bca}
-      \strng{authornamehash}{562fe90b66393b72881e47e1e5a64bca}
-      \strng{authorfullhash}{562fe90b66393b72881e47e1e5a64bca}
-      \strng{authorfullhashraw}{562fe90b66393b72881e47e1e5a64bca}
-      \field{labelalpha}{OCo}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{n.d.}
-      \field{title}{ASTR 511, Lecture notes}
-      \verb{urlraw}
-      \verb https://rwoconne.github.io/rwoclass/astr511/lec10-f03.html
-      \endverb
-      \verb{url}
-      \verb https://rwoconne.github.io/rwoclass/astr511/lec10-f03.html
-      \endverb
-    \endentry
     \entry{las-cumbres}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=9f456306853266fe3cc466f6f00401ab}{%
+        {{un=0,uniquepart=base,hash=9f456306853266fe3cc466f6f00401ab}{%
            family={Observatory},
            familyi={O\bibinitperiod},
            given={Las\bibnamedelima Cumbres},
-           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{9f456306853266fe3cc466f6f00401ab}
       \strng{fullhash}{9f456306853266fe3cc466f6f00401ab}
@@ -595,9 +664,10 @@
       \strng{authornamehash}{9f456306853266fe3cc466f6f00401ab}
       \strng{authorfullhash}{9f456306853266fe3cc466f6f00401ab}
       \strng{authorfullhashraw}{9f456306853266fe3cc466f6f00401ab}
-      \field{labelalpha}{Obs}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{n.d.}
@@ -609,9 +679,41 @@
       \verb https://lco.global/spacebook/telescopes/cameras/
       \endverb
     \endentry
+    \entry{oconnell_astr511}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=562fe90b66393b72881e47e1e5a64bca}{%
+           family={O'Connell},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{fullhash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{fullhashraw}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{bibnamehash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{authorbibnamehash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{authornamehash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{authorfullhash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{authorfullhashraw}{562fe90b66393b72881e47e1e5a64bca}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{n.d.}
+      \field{title}{ASTR 511, Lecture notes}
+      \verb{urlraw}
+      \verb https://rwoconne.github.io/rwoclass/astr511/lec10-f03.html
+      \endverb
+      \verb{url}
+      \verb https://rwoconne.github.io/rwoclass/astr511/lec10-f03.html
+      \endverb
+    \endentry
     \entry{eso_vimos}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=88e340fbfd0cc01e092a9dd5003ab048}{%
+        {{un=0,uniquepart=base,hash=88e340fbfd0cc01e092a9dd5003ab048}{%
            family={webteam@eso.org},
            familyi={w\bibinitperiod}}}%
       }
@@ -626,9 +728,739 @@
       \strng{authornamehash}{88e340fbfd0cc01e092a9dd5003ab048}
       \strng{authorfullhash}{88e340fbfd0cc01e092a9dd5003ab048}
       \strng{authorfullhashraw}{88e340fbfd0cc01e092a9dd5003ab048}
-      \field{labelalpha}{web08}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{n.d.}
+      \field{title}{ESO - VIMOS}
+      \field{year}{1999-2008}
+      \verb{urlraw}
+      \verb https://www.eso.org/sci/facilities/paranal/decommissioned/vimos.html
+      \endverb
+      \verb{url}
+      \verb https://www.eso.org/sci/facilities/paranal/decommissioned/vimos.html
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{ynt/global//global/global/global}
+    \entry{oke_1995}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=71ea8657c35bc588ac12f391b027413c}{%
+           family={Oke},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93f765349a540cc7bb1bdb127cbafc54}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d14b1f766b5ea212310d917e77cf7a3e}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eab3fb242a200e7fb4a448335be70b37}{%
+           family={Cromer},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e27a843c8d0560fb4404a5f7c9da2f4}{%
+           family={Dingizian},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd5a838426c3165b4173e15050086b9e}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={F.\bibnamedelimi H.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77a910aa91954fa4f15760becc90bfb3}{%
+           family={Labrecque},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fad90b8ded36a8e6ca2dfdb307319db}{%
+           family={Lucinio},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=761ab7f0c54ef38878ab644fb3e3afbc}{%
+           family={Schaal},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c36aeca48ebb450be78ab462add48a57}{%
+           family={Epps},
+           familyi={E\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b81b02625bcd438cba12ac5c27c156cb}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{888ed33a0c8e4433cacb328ac7c8fd6d}
+      \strng{fullhash}{ba34acb008f713b0b1724e8b11b42161}
+      \strng{fullhashraw}{ba34acb008f713b0b1724e8b11b42161}
+      \strng{bibnamehash}{ba34acb008f713b0b1724e8b11b42161}
+      \strng{authorbibnamehash}{ba34acb008f713b0b1724e8b11b42161}
+      \strng{authornamehash}{888ed33a0c8e4433cacb328ac7c8fd6d}
+      \strng{authorfullhash}{ba34acb008f713b0b1724e8b11b42161}
+      \strng{authorfullhashraw}{ba34acb008f713b0b1724e8b11b42161}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
+      \field{title}{The Keck Low-Resolution Imaging Spectrometer}
+      \field{volume}{107}
+      \field{year}{1995}
+      \field{pages}{375}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/133562
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1086/133562
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1086/133562
+      \endverb
+    \endentry
+    \entry{vives2005original}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=79acdb9dc14abe25181ebcd07088156d}{%
+           family={Vivès},
+           familyi={V\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66c8b54ed5fefbf4cc3ac06600c71f47}{%
+           family={Prieto},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1047df0983fcbef1c6924bb4a2dbcda0}
+      \strng{fullhash}{1047df0983fcbef1c6924bb4a2dbcda0}
+      \strng{fullhashraw}{1047df0983fcbef1c6924bb4a2dbcda0}
+      \strng{bibnamehash}{1047df0983fcbef1c6924bb4a2dbcda0}
+      \strng{authorbibnamehash}{1047df0983fcbef1c6924bb4a2dbcda0}
+      \strng{authornamehash}{1047df0983fcbef1c6924bb4a2dbcda0}
+      \strng{authorfullhash}{1047df0983fcbef1c6924bb4a2dbcda0}
+      \strng{authorfullhashraw}{1047df0983fcbef1c6924bb4a2dbcda0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics > Optics}
+      \field{title}{An original image slicer designed for Integral Field Spectroscopy with NIRSpec/JSWT}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/physics/0512002
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/physics/0512002
+      \endverb
+    \endentry
+    \entry{allington2006basic}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc739558f50b84a39d142c2d1a374916}{%
+           family={Allington-Smith},
+           familyi={A\bibinithyphendelim S\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{dc739558f50b84a39d142c2d1a374916}
+      \strng{fullhash}{dc739558f50b84a39d142c2d1a374916}
+      \strng{fullhashraw}{dc739558f50b84a39d142c2d1a374916}
+      \strng{bibnamehash}{dc739558f50b84a39d142c2d1a374916}
+      \strng{authorbibnamehash}{dc739558f50b84a39d142c2d1a374916}
+      \strng{authornamehash}{dc739558f50b84a39d142c2d1a374916}
+      \strng{authorfullhash}{dc739558f50b84a39d142c2d1a374916}
+      \strng{authorfullhashraw}{dc739558f50b84a39d142c2d1a374916}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Astronomy Reviews}
+      \field{number}{4-5}
+      \field{title}{Basic principles of integral field spectroscopy}
+      \field{volume}{50}
+      \field{year}{2006}
+      \field{pages}{244\bibrangedash 251}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.newar.2006.02.024
+      \endverb
+      \verb{urlraw}
+      \verb https://fcaglp.fcaglp.unlp.edu.ar/~observacional/papers/PDFs/tech-spectroscopy/spec_allington2006newar50.pdf
+      \endverb
+      \verb{url}
+      \verb https://fcaglp.fcaglp.unlp.edu.ar/~observacional/papers/PDFs/tech-spectroscopy/spec_allington2006newar50.pdf
+      \endverb
+    \endentry
+    \entry{schmoll2006design}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c4e72bfffb654cb0b2acb92b9d7a6566}{%
+           family={Schmoll},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b413b9ec56d72ed6915d134a4e9e0f6b}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f33c1991ee9ff0572c72817706c65001}{%
+           family={Ryder},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1d9f7adef90f15827c96472ebe416ef}
+      \strng{fullhash}{9e58b2d3308561e2241d35de34d5b058}
+      \strng{fullhashraw}{9e58b2d3308561e2241d35de34d5b058}
+      \strng{bibnamehash}{9e58b2d3308561e2241d35de34d5b058}
+      \strng{authorbibnamehash}{9e58b2d3308561e2241d35de34d5b058}
+      \strng{authornamehash}{c1d9f7adef90f15827c96472ebe416ef}
+      \strng{authorfullhash}{9e58b2d3308561e2241d35de34d5b058}
+      \strng{authorfullhashraw}{9e58b2d3308561e2241d35de34d5b058}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design and manufacture of micro-optical arrays using 3D diamond machining techniques}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/astro-ph/0606145
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/astro-ph/0606145
+      \endverb
+    \endentry
+    \entry{sdss_bundle_ferrule}{misc}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Image from the Sloan Digital Sky Survey (SDSS)}
+      \field{title}{Bundle Ferrule Image}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.sdss4.org/wp-content/uploads/2014/11/Bundle_ferrule_new.png
+      \endverb
+      \verb{url}
+      \verb https://www.sdss4.org/wp-content/uploads/2014/11/Bundle_ferrule_new.png
+      \endverb
+    \endentry
+    \entry{cana-2015}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e4c99e0f5236d0c8958201de94594977}{%
+           family={Álvarez},
+           familyi={Á\bibinitperiod},
+           given={Enrique\bibnamedelima Joven},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e4c99e0f5236d0c8958201de94594977}
+      \strng{fullhash}{e4c99e0f5236d0c8958201de94594977}
+      \strng{fullhashraw}{e4c99e0f5236d0c8958201de94594977}
+      \strng{bibnamehash}{e4c99e0f5236d0c8958201de94594977}
+      \strng{authorbibnamehash}{e4c99e0f5236d0c8958201de94594977}
+      \strng{authornamehash}{e4c99e0f5236d0c8958201de94594977}
+      \strng{authorfullhash}{e4c99e0f5236d0c8958201de94594977}
+      \strng{authorfullhashraw}{e4c99e0f5236d0c8958201de94594977}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Instituto de Astrofísica de Canarias • IAC}
+      \field{month}{10}
+      \field{title}{¿Quién inventó el telescopio?}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.iac.es/es/blog/vialactea/2015/10/quien-invento-el-telescopio
+      \endverb
+      \verb{url}
+      \verb https://www.iac.es/es/blog/vialactea/2015/10/quien-invento-el-telescopio
+      \endverb
+    \endentry
+    \entry{weijmans2015manga}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=99c84abac8d94b0939d23b79fdda862d}{%
+           family={Weijmans},
+           familyi={W\bibinitperiod},
+           given={Anne-Marie},
+           giveni={A\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99c84abac8d94b0939d23b79fdda862d}
+      \strng{fullhash}{99c84abac8d94b0939d23b79fdda862d}
+      \strng{fullhashraw}{99c84abac8d94b0939d23b79fdda862d}
+      \strng{bibnamehash}{99c84abac8d94b0939d23b79fdda862d}
+      \strng{authorbibnamehash}{99c84abac8d94b0939d23b79fdda862d}
+      \strng{authornamehash}{99c84abac8d94b0939d23b79fdda862d}
+      \strng{authorfullhash}{99c84abac8d94b0939d23b79fdda862d}
+      \strng{authorfullhashraw}{99c84abac8d94b0939d23b79fdda862d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1508.04314}
+      \field{title}{MaNGA: Mapping Nearby Galaxies at Apache Point Observatory}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1508.04314
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1508.04314
+      \endverb
+    \endentry
+    \entry{marvin}{article}{}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=aeb1aa6fab49864f540adddd23976f9a}{%
+           family={{Cherinka}},
+           familyi={C\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=169ee5b8c8541f16498eab41564b45dd}{%
+           family={{Andrews}},
+           familyi={A\bibinitperiod},
+           given={Brett\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bd35e6b5051c7633c66bfe7e66301c9}{%
+           family={{Sánchez-Gallego}},
+           familyi={S\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db30bfd5be1087f494644688e9ce1227}{%
+           family={{Brownstein}},
+           familyi={B\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4675f833be9ada8afc3b99ba97decf3}{%
+           family={{Argudo-Fernández}},
+           familyi={A\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=642739c2601b9bf895267dcc16cba01f}{%
+           family={{Blanton}},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6034e15f4464e1cbd1aebdc823843712}{%
+           family={{Bundy}},
+           familyi={B\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdb2f632bf89bc9702633821c2f43cdf}{%
+           family={{Jones}},
+           familyi={J\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64dfe4028d2f550a20674a51584dc084}{%
+           family={{Masters}},
+           familyi={M\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7e20a14f0cea8550ee515cc98fe451}{%
+           family={{Law}},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b688f45fca619ddb5a0f3b21102cf483}{%
+           family={{Rowlands}},
+           familyi={R\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99c84abac8d94b0939d23b79fdda862d}{%
+           family={{Weijmans}},
+           familyi={W\bibinitperiod},
+           given={Anne-Marie},
+           giveni={A\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7d81c6690738fed57566c957d4fe09c}{%
+           family={{Westfall}},
+           familyi={W\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af04805a40521fbf6e12c85b1860c20e}{%
+           family={{Yan}},
+           familyi={Y\bibinitperiod},
+           given={Renbin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6d07f30a6da3bfc1f0275a536cb783de}
+      \strng{fullhash}{f8ecc911e5e0501d19f139bc8cd7a320}
+      \strng{fullhashraw}{f8ecc911e5e0501d19f139bc8cd7a320}
+      \strng{bibnamehash}{f8ecc911e5e0501d19f139bc8cd7a320}
+      \strng{authorbibnamehash}{f8ecc911e5e0501d19f139bc8cd7a320}
+      \strng{authornamehash}{6d07f30a6da3bfc1f0275a536cb783de}
+      \strng{authorfullhash}{f8ecc911e5e0501d19f139bc8cd7a320}
+      \strng{authorfullhashraw}{f8ecc911e5e0501d19f139bc8cd7a320}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{74}
+      \field{eprintclass}{astro-ph.IM}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\aj}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{{Marvin: A Tool Kit for Streamlined Access and Visualization of the SDSS-IV MaNGA Data Set}}
+      \field{volume}{158}
+      \field{year}{2019}
+      \field{pages}{74}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/1538-3881/ab2634
+      \endverb
+      \verb{eprint}
+      \verb 1812.03833
+      \endverb
+      \keyw{astronomical databases: miscellaneous,methods: data analysis,surveys,Astrophysics - Instrumentation and Methods for Astrophysics,Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{olsen2021birth}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f57e35da9771c74354c3a7bbd91e0dc5}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f57e35da9771c74354c3a7bbd91e0dc5}
+      \strng{fullhash}{f57e35da9771c74354c3a7bbd91e0dc5}
+      \strng{fullhashraw}{f57e35da9771c74354c3a7bbd91e0dc5}
+      \strng{bibnamehash}{f57e35da9771c74354c3a7bbd91e0dc5}
+      \strng{authorbibnamehash}{f57e35da9771c74354c3a7bbd91e0dc5}
+      \strng{authornamehash}{f57e35da9771c74354c3a7bbd91e0dc5}
+      \strng{authorfullhash}{f57e35da9771c74354c3a7bbd91e0dc5}
+      \strng{authorfullhashraw}{f57e35da9771c74354c3a7bbd91e0dc5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{The Birth of Astrophotography - Vatican Observatory}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.vaticanobservatory.org/sacred-space-astronomy/the-birth-of-astrophotography/
+      \endverb
+      \verb{url}
+      \verb https://www.vaticanobservatory.org/sacred-space-astronomy/the-birth-of-astrophotography/
+      \endverb
+    \endentry
+    \entry{Berry_Starlink}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=3f9e58456957f37644c807c37ed6e3ba}{%
+           family={Berry},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfb3f9f99c0d94f89755b23b351039cc}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de7a3c583cddb18f7064f6b51c2af722}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=262d4f9099c2e1612aee07a2352a90a2}{%
+           family={Currie},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a07293c2876071fb3067962f45ad52ba}{%
+           family={Draper},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc16cf880e7cfaecac1c3e20ac8c37d9}{%
+           family={Jenness},
+           familyi={J\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb023526a398305fd831bbc56ac698c9}
+      \strng{fullhash}{a534f1bc8b5da325694ecba848adce71}
+      \strng{fullhashraw}{a534f1bc8b5da325694ecba848adce71}
+      \strng{bibnamehash}{a534f1bc8b5da325694ecba848adce71}
+      \strng{authorbibnamehash}{a534f1bc8b5da325694ecba848adce71}
+      \strng{authornamehash}{fb023526a398305fd831bbc56ac698c9}
+      \strng{authorfullhash}{a534f1bc8b5da325694ecba848adce71}
+      \strng{authorfullhashraw}{a534f1bc8b5da325694ecba848adce71}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NASA/ADS}
+      \field{note}{n.d.}
+      \field{title}{Starlink - the original and best}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/2022ASPC..532..559B/abstract
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/2022ASPC..532..559B/abstract
+      \endverb
+    \endentry
+    \entry{suzuki2023fwhm}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a68df78c304ba71db4a1dc80d4d514d4}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Toshikazu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{fullhash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{fullhashraw}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{bibnamehash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{authorbibnamehash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{authornamehash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{authorfullhash}{a68df78c304ba71db4a1dc80d4d514d4}
+      \strng{authorfullhashraw}{a68df78c304ba71db4a1dc80d4d514d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{note}{Updated March 28, 2024}
+      \field{title}{What is Full Width at Half Maximum (FWHM)?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.pulstec.net/what-is-full-width-at-half-maximum/
+      \endverb
+      \verb{url}
+      \verb https://www.pulstec.net/what-is-full-width-at-half-maximum/
+      \endverb
+    \endentry
+    \entry{UW-Madison-IFS}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c56cbe4987ed8f6db3e1c6ada86f81fb}{%
+           family={{Department of Astronomy, UW–Madison}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c56cbe4987ed8f6db3e1c6ada86f81fb}
+      \strng{fullhash}{c56cbe4987ed8f6db3e1c6ada86f81fb}
+      \strng{fullhashraw}{c56cbe4987ed8f6db3e1c6ada86f81fb}
+      \strng{bibnamehash}{c56cbe4987ed8f6db3e1c6ada86f81fb}
+      \strng{authorbibnamehash}{c56cbe4987ed8f6db3e1c6ada86f81fb}
+      \strng{authornamehash}{c56cbe4987ed8f6db3e1c6ada86f81fb}
+      \strng{authorfullhash}{c56cbe4987ed8f6db3e1c6ada86f81fb}
+      \strng{authorfullhashraw}{c56cbe4987ed8f6db3e1c6ada86f81fb}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.astro.wisc.edu/research/integral-field-spectroscopy/}}
+      \field{note}{Consultado en junio de 2024}
+      \field{title}{Integral Field Spectroscopy}
+    \endentry
+    \entry{olmo-nave}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fa141e64dc32a55c9eea1a72c1841a9b}{%
+           family={{HyperPhysics}},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi Nave},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0,
+           suffix={M.\bibnamedelimi Olmo},
+           suffixi={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{fa141e64dc32a55c9eea1a72c1841a9b}
+      \strng{fullhash}{fa141e64dc32a55c9eea1a72c1841a9b}
+      \strng{fullhashraw}{fa141e64dc32a55c9eea1a72c1841a9b}
+      \strng{bibnamehash}{fa141e64dc32a55c9eea1a72c1841a9b}
+      \strng{authorbibnamehash}{fa141e64dc32a55c9eea1a72c1841a9b}
+      \strng{authornamehash}{fa141e64dc32a55c9eea1a72c1841a9b}
+      \strng{authorfullhash}{fa141e64dc32a55c9eea1a72c1841a9b}
+      \strng{authorfullhashraw}{fa141e64dc32a55c9eea1a72c1841a9b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{n.d.}
+      \field{title}{Fabry-Perot Interferometer}
+      \verb{urlraw}
+      \verb http://hyperphysics.phy-astr.gsu.edu/hbasees/phyopt/fabry.html
+      \endverb
+      \verb{url}
+      \verb http://hyperphysics.phy-astr.gsu.edu/hbasees/phyopt/fabry.html
+      \endverb
+    \endentry
+    \entry{las-cumbres}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f456306853266fe3cc466f6f00401ab}{%
+           family={Observatory},
+           familyi={O\bibinitperiod},
+           given={Las\bibnamedelima Cumbres},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f456306853266fe3cc466f6f00401ab}
+      \strng{fullhash}{9f456306853266fe3cc466f6f00401ab}
+      \strng{fullhashraw}{9f456306853266fe3cc466f6f00401ab}
+      \strng{bibnamehash}{9f456306853266fe3cc466f6f00401ab}
+      \strng{authorbibnamehash}{9f456306853266fe3cc466f6f00401ab}
+      \strng{authornamehash}{9f456306853266fe3cc466f6f00401ab}
+      \strng{authorfullhash}{9f456306853266fe3cc466f6f00401ab}
+      \strng{authorfullhashraw}{9f456306853266fe3cc466f6f00401ab}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{n.d.}
+      \field{title}{Astronomical cameras}
+      \verb{urlraw}
+      \verb https://lco.global/spacebook/telescopes/cameras/
+      \endverb
+      \verb{url}
+      \verb https://lco.global/spacebook/telescopes/cameras/
+      \endverb
+    \endentry
+    \entry{oconnell_astr511}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=562fe90b66393b72881e47e1e5a64bca}{%
+           family={O'Connell},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{fullhash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{fullhashraw}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{bibnamehash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{authorbibnamehash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{authornamehash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{authorfullhash}{562fe90b66393b72881e47e1e5a64bca}
+      \strng{authorfullhashraw}{562fe90b66393b72881e47e1e5a64bca}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{n.d.}
+      \field{title}{ASTR 511, Lecture notes}
+      \verb{urlraw}
+      \verb https://rwoconne.github.io/rwoclass/astr511/lec10-f03.html
+      \endverb
+      \verb{url}
+      \verb https://rwoconne.github.io/rwoclass/astr511/lec10-f03.html
+      \endverb
+    \endentry
+    \entry{eso_vimos}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=88e340fbfd0cc01e092a9dd5003ab048}{%
+           family={webteam@eso.org},
+           familyi={w\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ESO}%
+      }
+      \strng{namehash}{88e340fbfd0cc01e092a9dd5003ab048}
+      \strng{fullhash}{88e340fbfd0cc01e092a9dd5003ab048}
+      \strng{fullhashraw}{88e340fbfd0cc01e092a9dd5003ab048}
+      \strng{bibnamehash}{88e340fbfd0cc01e092a9dd5003ab048}
+      \strng{authorbibnamehash}{88e340fbfd0cc01e092a9dd5003ab048}
+      \strng{authornamehash}{88e340fbfd0cc01e092a9dd5003ab048}
+      \strng{authorfullhash}{88e340fbfd0cc01e092a9dd5003ab048}
+      \strng{authorfullhashraw}{88e340fbfd0cc01e092a9dd5003ab048}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{n.d.}

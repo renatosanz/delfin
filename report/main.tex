@@ -253,10 +253,13 @@ Lo que nos da como resultado una gráfica con los dos espectros: espectro observ
 
 Para obtener una manipulación completa de los datos, me he basado en la información de la página del \href{https://data.sdss.org/datamodel/files/MANGA_SPECTRO_DATA/MJD5/sdR.html}{Modelo de Datos del SDSS}, en la que se especifican los apartados de un archivo \verb|.fits|.
 
+\subsubsection*{Resultados}
+Al finalzar este proceso se como resultado logre comprender como es que se observan los objetos celestes usando espectroscopia integral de campo, incluyendo la estructura de un archivo procendete del MaNGA / SDSS. Explore temas de fisica, computación y analisis de datos.  
+
 \subsection*{Creación de interfaz}
 Con el fin de facilitar el uso de la anterior implementación, me propuse crear un entorno gráfico para esta. Entre varias alternativas que hay en Python, he escogido \href{https://dearpygui.readthedocs.io/en/latest/}{Dearpygui}, ya que es una librería gráfica multiplataforma, dinámica, acelerada por GPU y fácil de usar, un kit de herramientas de interfaz de usuario (GUI) para Python. Ya que en esta ocasión se manejarán grandes volúmenes de datos y requerimos una interfaz de alto rendimiento, cabe mencionar que esta librería también permite hacer gráficas o "plots", así que para el apartado del espectro me tomé la libertad de usar la alternativa de Dearpygui.
 
-\textit{InterVisor} permite abrir un nuevo archivo .fits, .gz o .fitz.gz desde el explorador de archivos con el botón \textbf{Open a new file}. Además de manejar un registro de los archivos abiertos con anterioridad, para ello está el botón \textbf{Recent files}. Para finalizar el programa, está la opción \textbf{Exit} \textbf{(Fig. 11-13)}.
+El programa de Visualización creado al que he denomindado \textit{InterVisor} permite abrir un nuevo archivo .fits, .gz o .fitz.gz desde el explorador de archivos con el botón \textbf{Open a new file}. Además de manejar un registro de los archivos abiertos con anterioridad, para ello está el botón \textbf{Recent files}. Para finalizar el programa, está la opción \textbf{Exit} \textbf{(Fig. 11-13)}.
 
 \begin{figure}
     \centering
@@ -268,14 +271,8 @@ Con el fin de facilitar el uso de la anterior implementación, me propuse crear 
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{file_explorer_visor.png}
-    \caption{Explorador de archivos}
-    \label{fig:file_explorer_visor}
-\end{figure}
-
-\begin{figure}
-    \centering
     \includegraphics[width=1\linewidth]{recent_files.png}
-    \caption{Archivos Recientes}
+    \caption{Archivos Recientes y Explorador de archivos}
     \label{fig:recent_files}
 \end{figure}
 
@@ -294,29 +291,19 @@ Actualmente, se cuenta con los siguientes modos de procesamiento:
     \item \textbf{Visor de espectro:} En este apartado se permite escoger el spaxel (i,j) en el rango de longitud de onda en el que se quiere ver el espectro \textbf{(Fig. 15)}.
     \item \textbf{Extractor de imagen:} Después de ingresar una longitud de onda específica, se muestra la imagen del mapa. También está la opción de aplicar $log_{10}$ y $log_{2}$ \textbf{(Fig. 16)}.
     \item \textbf{Más información:} Un apartado para observar más datos sobre el archivo .fits \textbf{(Fig. 17)}.
-    \item \textbf{Visor de lineas de emisión: } Se calcula el valor total las lineas mas importantes del espectro de cada uno de los pixeles en el cubo de datos. Para esta caracteriztica se calcula la integral de una gausiana ajustada al segmento de datosque representa la linea de emision, todo esto de forma iterativa. 
 \end{enumerate}
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{spectrum_visor.png}
-    \caption{Visor de espectro.}
-    \label{fig:spectrum_visor}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{VIsor_heatmap.png}
-    \caption{Extractor de imagen.}
-    \label{fig:VIsor_heatmap}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=1\linewidth]{moreinfo.png}
-    \caption{Mas informacion.}
+    \includegraphics[width=0.8\linewidth]{VIsor_heatmap.png}
+    \includegraphics[width=0.8\linewidth]{spectrum_visor.png}
+    \includegraphics[width=0.8\linewidth]{moreinfo.png}
+    \caption{Opciones de Visualización en el programa con interfaz grafica.}
     \label{fig:moreinfo}
 \end{figure}
+
+\subsubsection*{Resultados}
+Como resultado se obtiene un programa con las operaciones basicas de visualización de archivo .fits correspondientes al MaNGA. Utilizando la libreria de Astropy, Numpy, Dearpygui y otras más. Al igual que la creación de rutinas de visualización consistes y acoplables demás metodos de analisis (visualización de espectros, mapas en una longitud de onda especifica, informacion general del objetos observado). 
 
 \section*{Observación de Líneas de Emisión}
 \subsection*{Lineas de emisión de interés}
@@ -397,12 +384,27 @@ una vez con el proceso claro para un pixel en especifico en el cubo de datos pod
     \label{fig:extraccion_linea.}
 \end{figure}
 
+
+\subsubsection*{Resultados}
+Durante el proceso de generacion de estos mapas de lineas de emisión me encontré en la dificultad para \textbf{calcular el FWHM } ya que momento realizar el ajuste de la campana de Gauss me resulto complicada la forma en la que debia de obtener dicho valor, por lo que me informé y al planteado de forma matematica no parecia muy complicado y proseguí, como recurso encontré una explicación muy simple en esta \href{https://www.pulstec.net/what-is-full-width-at-half-maximum/}{pagina } (\cite{suzuki2023fwhm}).
+
+De esta forma obtuve resultados como los siguientes, imagenes con una gran cantidad de pixeles calculados y una barra de medición al costado. Ademas de adjuntar la \textbf{Fig. 18 } en la el area verde representa el valor de la integración de la campana de Gauss, el area naranja representa el area que no debemos tomar en cuenta en este proceso, las barras laterales se interpretan como los submargenes apartir de los cuales se calcula la media del continuo y el intervalo central es la zona en la que se halla la informacion de la linea de emisión.
+
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{img7495-6102_Ha_6564_.png}
-    \caption{PLATEIFU : 7495-6102 - \textit{Ha 6564}}
+    \includegraphics[width=0.8\linewidth]{../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[OIII]_5007_.png}
+    \includegraphics[width=0.8\linewidth]{../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.png}
+    \includegraphics[width=0.8\linewidth]{../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[OII]_3727_.png}
+    \caption{PLATEIFU : 7495-6102 }
     \label{fig:moreinfo}
 \end{figure}
+
+\newpage
+
+\section*{Resultados Finales}
+\subsection*{Diagramas de diagnóstico}
+
+
 
 \newpage
 

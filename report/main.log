@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.17)  17 JUL 2024 16:49
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.17)  18 JUL 2024 18:40
  restricted system commands enabled.
 **main
 (./main.tex
@@ -3287,22 +3287,22 @@ File: recent_files.png Graphic file (type png)
 <use recent_files.png>
 Package luatex.def Info: recent_files.png  used on input line 274.
 (luatex.def)             Requested size: 250.14749pt x 167.44913pt.
-<modes.png, id=168, 553.06625pt x 306.14375pt>
+<modes.png, id=167, 553.06625pt x 306.14375pt>
 File: modes.png Graphic file (type png)
 <use modes.png>
 Package luatex.def Info: modes.png  used on input line 283.
 (luatex.def)             Requested size: 250.14749pt x 138.46411pt.
-<VIsor_heatmap.png, id=169, 501.875pt x 605.26125pt>
+<VIsor_heatmap.png, id=168, 501.875pt x 605.26125pt>
 File: VIsor_heatmap.png Graphic file (type png)
 <use VIsor_heatmap.png>
 Package luatex.def Info: VIsor_heatmap.png  used on input line 298.
 (luatex.def)             Requested size: 200.11874pt x 241.34288pt.
-<spectrum_visor.png, id=170, 599.23875pt x 800.9925pt>
+<spectrum_visor.png, id=169, 599.23875pt x 800.9925pt>
 File: spectrum_visor.png Graphic file (type png)
 <use spectrum_visor.png>
 Package luatex.def Info: spectrum_visor.png  used on input line 299.
 (luatex.def)             Requested size: 200.11874pt x 267.49387pt.
-<moreinfo.png, id=171, 500.87125pt x 301.125pt>
+<moreinfo.png, id=170, 500.87125pt x 301.125pt>
 File: moreinfo.png Graphic file (type png)
 <use moreinfo.png>
 Package luatex.def Info: moreinfo.png  used on input line 300.
@@ -3314,8 +3314,8 @@ Package luatex.def Info: moreinfo.png  used on input line 300.
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.317   \item {
-             [OIII] \textbf{4959} Oxígeno ionizado (doubly ionized)}
+l.319   \item {
+             HeI \textbf{5876} Helio neutro}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3325,8 +3325,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.317   \item {
-             [OIII] \textbf{4959} Oxígeno ionizado (doubly ionized)}
+l.319   \item {
+             HeI \textbf{5876} Helio neutro}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3361,36 +3361,39 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [6<./VIsor_heatmap.png><./spectrum_visor.png><./moreinfo.png>]
-<extraccion_linea.png, id=219, 462.528pt x 346.896pt>
+<extraccion_linea.png, id=216, 462.528pt x 346.896pt>
 File: extraccion_linea.png Graphic file (type png)
 <use extraccion_linea.png>
 Package luatex.def Info: extraccion_linea.png  used on input line 382.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
-<../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[OIII]_5007_.png, id=222,
- 462.528pt x 346.896pt>
-File: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[OIII]_5007_.png Gra
-phic file (type png)
-<use ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[OIII]_5007_.png>
-Package luatex.def Info: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[
-OIII]_5007_.png  used on input line 395.
+<../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[OIII]
+_5007_.png, id=219, 462.528pt x 346.896pt>
+File: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[
+OIII]_5007_.png Graphic file (type png)
+<use ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[O
+III]_5007_.png>
+Package luatex.def Info: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_l
+ines/img7495-6102_[OIII]_5007_.png  used on input line 395.
 (luatex.def)             Requested size: 200.11874pt x 150.08867pt.
-<../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.png, id=223, 462
-.528pt x 346.896pt>
-File: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.png Graphic
- file (type png)
-<use ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.png>
-Package luatex.def Info: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_H
-a_6564_.png  used on input line 396.
+<../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_Ha_656
+4_.png, id=220, 462.528pt x 346.896pt>
+File: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_H
+a_6564_.png Graphic file (type png)
+<use ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_Ha
+_6564_.png>
+Package luatex.def Info: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_l
+ines/img7495-6102_Ha_6564_.png  used on input line 396.
 (luatex.def)             Requested size: 200.11874pt x 150.08867pt.
-<../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[NII]_6548_.png, id=224, 
-462.528pt x 346.896pt>
-File: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[NII]_6548_.png Grap
-hic file (type png)
-<use ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[NII]_6548_.png>
-Package luatex.def Info: ../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[
-NII]_6548_.png  used on input line 397.
+<../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[OII]_
+3727_.png, id=221, 462.528pt x 346.896pt>
+File: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[
+OII]_3727_.png Graphic file (type png)
+<use ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[O
+II]_3727_.png>
+Package luatex.def Info: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_l
+ines/img7495-6102_[OII]_3727_.png  used on input line 397.
 (luatex.def)             Requested size: 200.11874pt x 150.08867pt.
 
 
@@ -3416,12 +3419,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7<./extraccion_linea.png><../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_
-[OIII]_5007_.png><../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.
-png><../codes/tests/imgs/imgs7495-6102_lines/img7495-6102_[NII]_6548_.png>]
+[7<./extraccion_linea.png><../Codigos/extractorLineasEmision/imgs/imgs7495-6102_
+lines/img7495-6102_[OIII]_5007_.png><../Codigos/extractorLineasEmision/imgs/imgs
+7495-6102_lines/img7495-6102_Ha_6564_.png><../Codigos/extractorLineasEmision/img
+s/imgs7495-6102_lines/img7495-6102_[OII]_3727_.png>]
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--425
+Underfull \hbox (badness 10000) in paragraph at lines 422--426
 
  []
 
@@ -3430,7 +3434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--425
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.429 
+l.430 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3441,7 +3445,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.429 
+l.430 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3453,7 +3457,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.429 
+l.430 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3464,7 +3468,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.429 
+l.430 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3475,7 +3479,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.429 
+l.430 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3490,7 +3494,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.430 \end{document}
+l.431 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3501,7 +3505,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.430 \end{document}
+l.431 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3537,12 +3541,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31819 strings out of 475915
+ 31818 strings out of 475915
  305340,1977958 words of node,token memory allocated
- 1039 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 15 glue, 4 kern, 1 penalty, 3 glyph, 6
-0 attribute, 89 glue_spec, 32 attribute_list, 1 write, 13 pdf_action nodes
-   avail lists: 1:6,2:6595,3:693,4:1352,5:3809,6:127,7:19966,8:88,9:8323,10:23,1
+ 1000 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 12 glue, 4 kern, 1 penalty, 3 glyph, 5
+4 attribute, 89 glue_spec, 29 attribute_list, 1 write, 13 pdf_action nodes
+   avail lists: 1:6,2:6604,3:693,4:1352,5:3809,6:127,7:19969,8:88,9:8323,10:23,1
 1:2513,12:1
  53641 multiletter control sequences out of 65536+600000
  185 fonts using 23246415 bytes
@@ -3561,9 +3565,9 @@ blic/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/ams
 fonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
 cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 >
-Output written on main.pdf (9 pages, 2832794 bytes).
+Output written on main.pdf (9 pages, 2832908 bytes).
 
-PDF statistics: 358 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 131072)
+PDF statistics: 355 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -87,13 +87,26 @@ print("log10(OIII/Hb):", Log10OIIIdivHb)
 
 flg = plt.figure()
 ax = flg.add_subplot(111)
-ax.set_title("Diagrama de Diagnostico (log10([NII]/Ha), log10([OIII]/Hb))")
+ax.set_title("Diagrama de Diagnostico (log10([NII]/Ha), log10([OIII]/Hb))\n7495-6102")
 ax.set_xlabel("log10(NII/Ha)")
 ax.set_ylabel("log10(OIII/Hb)")
+
+ax.set_xlim(-2, 1)  # Establece los límites del eje x
+ax.set_ylim(-2, 1.5)  # Establece los límites del eje y
+
+X = np.linspace(-2, 0.049, 100)
+Y = 0.61 / (X - 0.05) + 1.3
+ax.plot(X, Y, c="k", linestyle="--", label="Y = 0.61/[X-0.05]+1.3")
+
+X1 = np.linspace(-2, 0.46, 1900)
+Y1 = 0.61 / (X1 - 0.47) + 1.19
+ax.plot(X1, Y1, label="Y1 = 0.61/[X1-0.47]+1.19")
+
 ax.plot(
     Log10NIIdivHa,
     Log10OIIIdivHb,
     "ro",
 )
 plt.grid()
+plt.legend()
 plt.show()

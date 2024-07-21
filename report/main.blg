@@ -1,23 +1,23 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[100] biber:340> INFO - === jue jul 18, 2024, 18:40:45
-[125] Biber.pm:420> INFO - Reading 'main.bcf'
-[253] Biber.pm:994> INFO - Found 16 citekeys in bib section 0
-[278] Biber.pm:4463> INFO - Processing section 0
-[295] Biber.pm:4654> INFO - Looking for bibtex file 'refs.bib' for section 0
-[297] bibtex.pm:1713> INFO - LaTeX decoding ...
-[320] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[509] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[509] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[510] Biber.pm:4283> INFO - Sorting list 'ynt/apasortcite//global/global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
-[568] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[568] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[568] Biber.pm:4283> INFO - Sorting list 'ynt/global//global/global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
-[602] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[625] bbl.pm:779> INFO - Output to main.bbl
-[625] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'cana-2015' is not an integer - this will probably not sort properly.
-[625] Biber.pm:131> WARN - legacy month field 'April 7' in entry 'olsen2021birth' is not an integer - this will probably not sort properly.
-[625] Biber.pm:131> WARN - legacy year field '1999-2008' in entry 'eso_vimos' is not an integer - this will probably not sort properly.
-[625] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'marvin' is not an integer - this will probably not sort properly.
-[625] Biber.pm:131> WARN - legacy month field 'September' in entry 'suzuki2023fwhm' is not an integer - this will probably not sort properly.
-[626] Biber.pm:133> INFO - WARNINGS: 5
+[87] biber:340> INFO - === sáb jul 20, 2024, 20:22:49
+[109] Biber.pm:420> INFO - Reading 'main.bcf'
+[213] Biber.pm:994> INFO - Found 18 citekeys in bib section 0
+[236] Biber.pm:4463> INFO - Processing section 0
+[247] Biber.pm:4654> INFO - Looking for bibtex file 'refs.bib' for section 0
+[249] bibtex.pm:1713> INFO - LaTeX decoding ...
+[273] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[479] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[479] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[479] Biber.pm:4283> INFO - Sorting list 'ynt/apasortcite//global/global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
+[539] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[539] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[539] Biber.pm:4283> INFO - Sorting list 'ynt/global//global/global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
+[570] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[598] bbl.pm:779> INFO - Output to main.bbl
+[598] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'cana-2015' is not an integer - this will probably not sort properly.
+[598] Biber.pm:131> WARN - legacy month field 'April 7' in entry 'olsen2021birth' is not an integer - this will probably not sort properly.
+[598] Biber.pm:131> WARN - legacy year field '1999-2008' in entry 'eso_vimos' is not an integer - this will probably not sort properly.
+[599] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'marvin' is not an integer - this will probably not sort properly.
+[599] Biber.pm:131> WARN - legacy month field 'September' in entry 'suzuki2023fwhm' is not an integer - this will probably not sort properly.
+[599] Biber.pm:133> INFO - WARNINGS: 5

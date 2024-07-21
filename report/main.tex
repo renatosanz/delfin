@@ -402,11 +402,76 @@ De esta forma obtuve resultados como los siguientes, imagenes con una gran canti
 \newpage
 
 \section*{Proyecto Final}
-\subsection*{Diagramas de diagnóstico}
-Como último proceso se planea la generación de diagramas de diagnóstico los cuales nos proporcionaran 
+\subsection*{Diagramas de diagnóstico / BPT}
+Los diagremas de diagnóstico ayudan a distinguir entre estrellas, nucleos activos de galaxias, choques, etc. 
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=1\linewidth]{./diagrama_ejemplo.png}
+  \end{center}
+  \caption{Ejemplo visual de una diagrama de diagnóstico.}\label{fig:diagrama_profe.}
+\end{figure}
 
 
-\newpage
+Como último proceso se planea la generación de diagramas de diagnóstico los cuales nos proporcionaran información sobre el objeto observado. Para esto hay que realizar el siguiente proceso:
+\begin{enumerate}
+  \item Una vez ya obtenidas las lineas de emisión y almacenadas en un archivo en un archivo .fits, procedemos con la integración de estos datos \footnote{Con integrar nos referimos a sumar todos los datos que conforman la imagen de la linea de emisión, pasando de una matriz de 2 dimensiones a un solo valor} de las lineas de emisión [NII] 6548,Ha 6564,Hb 4861,[OIII] 5007.
+    \begin{lstlisting}[language=Python]
+def integrar(flujo):
+    suma = 0
+    for i in flujo:
+        if np.all(flujo == np.nan):
+            continue
+        for k in i:
+            if not np.isnan(k):
+                suma += k
+    return suma
+
+
+hdul_NII = open("fits7495-6102_[NII]_6548_.fits")
+hdul_Ha = open("fits7495-6102_Ha_6564_.fits")
+hdul_Hb = open("fits7495-6102_Hb_4861_.fits")
+hdul_OIII = open("fits7495-6102_[OIII]_5007_.fits")
+
+integradoNII = integrar(flujoNII)
+integradoHb = integrar(flujoHb)
+integradoHa = integrar(flujoHa)
+integradoOIII = integrar(flujoOIII)
+    \end{lstlisting}
+    
+  \item En siguida tomamos los datos estos datos y realizamos las operaciones de log10(NII/Ha) y log10(OIII/Hb).
+    \begin{lstlisting}[language=Python]
+NIIdivHa = integradoNII / integradoHa
+OIIIdivHb = integradoOIII / integradoHb
+Log10NIIdivHa = log10(integradoNII / integradoHa)
+Log10OIIIdivHb = log10(integradoOIII / integradoHb)
+    \end{lstlisting}
+  \item Para determinar si nuestra galaxia contiene formación estelar usaré las funciones \textbf{(4)} $0.61/[log([NII]/Hα) − 0.05] + 1.3$ (Kauffmann+03 line) y \textbf{(5)} $0.61/[log([N II]/Hα) − 0.47] + 1.19$  (Kewley+01 line) del articulo \cite{2006MNRAS.372..961K}, las cuales graficare sobre el plano al mismo timpo que los datos obtenidos anteriormente.
+    \begin{lstlisting}[language=Python]
+X = np.linspace(-2, 0.049, 100)
+Y = 0.61 / (X - 0.05) + 1.3
+ax.plot(X, Y, c="k", linestyle="--", label="Y = 0.61/[X-0.05]+1.3")
+
+X1 = np.linspace(-2, 0.46, 1900)
+Y1 = 0.61 / (X1 - 0.47) + 1.19
+ax.plot(X1, Y1, label="Y1 = 0.61/[X1-0.47]+1.19")
+
+ax.plot(
+    Log10NIIdivHa,
+    Log10OIIIdivHb,
+    "ro",
+)
+    \end{lstlisting}
+
+\end{enumerate}                                                                  
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png}
+  \end{center}
+  \caption{Diagrama de diagnóstico : 7495-6102}\label{fig:diagramadiag_7495-6102}
+\end{figure}
+
+
 
 \section*{Definiciones}
 \begin{description}[style=nextline]
@@ -424,6 +489,7 @@ Como último proceso se planea la generación de diagramas de diagnóstico los c
   S/N = 10: podemos comenzar a hacer mediciones\\
   S/N = 100: medición excelente.\\
   \item[Archivos .fits] FITS (Flexible Image Transport System) es el formato de datos más utilizado dentro de la astronomía para transportar, analizar y archivar archivos de datos. FITS es mucho más que otro formato de imagen (como como JPG o GIF) y está diseñado principalmente para almacenar conjuntos de datos científicos que consta de matrices multidimensionales (imágenes) y tablas bidimensionales organizados en filas y columnas de información.
+  \item[Diagramas BPT] Los diagramas BPT (llamados así por "Baldwin, Phillips & Telervich") son un conjunto de diagramas de líneas de emisión nebular utilizados para distinguir el mecanismo de ionización del gas nebular. La versión más famosa consiste en [NII]6584/Hα versus [OIII]5007/Hβ \cite{1981PASP...93....5B}.
 \end{description}
 
 \printbibliography

@@ -3088,7 +3088,9 @@
     <bcf:citekey order="16" intorder="1">marvin</bcf:citekey>
     <bcf:citekey order="17" intorder="1">Berry_Starlink</bcf:citekey>
     <bcf:citekey order="18" intorder="1">suzuki2023fwhm</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">weijmans2015manga</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">2006MNRAS.372..961K</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">weijmans2015manga</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">1981PASP...93....5B</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

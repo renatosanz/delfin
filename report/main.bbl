@@ -19,6 +19,53 @@
 
 \refsection{0}
   \datalist[entry]{ynt/apasortcite//global/global/global}
+    \entry{1981PASP...93....5B}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f8ceb041c8abbc15f6a708f7b77b780f}{%
+           family={{Baldwin}},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc3fcb2f8e5d247b12b87cabe9ccb35a}{%
+           family={{Phillips}},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d98690dedac186f0de46799a9861a9f}{%
+           family={{Terlevich}},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{146dcaa58f34ea2661aba43cd505c0cd}
+      \strng{fullhash}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{fullhashraw}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{bibnamehash}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{authorbibnamehash}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{authornamehash}{146dcaa58f34ea2661aba43cd505c0cd}
+      \strng{authorfullhash}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{authorfullhashraw}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\pasp}
+      \field{month}{1}
+      \field{title}{{Classification parameters for the emission-line spectra of extragalactic objects}}
+      \field{volume}{93}
+      \field{year}{1981}
+      \field{pages}{5\bibrangedash 19}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1086/130766
+      \endverb
+    \endentry
     \entry{oke_1995}{article}{}{}
       \name{author}{11}{}{%
         {{un=0,uniquepart=base,hash=71ea8657c35bc588ac12f391b027413c}{%
@@ -202,6 +249,89 @@
       \verb{url}
       \verb https://fcaglp.fcaglp.unlp.edu.ar/~observacional/papers/PDFs/tech-spectroscopy/spec_allington2006newar50.pdf
       \endverb
+    \endentry
+    \entry{2006MNRAS.372..961K}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=4d67b5dbac98150825b63bfe0c4e23aa}{%
+           family={{Kauffmann}},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a605887571ccc40f0d60a9499d63881}{%
+           family={{Heckman}},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=377022f750372c6e83bc48bc14a9e363}{%
+           family={{De Lucia}},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99ff99d3d4347a92a1800ab327522f7c}{%
+           family={{Brinchmann}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69b8ff527cb022a2fbb71388c2865ee8}{%
+           family={{Charlot}},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fba6b4f811c1904d90d5855cf970cf4}{%
+           family={{Tremonti}},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6c6fe2ff35a586cc62a3180c1add3c8}{%
+           family={{White}},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi D.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed36dd6d3cf21bd0bec8c27470e39d23}{%
+           family={{Brinkmann}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b9636c67f938342448a3ccce74db7eb}
+      \strng{fullhash}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{fullhashraw}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{bibnamehash}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{authorbibnamehash}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{authornamehash}{8b9636c67f938342448a3ccce74db7eb}
+      \strng{authorfullhash}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{authorfullhashraw}{c609456223b1315804c4b3e274fbcfd6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{10}
+      \field{title}{{Stellar masses and star formation histories for 10$^{5}$ galaxies from the Sloan Digital Sky Survey}}
+      \field{volume}{372}
+      \field{year}{2006}
+      \field{pages}{961\bibrangedash 987}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2006.10848.x
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0509878
+      \endverb
+      \keyw{galaxies: evolution,galaxies: formation,galaxies: stellar content,galaxies: fundamental parameters,galaxies: statistics}
     \endentry
     \entry{schmoll2006design}{article}{}{}
       \name{author}{3}{}{%
@@ -747,6 +877,53 @@
     \endentry
   \enddatalist
   \datalist[entry]{ynt/global//global/global/global}
+    \entry{1981PASP...93....5B}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f8ceb041c8abbc15f6a708f7b77b780f}{%
+           family={{Baldwin}},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc3fcb2f8e5d247b12b87cabe9ccb35a}{%
+           family={{Phillips}},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d98690dedac186f0de46799a9861a9f}{%
+           family={{Terlevich}},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{146dcaa58f34ea2661aba43cd505c0cd}
+      \strng{fullhash}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{fullhashraw}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{bibnamehash}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{authorbibnamehash}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{authornamehash}{146dcaa58f34ea2661aba43cd505c0cd}
+      \strng{authorfullhash}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \strng{authorfullhashraw}{09af9601d0f0525ebda53f7dd8dabbc5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\pasp}
+      \field{month}{1}
+      \field{title}{{Classification parameters for the emission-line spectra of extragalactic objects}}
+      \field{volume}{93}
+      \field{year}{1981}
+      \field{pages}{5\bibrangedash 19}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1086/130766
+      \endverb
+    \endentry
     \entry{oke_1995}{article}{}{}
       \name{author}{11}{}{%
         {{un=0,uniquepart=base,hash=71ea8657c35bc588ac12f391b027413c}{%
@@ -930,6 +1107,89 @@
       \verb{url}
       \verb https://fcaglp.fcaglp.unlp.edu.ar/~observacional/papers/PDFs/tech-spectroscopy/spec_allington2006newar50.pdf
       \endverb
+    \endentry
+    \entry{2006MNRAS.372..961K}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=4d67b5dbac98150825b63bfe0c4e23aa}{%
+           family={{Kauffmann}},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a605887571ccc40f0d60a9499d63881}{%
+           family={{Heckman}},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=377022f750372c6e83bc48bc14a9e363}{%
+           family={{De Lucia}},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99ff99d3d4347a92a1800ab327522f7c}{%
+           family={{Brinchmann}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69b8ff527cb022a2fbb71388c2865ee8}{%
+           family={{Charlot}},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fba6b4f811c1904d90d5855cf970cf4}{%
+           family={{Tremonti}},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6c6fe2ff35a586cc62a3180c1add3c8}{%
+           family={{White}},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi D.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed36dd6d3cf21bd0bec8c27470e39d23}{%
+           family={{Brinkmann}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b9636c67f938342448a3ccce74db7eb}
+      \strng{fullhash}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{fullhashraw}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{bibnamehash}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{authorbibnamehash}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{authornamehash}{8b9636c67f938342448a3ccce74db7eb}
+      \strng{authorfullhash}{c609456223b1315804c4b3e274fbcfd6}
+      \strng{authorfullhashraw}{c609456223b1315804c4b3e274fbcfd6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{10}
+      \field{title}{{Stellar masses and star formation histories for 10$^{5}$ galaxies from the Sloan Digital Sky Survey}}
+      \field{volume}{372}
+      \field{year}{2006}
+      \field{pages}{961\bibrangedash 987}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2006.10848.x
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0509878
+      \endverb
+      \keyw{galaxies: evolution,galaxies: formation,galaxies: stellar content,galaxies: fundamental parameters,galaxies: statistics}
     \endentry
     \entry{schmoll2006design}{article}{}{}
       \name{author}{3}{}{%

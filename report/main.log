@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.17)  18 JUL 2024 18:40
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.17)  20 JUL 2024 20:22
  restricted system commands enabled.
 **main
 (./main.tex
@@ -3423,19 +3423,30 @@ and I'll forget about whatever was undefined.
 lines/img7495-6102_[OIII]_5007_.png><../Codigos/extractorLineasEmision/imgs/imgs
 7495-6102_lines/img7495-6102_Ha_6564_.png><../Codigos/extractorLineasEmision/img
 s/imgs7495-6102_lines/img7495-6102_[OII]_3727_.png>]
+<./diagrama_ejemplo.png, id=243, 1264.725pt x 846.16125pt>
+File: ./diagrama_ejemplo.png Graphic file (type png)
+<use ./diagrama_ejemplo.png>
+Package luatex.def Info: ./diagrama_ejemplo.png  used on input line 410.
+(luatex.def)             Requested size: 250.14749pt x 167.3571pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--426
-
- []
-
+Missing character: There is no α (U+03B1) in font cmmi9!
+Missing character: There is no α (U+03B1) in font cmmi9!
+<../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png, id=246, 462.528p
+t x 346.896pt>
+File: ../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png Graphic file
+ (type png)
+<use ../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png>
+Package luatex.def Info: ../Codigos/diagramasDeDiagnostico/diagramadiag_7495-61
+02.png  used on input line 469.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.430 
-    
+l.482   \item[FWHM]
+                 La anchura completa a la mitad de la altura (FWHM, por sus ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3445,7 +3456,34 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.430 
+l.482   \item[FWHM]
+                 La anchura completa a la mitad de la altura (FWHM, por sus ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[8<./diagrama_ejemplo.png><../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6
+102.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 487--491
+
+ []
+
+! Misplaced alignment tab character &.
+l.492 ...BPT (llamados así por "Baldwin, Phillips &
+                                                   Telervich") son un conjun...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+<argument> \pasp 
+      
+l.496 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3453,11 +3491,67 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[8]
+! Undefined control sequence.
+<argument> \pasp 
+      
+l.496 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \pasp 
+      
+l.496 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+! Undefined control sequence.
+<argument> \mnras 
+       
+l.496 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \mnras 
+       
+l.496 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \mnras 
+       
+l.496 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \aj 
     
-l.430 
+l.496 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3468,7 +3562,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.430 
+l.496 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3479,22 +3573,20 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.430 
+l.496 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
 
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.431 \end{document}
+l.497 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3505,7 +3597,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.431 \end{document}
+l.497 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3513,9 +3605,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9
-
-] 
+[9] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./main.aux
 LaTeX Info: Redefining \sptext on input line 52.
@@ -3541,14 +3631,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31818 strings out of 475915
- 305340,1977958 words of node,token memory allocated
- 1000 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 12 glue, 4 kern, 1 penalty, 3 glyph, 5
-4 attribute, 89 glue_spec, 29 attribute_list, 1 write, 13 pdf_action nodes
-   avail lists: 1:6,2:6604,3:693,4:1352,5:3809,6:127,7:19969,8:88,9:8323,10:23,1
+ 31945 strings out of 475915
+ 305330,1977958 words of node,token memory allocated
+ 1025 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 13 glue, 4 kern, 1 penalty, 3 glyph, 5
+8 attribute, 89 glue_spec, 31 attribute_list, 1 write, 14 pdf_action nodes
+   avail lists: 1:4,2:6602,3:960,4:1352,5:3810,6:131,7:20102,8:88,9:8323,10:23,1
 1:2513,12:1
- 53641 multiletter control sequences out of 65536+600000
+ 53714 multiletter control sequences out of 65536+600000
  185 fonts using 23246415 bytes
  87i,18n,106p,1530b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/riprtx/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexMono-Regular
@@ -3565,9 +3655,9 @@ blic/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/ams
 fonts/cm/cmr6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/
 cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 >
-Output written on main.pdf (9 pages, 2832908 bytes).
+Output written on main.pdf (9 pages, 2906475 bytes).
 
-PDF statistics: 355 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 131072)
+PDF statistics: 414 PDF objects out of 1000 (max. 8388607)
+ 185 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

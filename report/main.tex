@@ -103,13 +103,11 @@ Un cortador de imágenes se compone generalmente de un conjunto de espejos corta
 
 
 \section*{Visualización y Análisis}
-Si bien se ha avanzado de forma significativa para mejorar nuestros métodos para observar las regiones espaciales, ahora es el momento de analizar dichos datos para obtener un aporte al conocimiento mucho más sofisticado. 
-Hoy en día podremos encontrar distintos software de procesamiento de datos de este tipo para modelos y usos muy específicos. Sin embargo, no podemos decir que existe una herramienta universal que nos dé las herramientas suficientes para manipular datos de cualquier procedencia, con una interfaz intuitiva y gran variedad de opciones para procesar los datos.
+Si bien se ha avanzado significativamente en la mejora de nuestros métodos para observar las regiones espaciales, ahora es el momento de analizar dichos datos para obtener un aporte al conocimiento mucho más sofisticado. Hoy en día, podemos encontrar distintos software de procesamiento de datos de este tipo para modelos y usos muy específicos. Sin embargo, no podemos decir que exista una herramienta universal que nos brinde las herramientas suficientes para manipular datos de cualquier procedencia, con una interfaz intuitiva y una gran variedad de opciones para procesar los datos.
 
 \subsection*{Soluciones existentes}
  \subsubsection*{Marvin}
-Actualmente se encuentra Marvin \cite{marvin}, un conjunto de herramientas que incluye un paquete de Python, una API y una aplicación web, diseñado para trabajar con los datos del proyecto MaNGA de SDSS-IV1.
-Este software esta equipado con datos generales de las galaxias como las coordenadas celestes, la fecha de observacion y una imagen de la galaxia observada, asi como la visualizacion espectral en un spaxel especifico (espectro observado y modelo de ajuste) con la opcion de marcar los componentes quimicos que refleja la espectroscopia. Incluye mapas de propiedades de la galaxia en cuestion, con datos como la velocidad estelar y el flujo de lineas de emisión \textbf{(Fig. 5)}.
+Actualmente se encuentra disponible Marvin \cite{marvin}, un conjunto de herramientas que incluye un paquete de Python, una API y una aplicación web, diseñado para trabajar con los datos del proyecto MaNGA de SDSS-IV. Este software está equipado con datos generales de las galaxias, como las coordenadas celestes, la fecha de observación y una imagen de la galaxia observada, así como la visualización espectral en un spaxel específico (espectro observado y modelo de ajuste) con la opción de marcar los componentes químicos que refleja la espectroscopia. Incluye mapas de propiedades de la galaxia en cuestión, con datos como la velocidad estelar y el flujo de líneas de emisión \textbf{(Fig. 5)}.
 \begin{figure}
 	\centering
   	\includegraphics[width=0.8\linewidth]{interfaceMarvin}
@@ -118,7 +116,7 @@ Este software esta equipado con datos generales de las galaxias como las coorden
 \end{figure}
 
 \subsubsection*{Starlink}
-Tambien contamos con Starlink \cite{Berry_Starlink}, un proyecto de codigo abierto para el procesamiento de datos astronomicos. Este proyecto termino en el 2005, el software sigue en desarrorllo por la \textit{East Asian Observatory}. Una desventaja con este software es el hecho de que las tecnologias que ocupa son muy desactualizadas, dentro de estas tecnologias se encuentran Fortran/C. Toda la referencia e instrucciones para la compilacion del software se encuentra en el documento Starlink SSN/78 y su repositorio de GitHub. Su interfaz al igual que todo el sistema esta implementada en tecnologias obsoletas y dificiles de mantener hoy en dia \textbf{(Fig. 6)}.
+También contamos con Starlink \cite{Berry_Starlink}, un proyecto de código abierto para el procesamiento de datos astronómicos. Aunque este proyecto terminó en 2005, el software sigue en desarrollo por la \textit{East Asian Observatory}. Una desventaja de este software es que las tecnologías que utiliza están muy desactualizadas, como Fortran y C. Toda la referencia e instrucciones para la compilación del software se encuentran en el documento Starlink SSN/78 y en su repositorio de GitHub. Su interfaz, al igual que todo el sistema, está implementada en tecnologías obsoletas y difíciles de mantener hoy en día \textbf{(Fig. 6)}.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\linewidth]{starlinkcap}
@@ -127,15 +125,14 @@ Tambien contamos con Starlink \cite{Berry_Starlink}, un proyecto de codigo abier
 \end{figure}
 
 \section*{Metodologia}
-Una vez claro el marco de referencia en el que nos encontramos se procede a iniciar el proceso de analisis de datos y exploracion de tecnologias a utilizar. Para ello nos dirigiremos en un principio a la pagina web de \href{https://magrathea.sdss.org/marvin/}{Marvin } con el fin de hallar una galaxia que nos resulte interesante para comenzar a analizarla. Por ahora tomaremos la galaxia \verb|manga 7495-6102| y descargaremos su cubo de datos \textbf{lineal}\footnote{Optamos por el cubo de datos lineal ya que el modelo logaritmico requiere de más tecnica para poder manipularse} de la siguiente manera:
+Una vez claro el marco de referencia en el que nos encontramos, se procede a iniciar el proceso de análisis de datos y exploración de tecnologías a utilizar. Para ello, nos dirigiremos en un principio a la página web de \href{https://magrathea.sdss.org/marvin/}{Marvin} con el fin de hallar una galaxia que nos resulte interesante para comenzar a analizarla. Por ahora, tomaremos la galaxia \verb|manga 7495-6102| y descargaremos su cubo de datos \textbf{lineal}\footnote{Optamos por el cubo de datos lineal ya que el modelo logarítmico requiere de más técnica para poder manipularse} de la siguiente manera:
 \begin{enumerate}
     \item En el inicio de la pagina click en el botón \textbf{Go to SkyServer}
     \item El la barra lateral derecha click al enlace \textbf{Explore}
     \item Al final de la pagina click en \textbf{MaNGA observation(s)}
     \item Click en \textbf{LIN Data Cube}
 \end{enumerate}
-Acontinuacion empezara la descarga de nuestro cubo de datos. Este archivo que se descargara sera del tipo \verb|.fits.gz| lo que indica que nuestro archivo esta comprimido pero no sera necesario descomprimirlo para el procesamiento.
-
+A continuación, comenzará la descarga de nuestro cubo de datos. Este archivo que se descargará será del tipo \verb|.fits.gz|, lo que indica que nuestro archivo está comprimido, pero no será necesario descomprimirlo para el procesamiento.
 
 \begin{figure}
     \centering
@@ -145,11 +142,12 @@ Acontinuacion empezara la descarga de nuestro cubo de datos. Este archivo que se
 \end{figure}
  
 \subsection*{Procesamiento con Python}
-Una vez descargado el cubo de datos podremos analizarlo con la ayuda de \textbf{Python}, un lenguaje de programacion interpretado multiplataform ademas de una libreria llamada \textbf{Astropy}, una libreria de python enfocada al analisis y procesamiento astronomico. Ademas de \textbf{numpy} y \textbf{matplotlib} para la graficacion de nuestros datos.
 
-\subsubsection*{Implementación en codigo}
+Una vez descargado el cubo de datos, podremos analizarlo con la ayuda de \textbf{Python}, un lenguaje de programación interpretado multiplataforma, además de una librería llamada \textbf{Astropy}, enfocada en el análisis y procesamiento astronómico. También utilizaremos \textbf{numpy} y \textbf{matplotlib} para la graficación de nuestros datos.
 
-Primero verificaremos cuales son las dimensiones de nuestro cubo de datos.
+\subsubsection*{Implementación en código}
+
+Primero verificaremos cuáles son las dimensiones de nuestro cubo de datos.
 
 \begin{lstlisting}[language=Python]
     from astropy.io import fits
@@ -163,8 +161,7 @@ Primero verificaremos cuales son las dimensiones de nuestro cubo de datos.
     #resultado: (6732, 54, 54)
 \end{lstlisting}
 
-El resultado del codigo anterior indica que tenemos un cubo de datos de 54(espacial) x 54(espacial) = 2916 spaxels. Con una profundida de 6732 espectros. Dando como total 19,630,512 voxels.
-
+El resultado del código anterior indica que tenemos un cubo de datos de 54×5454×54 (espacial) = 2916 spaxels, con una profundidad de 6732 espectros, dando un total de 19,630,512 voxels.
 \begin{lstlisting}[language=Python]
     from astropy.io import fits
     import numpy as np
@@ -202,9 +199,7 @@ El resultado del codigo anterior indica que tenemos un cubo de datos de 54(espac
     \caption{Espectro en (:, 27, 27)}
     \label{fig:espectro1_python}
 \end{figure}
-
-Al ejecutar este codigo se desplegaran 2 ventanas: una grafica de con el espectro del spaxel {\ttfamily(espectro: todos, espacial:27px, espacial:27px)} \textbf{Fig. 8}, una grafica con la imagen de la galaxia en {\ttfamily(espectro: 900, espacial:todos, espacial:todos)} \textbf{Fig. 9}.
-
+Al ejecutar este código se desplegarán dos ventanas: una gráfica con el espectro del spaxel \texttt{(espectro: todos, espacial: 27px, espacial: 27px)} \textbf{(Fig. 8)}, y una gráfica con la imagen de la galaxia en \texttt{(espectro: 900, espacial: todos, espacial: todos)} \textbf{(Fig. 9)}.
 
 \begin{figure}
     \centering
@@ -214,12 +209,14 @@ Al ejecutar este codigo se desplegaran 2 ventanas: una grafica de con el espectr
 \end{figure}
 
 \subsubsection*{Ajuste de longitud de onda en los datos}
-Dado que los datos de los espectros están situados en una longitud de onda específica, no empezando en 0, debemos adjuntar como información del eje x los datos que conforman las longitudes de onda específicas para cada espectro. Estos datos se hallan dentro del mismo archivo .fits en el apartado "WAVE".
+
+Dado que los datos de los espectros están situados en una longitud de onda específica y no comienzan en 0, debemos agregar al eje xx los datos que corresponden a las longitudes de onda específicas para cada espectro. Estos datos se encuentran dentro del mismo archivo .fits en el apartado "WAVE".
 
 \subsubsection*{Ajuste de redshift o corrimiento al rojo}
-Gracias al efecto Doppler, nuestros datos presentan un desfase en las longitudes que nos son presentadas. Por lo tanto, debemos realizar otro ajuste a las longitudes de onda basándonos en la cantidad de corrimiento al rojo. Para ello, recurriremos al DAPall del SDSS, un resumen de tablas finales de los resultados de MaNGA Data Analysis Pipeline (DAP), en el cual se encuentra la cantidad de redshift de nuestra galaxia en base al PLATEIFU.
 
-Para ello se ocupara el siguiente codigo:
+Gracias al efecto Doppler, nuestros datos presentan un desfase en las longitudes de onda que nos son presentadas. Por lo tanto, debemos realizar otro ajuste a las longitudes de onda basándonos en la cantidad de corrimiento al rojo. Para ello, recurriremos al DAPall del SDSS, un resumen de las tablas finales de los resultados del MaNGA Data Analysis Pipeline (DAP), en el cual se encuentra la cantidad de redshift de nuestra galaxia en base al PLATEIFU.
+
+Para ello se utilizará el siguiente código:
 
 \begin{lstlisting}[language=Python]
     from astropy.io import fits
@@ -242,7 +239,7 @@ Para ello se ocupara el siguiente codigo:
     plt.show()
 \end{lstlisting}
 
-Lo que nos da como resultado una gráfica con los dos espectros: espectro observado (azul) y el estado en reposo o rest frame (naranja), ambos ya calibrados en la longitud de onda respectivamente \textbf{Fig. 10}.
+Lo que nos da como resultado una gráfica con los dos espectros: el espectro observado (en azul) y el estado en reposo o rest frame (en naranja), ambos ya calibrados en la longitud de onda respectiva \textbf{Fig. 10}.
 
 \begin{figure}
     \centering
@@ -254,12 +251,12 @@ Lo que nos da como resultado una gráfica con los dos espectros: espectro observ
 Para obtener una manipulación completa de los datos, me he basado en la información de la página del \href{https://data.sdss.org/datamodel/files/MANGA_SPECTRO_DATA/MJD5/sdR.html}{Modelo de Datos del SDSS}, en la que se especifican los apartados de un archivo \verb|.fits|.
 
 \subsubsection*{Resultados}
-Al finalzar este proceso se como resultado logre comprender como es que se observan los objetos celestes usando espectroscopia integral de campo, incluyendo la estructura de un archivo procendete del MaNGA / SDSS. Explore temas de fisica, computación y analisis de datos.  
+Al finalizar este proceso, logré comprender cómo se observan los objetos celestes usando espectroscopía integral de campo, incluyendo la estructura de un archivo proveniente del MaNGA / SDSS. Exploré temas de física, computación y análisis de datos.
 
 \subsection*{Creación de interfaz}
-Con el fin de facilitar el uso de la anterior implementación, me propuse crear un entorno gráfico para esta. Entre varias alternativas que hay en Python, he escogido \href{https://dearpygui.readthedocs.io/en/latest/}{Dearpygui}, ya que es una librería gráfica multiplataforma, dinámica, acelerada por GPU y fácil de usar, un kit de herramientas de interfaz de usuario (GUI) para Python. Ya que en esta ocasión se manejarán grandes volúmenes de datos y requerimos una interfaz de alto rendimiento, cabe mencionar que esta librería también permite hacer gráficas o "plots", así que para el apartado del espectro me tomé la libertad de usar la alternativa de Dearpygui.
+Con el fin de facilitar el uso de la implementación anterior, me propuse crear un entorno gráfico para esta. Entre las varias alternativas disponibles en Python, escogí \href{https://dearpygui.readthedocs.io/en/latest/}{Dearpygui}, ya que es una librería gráfica multiplataforma, dinámica, acelerada por GPU y fácil de usar; un kit de herramientas de interfaz de usuario (GUI) para Python. Dado que en esta ocasión se manejarán grandes volúmenes de datos y requerimos una interfaz de alto rendimiento, cabe mencionar que esta librería también permite crear gráficas o "plots", así que para la sección del espectro me tomé la libertad de usar la alternativa de Dearpygui.
 
-El programa de Visualización creado al que he denomindado \textit{InterVisor} permite abrir un nuevo archivo .fits, .gz o .fitz.gz desde el explorador de archivos con el botón \textbf{Open a new file}. Además de manejar un registro de los archivos abiertos con anterioridad, para ello está el botón \textbf{Recent files}. Para finalizar el programa, está la opción \textbf{Exit} \textbf{(Fig. 11-13)}.
+El programa de visualización creado, al que he denominado InterVisor, permite abrir un nuevo archivo \verb|.fits|, \verb|.gz| o \verb|.fits.gz| desde el explorador de archivos con el botón \textbf{Open a new file}. Además, maneja un registro de los archivos abiertos con anterioridad; para ello está el botón \textbf{Recent files}. Para finalizar el programa, está la opción \textbf{Exit} \textbf{(Fig. 11-13)}.
 
 \begin{figure}
     \centering
@@ -285,27 +282,29 @@ Al abrir algún archivo se procede a la siguiente pantalla en la cual se present
     \label{fig:modes}
 \end{figure}
 
-Actualmente, se cuenta con los siguientes modos de procesamiento:
+Actualmente, se cuentan con los siguientes modos de procesamiento:
 
 \begin{enumerate}
-    \item \textbf{Visor de espectro:} En este apartado se permite escoger el spaxel (i,j) en el rango de longitud de onda en el que se quiere ver el espectro \textbf{(Fig. 15)}.
-    \item \textbf{Extractor de imagen:} Después de ingresar una longitud de onda específica, se muestra la imagen del mapa. También está la opción de aplicar $log_{10}$ y $log_{2}$ \textbf{(Fig. 16)}.
-    \item \textbf{Más información:} Un apartado para observar más datos sobre el archivo .fits \textbf{(Fig. 17)}.
+\item \textbf{Visor de espectro:} En este apartado se permite escoger el spaxel (i, j) y el rango de longitud de onda en el que se desea ver el espectro \textbf{(Fig. 15)}.
+\item \textbf{Extractor de imagen:} Después de ingresar una longitud de onda específica, se muestra la imagen del mapa. También está la opción de aplicar $log_{10}$ y $log_{2}$ \textbf{(Fig. 16)}.
+\item \textbf{Más información:} Un apartado para observar más datos sobre el archivo \verb|.fits| \textbf{(Fig. 17)}.
 \end{enumerate}
 
 \begin{figure}
-    \centering
-    \includegraphics[width=0.8\linewidth]{VIsor_heatmap.png}
-    \includegraphics[width=0.8\linewidth]{spectrum_visor.png}
-    \includegraphics[width=0.8\linewidth]{moreinfo.png}
-    \caption{Opciones de Visualización en el programa con interfaz grafica.}
-    \label{fig:moreinfo}
+\centering
+\includegraphics[width=0.8\linewidth]{VIsor_heatmap.png}
+\includegraphics[width=0.8\linewidth]{spectrum_visor.png}
+\includegraphics[width=0.8\linewidth]{moreinfo.png}
+\caption{Opciones de visualización en el programa con interfaz gráfica.}
+\label{fig
+}
 \end{figure}
 
 \subsubsection*{Resultados}
-Como resultado se obtiene un programa con las operaciones basicas de visualización de archivo .fits correspondientes al MaNGA. Utilizando la libreria de Astropy, Numpy, Dearpygui y otras más. Al igual que la creación de rutinas de visualización consistes y acoplables demás metodos de analisis (visualización de espectros, mapas en una longitud de onda especifica, informacion general del objetos observado). 
+Como resultado, se obtiene un programa con las operaciones básicas de visualización de archivos \verb|.fits| correspondientes al MaNGA. Utiliza las librerías Astropy, Numpy, Dearpygui y otras más. Además, permite la creación de rutinas de visualización consistentes y acoplables a otros métodos de análisis (visualización de espectros, mapas en una longitud de onda específica, información general del objeto observado).
 
 \section*{Observación de Líneas de Emisión}
+
 \subsection*{Lineas de emisión de interés}
 
 \begin{enumerate}
@@ -329,26 +328,26 @@ Como resultado se obtiene un programa con las operaciones basicas de visualizaci
   \item {[ArIII] \textbf{7751} Argón ionizado (doubly ionized)}
 \end{enumerate}
 
-En base a estas lineas de emisión se puede obtener multiples tipos de mapas:
+En base a estas líneas de emisión, se pueden obtener múltiples tipos de mapas:
+
 \begin{itemize}
-  \item{Mapa de intesidad: Area bajo la curva gausiana ajustada a los datos        } 
-  \item{Mapa de cinetica: Movimiento de rotacion de la galaxia                     } 
-  \item{Mapa de temperatura: Diferencias entre los anchos de las lineas de emision } 
-  \item{Estrellas Antiguas: Varianza entre las alturas del continuo                } 
-  \item{Razon Ionica:  [SII] 6717 / [SII] 6731                                     } 
+\item \textbf{Mapa de intensidad:} Área bajo la curva gausiana ajustada a los datos.
+\item \textbf{Mapa cinético:} Movimiento de rotación de la galaxia.
+\item \textbf{Mapa de temperatura:} Diferencias entre los anchos de las líneas de emisión.
+\item \textbf{Estrellas antiguas:} Varianza entre las alturas del continuo.
+\item \textbf{Razón iónica:} [SII]6717/[SII]6731[SII]6717/[SII]6731.
 \end{itemize}
 
-
-\subsection*{Mapa de intesidad}
+\subsection*{Mapa de Intensidad}
 
 \textbf{Aclaraciones}
-Antes de analizar los bloques de datos he decidido realizar las siguientes operaciones con los mismos:
+
+Antes de analizar los bloques de datos, he decidido realizar las siguientes operaciones:
 
 \begin{enumerate}
-  \item Discriminación de bloques de datos fuera del area observada : usando la funcion numpy.all() se detecta si un arreglo de datos esta lleno de ceros y tambien si contiene valores inf no validos para nuestro proceso, en este caso se procede a insertar None en la posición correspondiente en el arreglo bidimensional. \item Posterior a aplicar el redshift o corrimiento al rojo sobre el conjunto de datos de la longitud de onda del espectro se procede a convertir estos datos a valores \textbf{int} para una mejor manipulación de los mismos. 
+\item \textbf{Discriminación de bloques de datos fuera del área observada:} Usando la función \texttt{numpy.all()}, se detecta si un arreglo de datos está lleno de ceros o si contiene valores infinitos no válidos para nuestro proceso. En estos casos, se procede a insertar \texttt{None} en la posición correspondiente en el arreglo bidimensional.
+\item \textbf{Conversión de datos post-redshift:} Tras aplicar el redshift o corrimiento al rojo sobre el conjunto de datos de la longitud de onda del espectro, se procede a convertir estos datos a valores \textbf{int} para una mejor manipulación.
 \end{enumerate}
-
-
 
 Cuando analizamos una linea de emisión debemos de examinar toda la curva de emisión ya que hasta ahora hemos visto y analizado solo un corte en el cubo de datos a lo largo del espectro. Por ejemplo tenemos la linea de emisión de la \textbf{(Fig. 18)} donde podemos apreciar que la formacion de la linea de emisión en el fondo esta formada por un segmento del cubo de datos y no solo por una longitud de onda en especifico.
 
@@ -356,66 +355,67 @@ Cuando analizamos una linea de emisión debemos de examinar toda la curva de emi
 
 para iniciar hay que definir el método y nomenclatura que ocuparemos:
 \subsubsection*{Extracción de datos de la linea de emisión}
+
 \begin{enumerate}
-  \item Definir el margen $m$ usado para extraer el intervalo de datos referente a la linea de emisión $n$ que comprende $flujo[m-m:n+m]$.
-  \item Definir un submargen $p$ lateral para calcular la media del continuo al los costados de la linea de emisión.
-  \item Calcular el FWHM de la linea de emisión, un proceso que nos ofrece un sigma mas acertado para la generacion de una campana gausiana.
-  \item Calcular la gausiana ajustada a los datos de la linea de emisión.
-  \item Integrar el area bajo la curva gausiana (sin el area entre 0 y la media del continuo) y almacenar este dato en una matriz de 2 dimensiones.
-  \item Generación de la imagen con los datos de las lineas de emisión $n$.
+  \item Definir el margen \( m \) usado para extraer el intervalo de datos referente a la línea de emisión \( n \), que comprende \( \text{flujo}[n-m:n+m] \).
+  \item Definir un submargen \( p \) lateral para calcular la media del continuo a los costados de la línea de emisión.
+  \item Calcular el FWHM (Full Width at Half Maximum) de la línea de emisión, lo que proporciona un sigma más preciso para la generación de una campana gaussiana.
+  \item Ajustar una gausiana a los datos de la línea de emisión.
+  \item Integrar el área bajo la curva gaussiana (sin incluir el área entre 0 y la media del continuo) y almacenar este dato en una matriz bidimensional.
+  \item Generar la imagen con los datos de las líneas de emisión \( n \).
 \end{enumerate}
 
-este proceso tiene que realizarse para cada pixel en la imagen del cubo de datos en cada una de las lineas de emisión que nos interesa analizar. De esta manera obtendremos un mapa de lineas de emisión.
-para generar la gausiana utilizamos la siguiente formula:
+Este proceso debe realizarse para cada píxel en la imagen del cubo de datos en cada una de las líneas de emisión que nos interesa analizar. De esta manera, obtendremos un mapa de líneas de emisión. Para generar la gausiana, utilizamos la siguiente fórmula:
 
 $$
 f(x) = a \cdot \exp\left( -\frac{(x - x_0)^2}{2\sigma^2} \right)
 $$
 
-ademas usamos la funcion \textbf{curve fit} de la libreria \textbf{scipy.integrate} para hacer la gausiana con un ajuste a los datos.
-el codigo utilizado se encuentra en mi repositorio de \href{https://github.com/renatosanz/delfin}{GitHub}. 
+Además, usamos la función \textbf{curve\_fit} de la librería \textbf{scipy.optimize} para ajustar la gausiana a los datos. El código utilizado se encuentra en mi repositorio de \href{https://github.com/renatosanz/delfin}{GitHub}.
 
-una vez con el proceso claro para un pixel en especifico en el cubo de datos podemos proceder a automatizar este proceso para cada uno de los pixeles en el cubo. Al igual que almacenar los datos en un arreglo de 2 dimensiones para al final generar una imagen (mapa) de lineas de emisión.
+Una vez claro el proceso para un píxel específico en el cubo de datos, podemos proceder a automatizar este proceso para cada uno de los píxeles en el cubo, y almacenar los datos en un arreglo bidimensional para finalmente generar una imagen (mapa) de líneas de emisión.
 
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{extraccion_linea.png}
-    \caption{Visualización del proceso de extracción de la intesidad de lineas de emisión}
-    \label{fig:extraccion_linea.}
+    \caption{Visualización del proceso de extracción de la intensidad de líneas de emisión.}
+    \label{fig:extraccion_linea}
 \end{figure}
 
-
 \subsubsection*{Resultados}
-Durante el proceso de generacion de estos mapas de lineas de emisión me encontré en la dificultad para \textbf{calcular el FWHM } ya que momento realizar el ajuste de la campana de Gauss me resulto complicada la forma en la que debia de obtener dicho valor, por lo que me informé y al planteado de forma matematica no parecia muy complicado y proseguí, como recurso encontré una explicación muy simple en esta \href{https://www.pulstec.net/what-is-full-width-at-half-maximum/}{pagina } (\cite{suzuki2023fwhm}).
 
-De esta forma obtuve resultados como los siguientes, imagenes con una gran cantidad de pixeles calculados y una barra de medición al costado. Ademas de adjuntar la \textbf{Fig. 18 } en la el area verde representa el valor de la integración de la campana de Gauss, el area naranja representa el area que no debemos tomar en cuenta en este proceso, las barras laterales se interpretan como los submargenes apartir de los cuales se calcula la media del continuo y el intervalo central es la zona en la que se halla la informacion de la linea de emisión.
+Durante el proceso de generación de estos mapas de líneas de emisión, encontré dificultades para \textbf{calcular el FWHM}. En el momento de ajustar la campana de Gauss, me resultó complicada la forma en que debía obtener dicho valor. Después de investigar, encontré una explicación clara en esta \href{https://www.pulstec.net/what-is-full-width-at-half-maximum/}{página} (\cite{suzuki2023fwhm}).
+
+De esta manera, obtuve resultados como los siguientes: imágenes con una gran cantidad de píxeles calculados y una barra de medición al costado. Además, en la \textbf{Fig. 18}, el área verde representa el valor de la integración de la campana de Gauss, el área naranja representa la zona que no debemos tomar en cuenta en este proceso, las barras laterales se interpretan como los submárgenes a partir de los cuales se calcula la media del continuo, y el intervalo central es la zona en la que se halla la información de la línea de emisión.
 
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[OIII]_5007_.png}
     \includegraphics[width=0.8\linewidth]{../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_Ha_6564_.png}
     \includegraphics[width=0.8\linewidth]{../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[OII]_3727_.png}
-    \caption{PLATEIFU : 7495-6102 }
+    \caption{PLATEIFU: 7495-6102}
     \label{fig:moreinfo}
 \end{figure}
 
 \newpage
 
+
 \section*{Proyecto Final}
+
 \subsection*{Diagramas de diagnóstico / BPT}
-Los diagremas de diagnóstico ayudan a distinguir entre estrellas, nucleos activos de galaxias, choques, etc. 
+Los diagramas de diagnóstico ayudan a distinguir entre estrellas, núcleos activos de galaxias, choques, etc.
 
 \begin{figure}
   \begin{center}
     \includegraphics[width=1\linewidth]{./diagrama_ejemplo.png}
   \end{center}
-  \caption{Ejemplo visual de una diagrama de diagnóstico.}\label{fig:diagrama_profe.}
+  \caption{Ejemplo visual de un diagrama de diagnóstico.}
+  \label{fig:diagrama_profe}
 \end{figure}
 
-
-Como último proceso se planea la generación de diagramas de diagnóstico los cuales nos proporcionaran información sobre el objeto observado. Para esto hay que realizar el siguiente proceso:
+Como último proceso, se planea la generación de diagramas de diagnóstico, los cuales proporcionarán información sobre el objeto observado. Para esto, se debe realizar el siguiente proceso:
 \begin{enumerate}
-  \item Una vez ya obtenidas las lineas de emisión y almacenadas en un archivo en un archivo .fits, procedemos con la integración de estos datos \footnote{Con integrar nos referimos a sumar todos los datos que conforman la imagen de la linea de emisión, pasando de una matriz de 2 dimensiones a un solo valor} de las lineas de emisión [NII] 6548,Ha 6564,Hb 4861,[OIII] 5007.
+  \item Una vez obtenidas las líneas de emisión y almacenadas en un archivo \texttt{.fits}, procederemos con la integración de estos datos\footnote{Con integrar nos referimos a sumar todos los datos que conforman la imagen de la línea de emisión, pasando de una matriz bidimensional a un solo valor} de las líneas de emisión [NII] 6548, Ha 6564, Hb 4861, [OIII] 5007.
     \begin{lstlisting}[language=Python]
 def integrar(flujo):
     suma = 0
@@ -439,14 +439,14 @@ integradoHa = integrar(flujoHa)
 integradoOIII = integrar(flujoOIII)
     \end{lstlisting}
     
-  \item En siguida tomamos los datos estos datos y realizamos las operaciones de log10(NII/Ha) y log10(OIII/Hb).
+  \item A continuación, tomamos estos datos y realizamos las operaciones \(\log_{10}(\text{NII}/\text{Ha})\) y \(\log_{10}(\text{OIII}/\text{Hb})\).
     \begin{lstlisting}[language=Python]
 NIIdivHa = integradoNII / integradoHa
 OIIIdivHb = integradoOIII / integradoHb
-Log10NIIdivHa = log10(integradoNII / integradoHa)
-Log10OIIIdivHb = log10(integradoOIII / integradoHb)
+Log10NIIdivHa = np.log10(integradoNII / integradoHa)
+Log10OIIIdivHb = np.log10(integradoOIII / integradoHb)
     \end{lstlisting}
-  \item Para determinar si nuestra galaxia contiene formación estelar usaré las funciones \textbf{(4)} $0.61/[log([NII]/Hα) − 0.05] + 1.3$ (Kauffmann+03 line) y \textbf{(5)} $0.61/[log([N II]/Hα) − 0.47] + 1.19$  (Kewley+01 line) del articulo \cite{2006MNRAS.372..961K}, las cuales graficare sobre el plano al mismo timpo que los datos obtenidos anteriormente.
+  \item Para determinar si nuestra galaxia contiene formación estelar, usaré las funciones \textbf{(4)} \(0.61 / (\log_{10}(\text{NII}/\text{Ha}) - 0.05) + 1.3\) (Kauffmann+03 line) y \textbf{(5)} \(0.61 / (\log_{10}(\text{NII}/\text{Ha}) - 0.47) + 1.19\) (Kewley+01 line) del artículo \cite{2006MNRAS.372..961K}, las cuales graficaré sobre el plano al mismo tiempo que los datos obtenidos anteriormente.
     \begin{lstlisting}[language=Python]
 X = np.linspace(-2, 0.049, 100)
 Y = 0.61 / (X - 0.05) + 1.3
@@ -462,36 +462,36 @@ ax.plot(
     "ro",
 )
     \end{lstlisting}
-
 \end{enumerate}                                                                  
+
 \begin{figure}
   \begin{center}
     \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png}
   \end{center}
-  \caption{Diagrama de diagnóstico : 7495-6102}\label{fig:diagramadiag_7495-6102}
+  \caption{Diagrama de diagnóstico: 7495-6102}
+  \label{fig:diagramadiag_7495-6102}
 \end{figure}
-
-
 
 \section*{Definiciones}
 \begin{description}[style=nextline]
   \item[pixel] Un píxel se refiere a un píxel físico del detector que es leído por una serie de dispositivos electrónicos.
   \item[spaxel] Un spaxel (píxel espacial) se refiere a un elemento espacial de un cubo de datos reconstruido.
   \item[voxel] Un voxel (píxel volumétrico) se refiere a un elemento de volumen (espacial × espacial × espectral) de un cubo de datos. 
-  \item[redshift] El desplazamiento al rojo, como lo dice su nombre, sucede cuando las ondas de luz se estiran por el efecto Doppler y tienden a la region roja del espectro.
-  \item[FWHM]La anchura completa a la mitad de la altura (FWHM, por sus siglas en inglés) es una medida del ancho de una distribución de intensidad en el punto donde la intensidad es máxima. A menudo se utiliza para determinar el ancho de una línea espectral o el rango de longitudes de onda en luz monocromática. 
+  \item[redshift] El desplazamiento al rojo, como lo indica su nombre, ocurre cuando las ondas de luz se estiran debido al efecto Doppler y tienden hacia la región roja del espectro.
+  \item[FWHM] La anchura completa a la mitad de la altura (FWHM, por sus siglas en inglés) es una medida del ancho de una distribución de intensidad en el punto donde la intensidad es máxima. A menudo se utiliza para determinar el ancho de una línea espectral o el rango de longitudes de onda en luz monocromática. 
   \item[pársec] Unidad de medida de distancia utilizada en astronomía, equivalente a aproximadamente 3.26 años luz.
-  \item[SDSS] El \textit{Sloan Digital Sky Survey} es uno de los proyectos de investigación astronómica más grandes jamás emprendidos. Este tiene como objetivo la expansión del conocimiento humano sobre la evolución y estructura del espacio, formación de estrellas y galaxias.
+  \item[SDSS] El \textit{Sloan Digital Sky Survey} es uno de los proyectos de investigación astronómica más grandes jamás emprendidos. Su objetivo es expandir el conocimiento sobre la evolución y estructura del espacio, y la formación de estrellas y galaxias.
   \item[MaNGA] \textit{Mapping Nearby Galaxies at APO} es un estudio espectroscópico de campo integral de galaxias dentro del Sloan Digital Sky Survey de cuarta generación (SDSS-IV) \cite{weijmans2015manga}.
-  \item[Unidad Astronomica / au] La unidad astronómica de distancia es una unidad de longitud que se utiliza en astronomía para las dimensiones típicas del Sistema Solar y se define 1 au como una longitud igual a exactamente 149 597 870 700 metros.
-  \item[S/N] La relación señal-ruido, SNR (Signal/Noise Ratio), S/N, mide qué tan bien se mide un objeto. Valores tipicos:\\
-  S/N = 2-3: objeto apenas detectado\\
-  S/N = 10: podemos comenzar a hacer mediciones\\
-  S/N = 100: medición excelente.\\
-  \item[Archivos .fits] FITS (Flexible Image Transport System) es el formato de datos más utilizado dentro de la astronomía para transportar, analizar y archivar archivos de datos. FITS es mucho más que otro formato de imagen (como como JPG o GIF) y está diseñado principalmente para almacenar conjuntos de datos científicos que consta de matrices multidimensionales (imágenes) y tablas bidimensionales organizados en filas y columnas de información.
-  \item[Diagramas BPT] Los diagramas BPT (llamados así por "Baldwin, Phillips & Telervich") son un conjunto de diagramas de líneas de emisión nebular utilizados para distinguir el mecanismo de ionización del gas nebular. La versión más famosa consiste en [NII]6584/Hα versus [OIII]5007/Hβ \cite{1981PASP...93....5B}.
+  \item[Unidad Astronómica / au] La unidad astronómica de distancia es una unidad de longitud utilizada en astronomía para las dimensiones típicas del Sistema Solar y se define como 1 au igual a exactamente 149,597,870.7 metros.
+  \item[S/N] La relación señal-ruido (SNR, Signal-to-Noise Ratio) mide qué tan bien se mide un objeto. Valores típicos: \\
+  S/N = 2-3: objeto apenas detectado \\
+  S/N = 10: podemos comenzar a hacer mediciones \\
+  S/N = 100: medición excelente. \\
+  \item[Archivos .fits] FITS (Flexible Image Transport System) es el formato de datos más utilizado en astronomía para transportar, analizar y archivar datos. FITS no es solo un formato de imagen (como JPG o GIF), sino que está diseñado principalmente para almacenar conjuntos de datos científicos que constan de matrices multidimensionales (imágenes) y tablas bidimensionales organizadas en filas y columnas de información.
+  \item[Diagramas BPT] Los diagramas BPT (llamados así por "Baldwin, Phillips & Terlevich") son un conjunto de diagramas de líneas de emisión nebular utilizados para distinguir el mecanismo de ionización del gas nebular. La versión más famosa muestra [NII]6584/Hα versus [OIII]5007/Hβ \cite{1981PASP...93....5B}.
 \end{description}
 
 \printbibliography
 
 \end{document}
+

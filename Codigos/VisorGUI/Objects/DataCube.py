@@ -4,9 +4,10 @@ import matplotlib.ticker as ticker
 import matplotlib.pyplot as plt
 
 class DataCube:
-  def __init__(self, filename):
+  def __init__(self, filename,reshift_filepath):
     print("creating : "+filename)
     self.filename = filename 
+    self.reshift_catalog = reshift_filepath
     self.shape =self.getFluxData().shape
     self.plate_ifu = str(self.getHeaderInfo("FLUX","PLATEIFU"))
     self.telescop = str(self.getHeaderInfo("FLUX","TELESCOP"))
@@ -53,7 +54,7 @@ class DataCube:
     return h
     
   def getRedshift(self):
-    hdul_catalog = fits.open("../../datacubes/redshift_catalog/dapall-v3_1_1-3.1.0.fits") #path al catalogo de redshift
+    hdul_catalog = fits.open(self.reshift_catalog) #path al catalogo de redshift
     data_catalog = hdul_catalog[1].data
     ix = np.where(data_catalog["PLATEIFU"]==self.plate_ifu)
     return data_catalog["nsa_z"][ix][0]

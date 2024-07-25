@@ -39,17 +39,17 @@ def integracionPar(flujo1, flujo2):
 
 
 hdul_NII = open(
-    "../extractorLineasEmision/fits/fits7495-6102_lines/fits7495-6102_[NII]_6548_.fits"
+    "../extractorLineasEmision/fits/fits8988-6104_lines/fits8988-6104_[NII]_6548_.fits"
 )
 hdul_Ha = open(
-    "../extractorLineasEmision/fits/fits7495-6102_lines/fits7495-6102_Ha_6564_.fits"
+    "../extractorLineasEmision/fits/fits8988-6104_lines/fits8988-6104_Ha_6564_.fits"
 )
 
 hdul_Hb = open(
-    "../extractorLineasEmision/fits/fits7495-6102_lines/fits7495-6102_Hb_4861_.fits"
+    "../extractorLineasEmision/fits/fits8988-6104_lines/fits8988-6104_Hb_4861_.fits"
 )
 hdul_OIII = open(
-    "../extractorLineasEmision/fits/fits7495-6102_lines/fits7495-6102_[OIII]_5007_.fits"
+    "../extractorLineasEmision/fits/fits8988-6104_lines/fits8988-6104_[OIII]_5007_.fits"
 )
 
 flujoNII = hdul_NII[0].data
@@ -87,7 +87,7 @@ print("log10(OIII/Hb):", Log10OIIIdivHb)
 
 flg = plt.figure()
 ax = flg.add_subplot(111)
-ax.set_title("Diagrama de Diagnostico (log10([NII]/Ha), log10([OIII]/Hb))\n7495-6102")
+ax.set_title("Diagrama de Diagnostico (log10([NII]/Ha), log10([OIII]/Hb))\n8988-6104")
 ax.set_xlabel("log10(NII/Ha)")
 ax.set_ylabel("log10(OIII/Hb)")
 

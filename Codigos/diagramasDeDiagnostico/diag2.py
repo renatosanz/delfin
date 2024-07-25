@@ -73,10 +73,12 @@ def integracionPar(f1, f2, f3, f4):
             try:
                 div1_2aux = log10(datos_f1[i] / datos_f2[i])
                 div3_4aux = log10(datos_f3[i] / datos_f4[i])
+                print(div1_2aux)
+                print(div3_4aux)
                 f1divf2.append(div1_2aux)
                 f3divf4.append(div3_4aux)
             except Exception as e:
-                raise e
+                pass
 
     return f1divf2, f3divf4
 
@@ -121,11 +123,7 @@ X1 = np.linspace(-2, 0.46, 1900)
 Y1 = 0.61 / (X1 - 0.47) + 1.19
 ax.plot(X1, Y1, label="Y1 = 0.61/[X1-0.47]+1.19")
 
-ax.plot(
-    Log10NIIdivHa,
-    Log10OIIIdivHb,
-    "ro",
-)
+ax.plot(Log10NIIdivHa, Log10OIIIdivHb, "ro", markersize=1)
 plt.grid()
 plt.legend()
 plt.show()

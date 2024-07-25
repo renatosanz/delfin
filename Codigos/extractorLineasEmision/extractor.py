@@ -31,7 +31,8 @@ def getClosestValue(array, k):
 
 
 # Cargar los datos del archivo FITS
-nombre = "../../../datacubes/manga-8441-6103-LINCUBE.fits.gz"  # path a el cubo de datos
+plateifu = "7960-3704"
+nombre = f"../../../datacubes/manga-{plateifu}-LINCUBE.fits.gz"  # path a el cubo de datos
 hdu = fits.open(nombre)
 plateifu = hdu["FLUX"].header["plateifu"]
 flujos = hdu["FLUX"].data
@@ -43,7 +44,7 @@ img_w = flujos.shape[2]
 
 # Cargar el catálogo de redshift
 hdul_catalog = fits.open(
-    "../../../datacubes/redshift_catalog/dapall-v3_1_1-3_1_0.fits"
+    "../../../datacubes/redshift_catalog/dapall-v3_1_1-3.1.0.fits"
 )  # path para el catalogo de resdshift
 data_catalog = hdul_catalog[1].data
 ix = np.where(data_catalog["PLATEIFU"] == hdu["FLUX"].header["PLATEIFU"])

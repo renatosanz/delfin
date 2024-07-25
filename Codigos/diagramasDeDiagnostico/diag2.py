@@ -83,18 +83,22 @@ def integracionPar(f1, f2, f3, f4):
     return f1divf2, f3divf4
 
 
+#plateifu = "8988-6104"
+plateifu = "7960-3704"
+#plateifu = "7495-6102"
+
 hdul_NII = open(
-    "../extractorLineasEmision/fits/fits7495-6102_lines/fits7495-6102_[NII]_6548_.fits"
+    f"../extractorLineasEmision/fits/fits{plateifu}_lines/fits{plateifu}_[NII]_6548_.fits"
 )
 hdul_Ha = open(
-    "../extractorLineasEmision/fits/fits7495-6102_lines/fits7495-6102_Ha_6564_.fits"
+    f"../extractorLineasEmision/fits/fits{plateifu}_lines/fits{plateifu}_Ha_6564_.fits"
 )
 
 hdul_Hb = open(
-    "../extractorLineasEmision/fits/fits7495-6102_lines/fits7495-6102_Hb_4861_.fits"
+    f"../extractorLineasEmision/fits/fits{plateifu}_lines/fits{plateifu}_Hb_4861_.fits"
 )
 hdul_OIII = open(
-    "../extractorLineasEmision/fits/fits7495-6102_lines/fits7495-6102_[OIII]_5007_.fits"
+    f"../extractorLineasEmision/fits/fits{plateifu}_lines/fits{plateifu}_[OIII]_5007_.fits"
 )
 
 flujoNII = hdul_NII[0].data
@@ -107,13 +111,11 @@ Log10NIIdivHa, Log10OIIIdivHb = integracionPar(flujoNII, flujoHa, flujoOIII, flu
 flg = plt.figure()
 ax = flg.add_subplot(111)
 ax.set_title(
-    "Diagrama de Diagnostico (log10([NII]/Ha), log10([OIII]/Hb))\nNube de puntos : 7495-6102"
+    f"Diagrama de Diagnostico (log10([NII]/Ha), log10([OIII]/Hb))\nNube de puntos : {plateifu}"
 )
 ax.set_xlabel("log10(NII/Ha)")
 ax.set_ylabel("log10(OIII/Hb)")
 
-ax.set_xlim(-2, 1)  # Establece los límites del eje x
-ax.set_ylim(-2, 1.5)  # Establece los límites del eje y
 
 X = np.linspace(-2, 0.049, 100)
 Y = 0.61 / (X - 0.05) + 1.3
@@ -122,6 +124,9 @@ ax.plot(X, Y, c="k", linestyle="--", label="Y = 0.61/[X-0.05]+1.3")
 X1 = np.linspace(-2, 0.46, 1900)
 Y1 = 0.61 / (X1 - 0.47) + 1.19
 ax.plot(X1, Y1, label="Y1 = 0.61/[X1-0.47]+1.19")
+
+ax.set_xlim(-2, 1)  # Establece los límites del eje x
+ax.set_ylim(-2, 1.5)  # Establece los límites del eje y
 
 ax.plot(Log10NIIdivHa, Log10OIIIdivHb, "ro", markersize=1)
 plt.grid()

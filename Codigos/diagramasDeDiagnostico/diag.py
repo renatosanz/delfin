@@ -54,7 +54,7 @@ hdul_OIII = open(
 )
 """
 
-plateifu = "8441-6103"
+plateifu = "7960-3704"
 #plateifu = "8988-6104"
 #plateifu = "7495-6102"
 

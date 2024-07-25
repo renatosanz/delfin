@@ -1,6 +1,6 @@
 # InterVisor
 
-InterVisor es un conjunto de rutinas de visualizacion, analisis y extraccion de archivos .fits , enfocado en los archivos del MaNGA - Sloan Digital Sky Survey. Permite la generacion de espectros en diferentes lineas de emisión, visualizacion del cubo de datos en un longitud de onda en especifico y la extraccion de datos de lineas de emisión a archivos .fits
+InterVisor es un conjunto de rutinas de visualizacion, analisis y extraccion de archivos .fits , enfocado en los archivos del MaNGA - *Sloan Digital Sky Survey*. Permite la generacion de espectros en diferentes lineas de emisión, visualizacion del cubo de datos en un longitud de onda en especifico y la extraccion de datos de lineas de emisión a archivos .fits
 
 ## Dependencias: 
 

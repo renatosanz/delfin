@@ -31,7 +31,7 @@ def getClosestValue(array, k):
 
 
 # Cargar los datos del archivo FITS
-nombre = "../../../datacubes/manga-8441-6103-LINCUBE.fits.gz"  # path a el cubo de datos
+nombre = "../../../datacubes/manga-7495-6102-LINCUBE.fits.gz" #path a el cubo de datos
 hdu = fits.open(nombre)
 plateifu = hdu["FLUX"].header["plateifu"]
 flujos = hdu["FLUX"].data
@@ -42,9 +42,7 @@ img_h = flujos.shape[1]
 img_w = flujos.shape[2]
 
 # Cargar el catálogo de redshift
-hdul_catalog = fits.open(
-    "../../../datacubes/redshift_catalog/dapall-v3_1_1-3_1_0.fits"
-)  # path para el catalogo de resdshift
+hdul_catalog = fits.open("../../../datacubes/redshift_catalog/dapall-v3_1_1-3_1_0.fits")#path para el catalogo de resdshift
 data_catalog = hdul_catalog[1].data
 ix = np.where(data_catalog["PLATEIFU"] == hdu["FLUX"].header["PLATEIFU"])
 redshift = data_catalog["nsa_z"][ix][0]
@@ -55,11 +53,10 @@ wave = wave.astype(int)
 
 # Líneas de emisión a analizar
 lineas = [
-    {"nombre": "[NII]", "x": 6584},
+    {"nombre": "[OIII]", "x": 5007},
 ]
 
 lineas1 = [
-    {"nombre": "[OIII]", "x": 5007},
     {"nombre": "Ha", "x": 6564},
     {"nombre": "[NII]", "x": 6584},
     {"nombre": "[NII]", "x": 6548},
@@ -75,7 +72,7 @@ margen = 8
 submargen = 4
 
 # Loop sobre las líneas de emisión
-for k in lineas1:
+for k in lineas:
     img = np.zeros((img_h, img_w))
     longOnda = k["x"]
     nom = k["nombre"]
@@ -117,12 +114,7 @@ for k in lineas1:
                 print(leftPoint_wave, rightPoint_wave)
 
                 fwahm = abs(rightPoint_wave[0] - leftPoint_wave[0])
-
-                res = ajuste(wv, sp, max_val, wave[max_element_index], fwahm)
-                integral, _ = quad(
-                    gaussiana, wv[0], wv[-1], args=(res[0], res[1], res[2])
-                )
-                img[i, j] = integral - continuo_avr * int(margen / 3)
+                img[i, j] = fwahm
                 print(f"{i,j} : {img[i,j]} - listo - fwahm : {fwahm}")
             except:
                 img[i, j] = None
@@ -137,6 +129,7 @@ for k in lineas1:
     plt.ylabel("Y")
     if not os.path.exists("./imgs/" + f"imgs{plateifu}_lines"):
         os.makedirs("./imgs/" + f"imgs{plateifu}_lines")
+    '''   
     plt.savefig(
         "./imgs/"
         + f"imgs{plateifu}_lines"
@@ -168,3 +161,5 @@ for k in lineas1:
         + ".fits",
         overwrite=True,
     )
+    '''
+    plt.show()

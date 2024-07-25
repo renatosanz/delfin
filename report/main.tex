@@ -1,4 +1,4 @@
-\documentclass[10pt,twocolumn,a4paper]{opticajnl}
+\documentclass[9pt,twocolumn,a4paper]{opticajnl}
 
 \nonstopmode
 \usepackage[utf8]{inputenc}
@@ -423,7 +423,7 @@ Los diagramas de diagnóstico ayudan a distinguir entre estrellas, núcleos acti
 
 Como último proceso, se planea la generación de diagramas de diagnóstico, los cuales proporcionarán información sobre el objeto observado. Para esto, se debe realizar el siguiente proceso:
 \begin{enumerate}
-  \item Una vez obtenidas las líneas de emisión y almacenadas en un archivo \texttt{.fits}, procederemos con la integración de estos datos\footnote{Con integrar nos referimos a sumar todos los datos que conforman la imagen de la línea de emisión, pasando de una matriz bidimensional a un solo valor} de las líneas de emisión [NII] 6548, Ha 6564, Hb 4861, [OIII] 5007.
+  \item Una vez obtenidas las líneas de emisión y almacenadas en un archivo \texttt{.fits}, procederemos con la integración de estos datos\footnote{Con integrar nos referimos a sumar todos los datos que conforman la imagen de la línea de emisión, pasando de una matriz bidimensional a un solo valor} de las líneas de emisión [NII] 6548, Ha 6564, Hb 4861, [OIII] 5007. Para la integración de la de losdatos creé una función que verifica si la misma locación en ambos flujos contiene datos o no. De ser cierto, se realiza la suma de los datos como se puede observar.
     \begin{lstlisting}[language=Python]
 def integrar(flujo):
     suma = 0
@@ -470,7 +470,14 @@ ax.plot(
     "ro",
 )
     \end{lstlisting}
-\end{enumerate}                                                                  
+\end{enumerate} 
+
+Este proceso lo he repetido con los cubos de datos manga-8456-6101, manga-8988-6104 y 
+
+\subsection*{}
+
+% subsection  (end)
+
 
 \begin{figure}
   \begin{center}

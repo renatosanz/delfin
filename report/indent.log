@@ -1,0 +1,31 @@
+INFO:  latexindent.pl version 3.24.4, 2024-07-18, a script to indent .tex files
+       latexindent.pl lives here: /home/renato/.miktex/texmfs/install/scripts/latexindent/
+       Sat Jul 27 16:26:24 2024
+       Filename: /home/renato/Documents/proyecto delfin/report/main.tex
+INFO:  Processing switches:
+INFO:  Directory for backup files and log file indent.log:
+       /home/renato/Documents/proyecto delfin/report
+INFO:  Perl modules are being loaded from the following directories:
+       /usr/share/perl/5.30/FindBin.pm
+       /usr/share/perl5/YAML/Tiny.pm
+       /usr/share/perl/5.30/File/Copy.pm
+       /usr/share/perl/5.30/File/Basename.pm
+       /usr/share/perl/5.30/Getopt/Long.pm
+       /usr/share/perl5/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       /home/renato/.miktex/texmfs/install/scripts/latexindent/LatexIndent/Document.pm
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from /home/renato/.miktex/texmfs/install/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML reading settings
+       Home directory is /home/renato
+       latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
+       see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Not outputting to file; see -w and -o switches for more options.
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

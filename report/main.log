@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.25)  25 JUL 2024 11:05
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.7.25)  27 JUL 2024 18:07
  restricted system commands enabled.
 **main
 (./main.tex
@@ -43,8 +43,8 @@ Inserting `tracingstacklevels' in `input_level_string'. (./opticajnl.cls
 Document Class: opticajnl 2023/03/03, v1.01
 (/home/renato/.miktex/texmfs/install/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/home/renato/.miktex/texmfs/install/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/home/renato/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /home/renato/.miktex/texmfs/da
 ta/luatex-cache/generic/names/luaotfload-names.luc.gz)
 (/home/renato/.miktex/texmfs/install/tex/latex/base/exscale.sty
@@ -538,7 +538,7 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 111.
+(Font)              scaled to size 9.49997pt on input line 111.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 111.
  (./jabbrv.sty
@@ -2327,7 +2327,7 @@ tn;language=dflt;+tlig;+liga;"
 LaTeX Info: Redefining \textsl on input line 585.
 LaTeX Info: Redefining \slshape on input line 586.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
  (/home/renato/.miktex/texmfs/install/tex/latex/listings/listings.sty
 \lst@mode=\count355
 \lst@gtempboxa=\box61
@@ -2714,47 +2714,53 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count499
 \@quotereset=\count500
 (./main.aux
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 Package babel Info: No hyphenation patterns were set for
-(babel)             language 'spanish'. Reported on input line 43.
+(babel)             language 'spanish'. Reported on input line 37.
 
 
 LaTeX Warning: Label `fig:interfacemarvin' multiply defined.
 
+
+LaTeX Warning: Label `fig:recent_files' multiply defined.
+
+
+LaTeX Warning: Label `fig:recent_files' multiply defined.
+
 )
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-0.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+2.
  (/home/renato/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
 Package babel Info: No hyphenation patterns were set for
-(babel)             language 'spanish'. Reported on input line 60.
-Package hyperref Info: Link coloring ON on input line 60.
+(babel)             language 'spanish'. Reported on input line 52.
+Package hyperref Info: Link coloring ON on input line 52.
  (./main.out)
 (./main.out)
 \@outlinefile=\write5
@@ -2800,12 +2806,12 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \topmargin=-51.26999pt
 * \headheight=15.0pt
 * \headsep=10.0pt
-* \topskip=9.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=24.0pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -2817,7 +2823,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Option `justification=RaggedRight' requires the `ragged2e
-' package on input line 60.
+' package on input line 52.
 (/home/renato/.miktex/texmfs/install/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip100
@@ -2842,7 +2848,7 @@ Package newfloat Info: Trying Plan B...
 ! Undefined control sequence.
 <argument> \journalref 
             
-l.60 \begin{document}
+l.52 \begin{document}
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2853,7 +2859,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \journalref 
             
-l.60 \begin{document}
+l.52 \begin{document}
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2864,7 +2870,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \journalref 
             
-l.60 \begin{document}
+l.52 \begin{document}
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2872,19 +2878,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Info: Redefining \microtypecontext on input line 60.
-Package microtype Info: Applying patch `item' on input line 60.
-Package microtype Info: Applying patch `toc' on input line 60.
-Package microtype Info: Applying patch `eqnum' on input line 60.
-Package microtype Info: Applying patch `footnote' on input line 60.
-Package microtype Info: Applying patch `verbatim' on input line 60.
+LaTeX Info: Redefining \microtypecontext on input line 52.
+Package microtype Info: Applying patch `item' on input line 52.
+Package microtype Info: Applying patch `toc' on input line 52.
+Package microtype Info: Applying patch `eqnum' on input line 52.
+Package microtype Info: Applying patch `footnote' on input line 52.
+Package microtype Info: Applying patch `verbatim' on input line 52.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 60.
+LaTeX Info: Redefining \showhyphens on input line 52.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -2899,66 +2905,66 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 60.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 60.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 60.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 60.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 60.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 60.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 60.
-LaTeX Font Info:    Redeclaring math accent \check on input line 60.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 60.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 60.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 60.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 60.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 52.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 52.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 52.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 52.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 52.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 52.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 52.
+LaTeX Font Info:    Redeclaring math accent \check on input line 52.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 52.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 52.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 52.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 52.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 60.
+(Font)              `operators' in the math version `normal' on input line 52.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/IBMPlexSerif(0)/m/n on input line 60
+(Font)                  OT1/cmr/m/n --> TU/IBMPlexSerif(0)/m/n on input line 52
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 60.
+(Font)              `operators' in the math version `bold' on input line 52.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/IBMPlexSerif(0)/m/n on input line 6
-0.
+(Font)                  OT1/cmr/bx/n --> TU/IBMPlexSerif(0)/m/n on input line 5
+2.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/IBMPlexSerif(0)/m/n --> TU/IBMPlexSerif(0)/m/n on in
-put line 60.
+put line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/IBMPlexSerif(0)/m/it on input line 
-60.
+52.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/IBMPlexSerif(0)/b/n on input line 6
-0.
+(Font)                  OT1/cmr/bx/n --> TU/IBMPlexSerif(0)/b/n on input line 5
+2.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/IBMPlexSans(0)/m/n on input line 60
+(Font)                  OT1/cmss/m/n --> TU/IBMPlexSans(0)/m/n on input line 52
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono(0)/m/n on input line 60
+(Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono(0)/m/n on input line 52
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/IBMPlexSerif(0)/m/n --> TU/IBMPlexSerif(0)/b/n on in
-put line 60.
+put line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/IBMPlexSerif(0)/b/it on input line
- 60.
+ 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/IBMPlexSans(0)/b/n on input line 6
-0.
+(Font)                  OT1/cmss/bx/n --> TU/IBMPlexSans(0)/b/n on input line 5
+2.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono(0)/b/n on input line 60
+(Font)                  OT1/cmtt/m/n --> TU/IBMPlexMono(0)/b/n on input line 52
 .
 \c@lstlisting=\count507
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
@@ -2987,8 +2993,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 52.
+Package biblatex Info: Reference segment=0 on input line 52.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `IBMPlexSans' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2996,9 +3002,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `TU/IBMPlexSans(0)/b/sc' undefined
-(Font)              using `TU/IBMPlexSans(0)/b/n' instead on input line 61.
+(Font)              using `TU/IBMPlexSans(0)/b/n' instead on input line 53.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+
+Underfull \hbox (badness 3396) in paragraph at lines 55--56
+\TU/IBMPlexSerif(0)/m/n/10 tecnológica para observarlo. Pasando por etapas
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
 
 (/home/renato/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -3006,7 +3017,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/home/renato/.miktex/texmfs/install/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
 
 
 (/home/renato/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -3019,31 +3030,39 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[]\TU/IBMPlexSerif(0)/m/n/9 Más recientemente, los CCD revolucionaron las
+Underfull \hbox (badness 4792) in paragraph at lines 57--58
+\TU/IBMPlexSerif(0)/m/n/10 Luna. Cinco años más tarde, Foucault y Fizeau
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 67--68
-\TU/IBMPlexSerif(0)/m/n/9 observaciones astronómicas con una captura de entre
+Underfull \hbox (badness 1127) in paragraph at lines 59--60
+[]\TU/IBMPlexSerif(0)/m/n/10 Más recientemente, los CCD revolucionaron las
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 67--68
-\TU/IBMPlexSerif(0)/m/n/9 el 90$ $% y el 95$ $% de la luz que llega a ellos, ade
-más
+Underfull \hbox (badness 2126) in paragraph at lines 59--60
+[]\TU/IBMPlexSerif(0)/m/n/10 Observatory, [][]s.f.[][] A estos avances se incorp
+ora el
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 67--68
-\TU/IBMPlexSerif(0)/m/n/9 de permitir la distribución de las fotografías obten
-idas
+Underfull \hbox (badness 2809) in paragraph at lines 59--60
+\TU/IBMPlexSerif(0)/m/n/10 análisis del espectro electromagnético (ondas de
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 69--70
-\TU/IBMPlexSerif(0)/m/n/9 parte del campo de visión. Estas fibras se encuentran
+Underfull \hbox (badness 2809) in paragraph at lines 61--62
+[]\TU/IBMPlexSerif(0)/m/n/10 En la búsqueda de métodos que combinen lo
+ []
 
+
+Underfull \hbox (badness 1048) in paragraph at lines 61--62
+\TU/IBMPlexSerif(0)/m/n/10 propuesto diversas técnicas. Entre ellas, destacan
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 61--62
+\TU/IBMPlexSerif(0)/m/n/10 de visión. Estas fibras se encuentran en el plano
  []
 
 
@@ -3051,41 +3070,14 @@ Underfull \hbox (badness 1590) in paragraph at lines 69--70
 <ifus.jpg, id=12, 481.8pt x 301.125pt>
 File: ifus.jpg Graphic file (type jpg)
 <use ifus.jpg>
-Package luatex.def Info: ifus.jpg  used on input line 73.
+Package luatex.def Info: ifus.jpg  used on input line 65.
 (luatex.def)             Requested size: 200.11874pt x 125.07022pt.
-
-Underfull \hbox (badness 2245) in paragraph at lines 81--82
-\TU/IBMPlexSerif(0)/m/n/9 de Campo o IFU (Integral Field Units), los cuales son
- []
-
-
-Underfull \hbox (badness 3333) in paragraph at lines 81--82
-\TU/IBMPlexSerif(0)/m/n/9 ampliamente utilizados para estudiar objetos de gran
- []
-
-<lensletsimg1.png, id=15, 736.7525pt x 739.76375pt>
-File: lensletsimg1.png Graphic file (type png)
-<use lensletsimg1.png>
-Package luatex.def Info: lensletsimg1.png  used on input line 88.
-(luatex.def)             Requested size: 200.11874pt x 200.9354pt.
-
-Underfull \hbox (badness 1320) in paragraph at lines 85--92
-[]\TU/IBMPlexSerif(0)/m/n/9 Utiliza imágenes de pupila para distribuir espectro
-s
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 85--92
-\TU/IBMPlexSerif(0)/m/n/9 cortos. La magnificación y espacio entre espectros es
-
- []
-
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.92 
+l.72 
    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3096,7 +3088,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.92 
+l.72 
    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3108,37 +3100,56 @@ and I'll forget about whatever was undefined.
 
 
 <./ifus.jpg>]
-<fibrefeed.png, id=43, 599.23875pt x 279.0425pt>
+Underfull \hbox (badness 6708) in paragraph at lines 73--74
+[]\TU/IBMPlexSerif(0)/m/n/10 En este proceso se encuentran las Unidades
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 73--74
+\TU/IBMPlexSerif(0)/m/n/10 Integrales de Campo o IFU (Integral Field Units),
+ []
+
+<lensletsimg1.png, id=37, 736.7525pt x 739.76375pt>
+File: lensletsimg1.png Graphic file (type png)
+<use lensletsimg1.png>
+Package luatex.def Info: lensletsimg1.png  used on input line 80.
+(luatex.def)             Requested size: 200.11874pt x 200.9354pt.
+
+Underfull \hbox (badness 2980) in paragraph at lines 86--86
+[][][]\TU/IBMPlexSerif(0)/m/n/8 Los arreglos de microlentes son necesarios para las IFU
+ []
+
+<fibrefeed.png, id=42, 599.23875pt x 279.0425pt>
 File: fibrefeed.png Graphic file (type png)
 <use fibrefeed.png>
-Package luatex.def Info: fibrefeed.png  used on input line 97.
+Package luatex.def Info: fibrefeed.png  used on input line 89.
 (luatex.def)             Requested size: 200.11874pt x 93.18709pt.
-<slicerimg1.png, id=46, 910.40125pt x 789.95125pt>
+<slicerimg1.png, id=45, 910.40125pt x 789.95125pt>
 File: slicerimg1.png Graphic file (type png)
 <use slicerimg1.png>
-Package luatex.def Info: slicerimg1.png  used on input line 107.
+Package luatex.def Info: slicerimg1.png  used on input line 99.
 (luatex.def)             Requested size: 250.14749pt x 217.05043pt.
 
-Underfull \vbox (badness 1708) has occurred while \output is active []
+Underfull \vbox (badness 1087) has occurred while \output is active []
 
 
 
-<interfaceMarvin.png, id=49, 1431.09656pt x 746.79pt>
-File: interfaceMarvin.png Graphic file (type png)
-<use interfaceMarvin.png>
-Package luatex.def Info: interfaceMarvin.png  used on input line 121.
-(luatex.def)             Requested size: 200.11874pt x 104.42453pt.
-<starlinkcap.png, id=51, 685.05937pt x 513.41812pt>
-File: starlinkcap.png Graphic file (type png)
-<use starlinkcap.png>
-Package luatex.def Info: starlinkcap.png  used on input line 130.
-(luatex.def)             Requested size: 200.11874pt x 149.97638pt.
+
+Underfull \hbox (badness 2856) in paragraph at lines 106--107
+\TU/IBMPlexSerif(0)/m/n/10 más sofisticado. Hoy en día, podemos encontrar
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 106--107
+\TU/IBMPlexSerif(0)/m/n/10 no podemos decir que exista una herramienta
+ []
+
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.134 
+l.107 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3149,7 +3160,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.134 
+l.107 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3158,49 +3169,68 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [2<./lensletsimg1.png><./fibrefeed.png><./slicerimg1.png>]
+<interfaceMarvin.png, id=64, 1431.09656pt x 746.79pt>
+File: interfaceMarvin.png Graphic file (type png)
+<use interfaceMarvin.png>
+Package luatex.def Info: interfaceMarvin.png  used on input line 113.
+(luatex.def)             Requested size: 200.11874pt x 104.42453pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--117
+[]\TU/IBMPlexSerif(0)/m/n/10 Actualmente se encuentra disponible Marvin
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 110--117
+\TU/IBMPlexSerif(0)/m/n/10 las coordenadas celestes, la fecha de observación
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 110--117
+\TU/IBMPlexSerif(0)/m/n/10 y una imagen de la galaxia observada, así como
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 110--117
+\TU/IBMPlexSerif(0)/m/n/10 la visualización espectral en un spaxel específico
+ []
+
+<starlinkcap.png, id=66, 685.05937pt x 513.41812pt>
+File: starlinkcap.png Graphic file (type png)
+<use starlinkcap.png>
+Package luatex.def Info: starlinkcap.png  used on input line 122.
+(luatex.def)             Requested size: 200.11874pt x 149.97638pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `IBMPlexMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1087) in paragraph at lines 136--138
-[]\TU/IBMPlexSerif(0)/m/n/9 Una vez claro el marco de referencia en el que nos
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[]\TU/IBMPlexSerif(0)/m/n/10 Al final de la pagina click en \TU/IBMPlexSerif(0)
+/b/n/10 MaNGA
  []
 
-
-Underfull \hbox (badness 2903) in paragraph at lines 136--138
-\TU/IBMPlexSerif(0)/m/n/9 para comenzar a analizarla. Por ahora, tomaremos la
- []
-
-<manga-7495-6102.png, id=72, 440.64626pt x 429.605pt>
+<manga-7495-6102.png, id=69, 440.64626pt x 429.605pt>
 File: manga-7495-6102.png Graphic file (type png)
 <use manga-7495-6102.png>
-Package luatex.def Info: manga-7495-6102.png  used on input line 147.
+Package luatex.def Info: manga-7495-6102.png  used on input line 139.
 (luatex.def)             Requested size: 200.11874pt x 195.10349pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]\TU/IBMPlexSans(0)/b/n/9 Fig. 7. |\TU/IBMPlexSerif(0)/m/n/9 Galaxia 7495-6102 - MaNGA - 
+Underfull \hbox (badness 5756) in paragraph at lines 140--140
+[]\TU/IBMPlexSans(0)/b/n/10 Fig. 7. |\TU/IBMPlexSerif(0)/m/n/10 Galaxia 7495-610
+2 - MaNGA - 
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 154--155
-\TU/IBMPlexSerif(0)/m/n/9 con la ayuda de \TU/IBMPlexSerif(0)/b/n/9 Python\TU/I
-BMPlexSerif(0)/m/n/9 , un lenguaje de programación
+Underfull \hbox (badness 2318) in paragraph at lines 146--147
+\TU/IBMPlexSerif(0)/m/n/10 de una librería llamada \TU/IBMPlexSerif(0)/b/n/10 
+Astropy\TU/IBMPlexSerif(0)/m/n/10 , enfocada en el
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 154--155
-\TU/IBMPlexSerif(0)/m/n/9 interpretado multiplataforma, además de una librer
-ía
- []
-
-
-
-(/home/renato/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/05/25 1.10b listings language file
-)
-Overfull \hbox (8.89255pt too wide) in paragraph at lines 191--192
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+\TU/IBMPlexSerif(0)/m/n/10 análisis y procesamiento astronómico. También
  []
 
 
@@ -3208,8 +3238,8 @@ Overfull \hbox (8.89255pt too wide) in paragraph at lines 191--192
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.193     ax.
-           set_ylabel("Flujo [10-17 erg/cm2/s/Å]")
+l.147 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3219,8 +3249,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.193     ax.
-           set_ylabel("Flujo [10-17 erg/cm2/s/Å]")
+l.147 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3228,60 +3258,43 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [3<./interfaceMarvin.png><./starlinkcap.png><./manga-7495-6102.png>]
-<espectro1_python.png, id=118, 462.528pt x 346.896pt>
-File: espectro1_python.png Graphic file (type png)
-<use espectro1_python.png>
-Package luatex.def Info: espectro1_python.png  used on input line 206.
-(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-\TU/IBMPlexMono(0)/m/n/9 espacial: 27px, espacial: 27px) \TU/IBMPlexSerif(0)/b/
-n/9 (Fig. 8)\TU/IBMPlexSerif(0)/m/n/9 , y una
- []
-
-<imagen1_python.png, id=119, 462.528pt x 346.896pt>
-File: imagen1_python.png Graphic file (type png)
-<use imagen1_python.png>
-Package luatex.def Info: imagen1_python.png  used on input line 214.
-(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
-
-Underfull \hbox (badness 1005) in paragraph at lines 221--222
-\TU/IBMPlexSerif(0)/m/n/9 de onda específicas para cada espectro. Estos datos 
-se
+Underfull \hbox (badness 1728) in paragraph at lines 164--165
+\TU/IBMPlexSerif(0)/m/n/10 spaxels, con una profundidad de 6732 espectros,
  []
 
 
-
-
-Overfull \hbox (4.09254pt too wide) in paragraph at lines 237--238
+Overfull \hbox (8.89255pt too wide) in paragraph at lines 183--184
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-<redshift_ajuste.png, id=120, 462.528pt x 346.896pt>
-File: redshift_ajuste.png Graphic file (type png)
-<use redshift_ajuste.png>
-Package luatex.def Info: redshift_ajuste.png  used on input line 254.
+<espectro1_python.png, id=89, 462.528pt x 346.896pt>
+File: espectro1_python.png Graphic file (type png)
+<use espectro1_python.png>
+Package luatex.def Info: espectro1_python.png  used on input line 198.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
-Underfull \hbox (badness 1033) in paragraph at lines 262--263
-[]\TU/IBMPlexSerif(0)/m/n/9 Al finalizar este proceso, logré comprender cómo 
-se
+Underfull \hbox (badness 1603) in paragraph at lines 202--203
+\TU/IBMPlexSerif(0)/b/n/10 8)\TU/IBMPlexSerif(0)/m/n/10 , y una gráfica con la imagen de la galaxia en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-\TU/IBMPlexSerif(0)/m/n/9 observan los objetos celestes usando espectroscopía
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+\TU/IBMPlexMono(0)/m/n/10 (espectro: 900, espacial: todos, espacial:
  []
 
 
-Underfull \vbox (badness 1527) has occurred while \output is active []
 
+<imagen1_python.png, id=90, 462.528pt x 346.896pt>
+File: imagen1_python.png Graphic file (type png)
+<use imagen1_python.png>
+Package luatex.def Info: imagen1_python.png  used on input line 206.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.263 
+l.218 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3292,7 +3305,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.263 
+l.218 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3300,65 +3313,90 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[4<./espectro1_python.png><./imagen1_python.png><./redshift_ajuste.png>]
-Underfull \hbox (badness 2150) in paragraph at lines 265--266
-[]\TU/IBMPlexSerif(0)/m/n/9 Con el fin de facilitar el uso de la implementaci
-ón
+[4<./espectro1_python.png><./imagen1_python.png>]
+Overfull \hbox (4.09254pt too wide) in paragraph at lines 229--230
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+<redshift_ajuste.png, id=138, 462.528pt x 346.896pt>
+File: redshift_ajuste.png Graphic file (type png)
+<use redshift_ajuste.png>
+Package luatex.def Info: redshift_ajuste.png  used on input line 246.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
+
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 257--258
+\TU/IBMPlexSerif(0)/m/n/10 esta. Entre las varias alternativas disponibles en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
-[]\TU/IBMPlexSerif(0)/m/n/9 El programa de visualización creado, al que he
+Underfull \hbox (badness 1810) in paragraph at lines 257--258
+\TU/IBMPlexSerif(0)/m/n/10 Python, escogí [][]Dearpygui[][], ya que es una libr
+ería
  []
 
-<menuprincipal1.png, id=164, 833.1125pt x 480.79625pt>
+
+Underfull \hbox (badness 6110) in paragraph at lines 259--260
+\TU/IBMPlexSerif(0)/m/n/10 denominado InterVisor, permite abrir un nuevo
+ []
+
+<menuprincipal1.png, id=141, 833.1125pt x 480.79625pt>
 File: menuprincipal1.png Graphic file (type png)
 <use menuprincipal1.png>
-Package luatex.def Info: menuprincipal1.png  used on input line 271.
+Package luatex.def Info: menuprincipal1.png  used on input line 263.
 (luatex.def)             Requested size: 250.14749pt x 144.35736pt.
-<file_explorer_visor.png, id=165, 510.90875pt x 420.57124pt>
+<file_explorer_visor.png, id=142, 510.90875pt x 420.57124pt>
 File: file_explorer_visor.png Graphic file (type png)
 <use file_explorer_visor.png>
-Package luatex.def Info: file_explorer_visor.png  used on input line 278.
+Package luatex.def Info: file_explorer_visor.png  used on input line 270.
 (luatex.def)             Requested size: 250.14749pt x 205.91486pt.
-<recent_files.png, id=166, 607.26875pt x 406.51875pt>
+<recent_files.png, id=143, 607.26875pt x 406.51875pt>
 File: recent_files.png Graphic file (type png)
 <use recent_files.png>
-Package luatex.def Info: recent_files.png  used on input line 279.
+Package luatex.def Info: recent_files.png  used on input line 271.
 (luatex.def)             Requested size: 250.14749pt x 167.44913pt.
-<modes.png, id=167, 553.06625pt x 306.14375pt>
+<modes.png, id=144, 553.06625pt x 306.14375pt>
 File: modes.png Graphic file (type png)
 <use modes.png>
-Package luatex.def Info: modes.png  used on input line 288.
+Package luatex.def Info: modes.png  used on input line 280.
 (luatex.def)             Requested size: 250.14749pt x 138.46411pt.
-<VIsor_heatmap.png, id=168, 501.875pt x 605.26125pt>
+<VIsor_heatmap.png, id=145, 501.875pt x 605.26125pt>
 File: VIsor_heatmap.png Graphic file (type png)
 <use VIsor_heatmap.png>
-Package luatex.def Info: VIsor_heatmap.png  used on input line 303.
+Package luatex.def Info: VIsor_heatmap.png  used on input line 295.
 (luatex.def)             Requested size: 200.11874pt x 241.34288pt.
-<spectrum_visor.png, id=169, 599.23875pt x 800.9925pt>
+<spectrum_visor.png, id=146, 599.23875pt x 800.9925pt>
 File: spectrum_visor.png Graphic file (type png)
 <use spectrum_visor.png>
-Package luatex.def Info: spectrum_visor.png  used on input line 304.
+Package luatex.def Info: spectrum_visor.png  used on input line 296.
 (luatex.def)             Requested size: 200.11874pt x 267.49387pt.
-<moreinfo.png, id=170, 500.87125pt x 301.125pt>
+<moreinfo.png, id=147, 500.87125pt x 301.125pt>
 File: moreinfo.png Graphic file (type png)
 <use moreinfo.png>
-Package luatex.def Info: moreinfo.png  used on input line 305.
+Package luatex.def Info: moreinfo.png  used on input line 297.
 (luatex.def)             Requested size: 200.11874pt x 120.31001pt.
 
-Underfull \hbox (badness 7888) in paragraph at lines 312--313
-[]\TU/IBMPlexSerif(0)/m/n/9 Como resultado, se obtiene un programa con las
+Underfull \hbox (badness 2221) in paragraph at lines 304--305
+\TU/IBMPlexSerif(0)/m/n/10 operaciones básicas de visualización de archivos
  []
 
 
+Underfull \hbox (badness 1502) in paragraph at lines 304--305
+\TU/IBMPlexSerif(0)/m/n/10 Astropy, Numpy, Dearpygui y otras más. Además,
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 304--305
+\TU/IBMPlexSerif(0)/m/n/10 permite la creación de rutinas de visualización
+ []
 
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.313 
+l.305 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3369,7 +3407,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.313 
+l.305 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3377,38 +3415,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[5<./menuprincipal1.png><./file_explorer_visor.png><./recent_files.png><./modes.
-png>]
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 342--343
-[]\TU/IBMPlexSerif(0)/b/n/9 Mapa de intensidad: \TU/IBMPlexSerif(0)/m/n/9 Área bajo la curva gausiana
- []
-
-
-Underfull \hbox (badness 3919) in paragraph at lines 345--346
-[]\TU/IBMPlexSerif(0)/b/n/9 Estrellas antiguas: \TU/IBMPlexSerif(0)/m/n/9 Varian
-za entre las alturas del
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 357--358
-[]\TU/IBMPlexSerif(0)/b/n/9 Conversión de datos post-redshift: \TU/IBMPlexSeri
-f(0)/m/n/9 Tras aplicar el
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 357--358
-\TU/IBMPlexSerif(0)/m/n/9 redshift o corrimiento al rojo sobre el conjunto de
- []
+[5<./redshift_ajuste.png><./menuprincipal1.png>]
 
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.358 \end{enumerate}
-                   
+l.305 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3418,102 +3433,111 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.358 \end{enumerate}
-                   
+l.305 
+    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[6<./VIsor_heatmap.png><./spectrum_visor.png><./moreinfo.png>]
-Underfull \hbox (badness 2443) in paragraph at lines 382--383
-[]\TU/IBMPlexSerif(0)/m/n/9 Además, usamos la función \TU/IBMPlexSerif(0)/b/n
-/9 curve_fit \TU/IBMPlexSerif(0)/m/n/9 de la librería
+[6<./file_explorer_visor.png><./recent_files.png><./modes.png><./VIsor_heatmap.p
+ng><./spectrum_visor.png><./moreinfo.png>]
+Underfull \hbox (badness 1231) in paragraph at lines 335--336
+[]\TU/IBMPlexSerif(0)/b/n/10 Mapa cinético: \TU/IBMPlexSerif(0)/m/n/10 Movimien
+to de rotación de la
  []
 
-<extraccion_linea.png, id=215, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 2894) in paragraph at lines 336--337
+[]\TU/IBMPlexSerif(0)/b/n/10 Mapa de temperatura: \TU/IBMPlexSerif(0)/m/n/10 Dif
+erencias entre los
+ []
+
+
+Overfull \hbox (9.81944pt too wide) in paragraph at lines 338--339
+[]\TU/IBMPlexSerif(0)/b/n/10 Razón iónica: \TU/IBMPlexSerif(0)/m/n/10 [SII]671
+7/[SII]6731[SII]6717/[SII]6731. 
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+[]\TU/IBMPlexSerif(0)/m/n/10 para iniciar hay que definir el método y
+ []
+
+
+
+! Undefined control sequence.
+<argument> \journallongtype 
+                 
+l.372 $$
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@orh ...{\journallongtype }} & \journalname 
+                                                  \hspace {21pt}\thepage \\ ...
+l.372 $$
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7]
+<extraccion_linea.png, id=227, 462.528pt x 346.896pt>
 File: extraccion_linea.png Graphic file (type png)
 <use extraccion_linea.png>
-Package luatex.def Info: extraccion_linea.png  used on input line 388.
+Package luatex.def Info: extraccion_linea.png  used on input line 380.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
+Underfull \hbox (badness 7012) in paragraph at lines 389--390
+[]\TU/IBMPlexSerif(0)/m/n/10 De esta manera, obtuve resultados como los
+ []
 
 <../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[OIII]
-_5007_.png, id=218, 462.528pt x 346.896pt>
+_5007_.png, id=230, 462.528pt x 346.896pt>
 File: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[
 OIII]_5007_.png Graphic file (type png)
 <use ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[O
 III]_5007_.png>
 Package luatex.def Info: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_l
-ines/img7495-6102_[OIII]_5007_.png  used on input line 401.
+ines/img7495-6102_[OIII]_5007_.png  used on input line 393.
 (luatex.def)             Requested size: 200.11874pt x 150.08867pt.
 <../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_Ha_656
-4_.png, id=219, 462.528pt x 346.896pt>
+4_.png, id=231, 462.528pt x 346.896pt>
 File: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_H
 a_6564_.png Graphic file (type png)
 <use ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_Ha
 _6564_.png>
 Package luatex.def Info: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_l
-ines/img7495-6102_Ha_6564_.png  used on input line 402.
+ines/img7495-6102_Ha_6564_.png  used on input line 394.
 (luatex.def)             Requested size: 200.11874pt x 150.08867pt.
 <../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[OII]_
-3727_.png, id=220, 462.528pt x 346.896pt>
+3727_.png, id=232, 462.528pt x 346.896pt>
 File: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[
 OII]_3727_.png Graphic file (type png)
 <use ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[O
 II]_3727_.png>
 Package luatex.def Info: ../Codigos/extractorLineasEmision/imgs/imgs7495-6102_l
-ines/img7495-6102_[OII]_3727_.png  used on input line 403.
+ines/img7495-6102_[OII]_3727_.png  used on input line 395.
 (luatex.def)             Requested size: 200.11874pt x 150.08867pt.
 
 
-! Undefined control sequence.
-<argument> \journallongtype 
-                 
-l.408 \newpage
-            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\f@nch@orh ...{\journallongtype }} & \journalname 
-                                                  \hspace {21pt}\thepage \\ ...
-l.408 \newpage
-            
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7<./extraccion_linea.png>]
-
-<./diagrama_ejemplo.png, id=240, 1264.725pt x 846.16125pt>
-File: ./diagrama_ejemplo.png Graphic file (type png)
-<use ./diagrama_ejemplo.png>
-Package luatex.def Info: ./diagrama_ejemplo.png  used on input line 418.
-(luatex.def)             Requested size: 250.14749pt x 167.3571pt.
-
-Underfull \hbox (badness 5817) in paragraph at lines 424--426
-[]\TU/IBMPlexSerif(0)/m/n/9 Como último proceso, se planea la generación de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--426
-\TU/IBMPlexSerif(0)/m/n/9 diagramas de diagnóstico, los cuales proporcionarán
- []
-
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.452 NIIdivHa 
-             = integradoNII / integradoHa
+l.400 \newpage
+            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3523,87 +3547,313 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.452 NIIdivHa 
-             = integradoNII / integradoHa
+l.400 \newpage
+            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[8<../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-6102_[OIII
-]_5007_.png><../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/img7495-
-6102_Ha_6564_.png><../Codigos/extractorLineasEmision/imgs/imgs7495-6102_lines/im
-g7495-6102_[OII]_3727_.png><./diagrama_ejemplo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
-[]\TU/IBMPlexSerif(0)/m/n/9 Para determinar si nuestra galaxia contiene
+[8<./extraccion_linea.png><../Codigos/extractorLineasEmision/imgs/imgs7495-6102_
+lines/img7495-6102_[OIII]_5007_.png><../Codigos/extractorLineasEmision/imgs/imgs
+7495-6102_lines/img7495-6102_Ha_6564_.png><../Codigos/extractorLineasEmision/img
+s/imgs7495-6102_lines/img7495-6102_[OII]_3727_.png>]
+<./diagrama_ejemplo.png, id=246, 1264.725pt x 846.16125pt>
+File: ./diagrama_ejemplo.png Graphic file (type png)
+<use ./diagrama_ejemplo.png>
+Package luatex.def Info: ./diagrama_ejemplo.png  used on input line 410.
+(luatex.def)             Requested size: 250.14749pt x 167.3571pt.
+
+Underfull \hbox (badness 1577) in paragraph at lines 412--412
+[]\TU/IBMPlexSans(0)/b/n/10 Fig. 17. |\TU/IBMPlexSerif(0)/m/n/10 Ejemplo visual de un diagrama de 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
-\TU/IBMPlexSerif(0)/m/n/9 formación estelar, usaré las funciones \TU/IBMPlexS
-erif(0)/b/n/9 (4)
+Underfull \hbox (badness 2617) in paragraph at lines 418--418
+[][][]\TU/IBMPlexSerif(0)/m/n/8 Con integrar nos referimos a sumar todos los dat
+os que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
-\OT1/cmr/m/n/9 0[]61/([][]([]/[]) \OMS/cmsy/m/n/9 ^^@ \OT1/cmr/m/n/9 0[]05) + 1[]3$ \TU/IBMPlexSerif(0)/m/n/9 (Kauffmann+03
+Underfull \hbox (badness 6559) in paragraph at lines 418--419
+[]\TU/IBMPlexSerif(0)/m/n/10 Una vez obtenidas las líneas de emisión y
  []
 
-<../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png, id=278, 462.528p
-t x 346.896pt>
-File: ../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png Graphic file
- (type png)
-<use ../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png>
-Package luatex.def Info: ../Codigos/diagramasDeDiagnostico/diagramadiag_7495-61
-02.png  used on input line 484.
+
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 449--450
+[]\TU/IBMPlexSerif(0)/m/n/10 Para determinar si nuestra galaxia contiene
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
+\TU/IBMPlexSerif(0)/m/n/10 formación estelar, usaré las funciones \TU/IBMPlex
+Serif(0)/b/n/10 (4)
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 449--450
+\TU/IBMPlexSerif(0)/m/n/10 line) y \TU/IBMPlexSerif(0)/b/n/10 (5) $\OT1/cmr/m/n
+/10 0[]61/([][]([]/[]) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 0[]47) + 1[]19$
+ []
+
+<../Codigos/diagramasDeDiagnostico/diagrama7960-3704.png, id=249, 462.528pt x 3
+46.896pt>
+File: ../Codigos/diagramasDeDiagnostico/diagrama7960-3704.png Graphic file (typ
+e png)
+<use ../Codigos/diagramasDeDiagnostico/diagrama7960-3704.png>
+Package luatex.def Info: ../Codigos/diagramasDeDiagnostico/diagrama7960-3704.pn
+g  used on input line 471.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
+<../Codigos/diagramasDeDiagnostico/diagrama8988-6104.png, id=250, 462.528pt x 3
+46.896pt>
+File: ../Codigos/diagramasDeDiagnostico/diagrama8988-6104.png Graphic file (typ
+e png)
+<use ../Codigos/diagramasDeDiagnostico/diagrama8988-6104.png>
+Package luatex.def Info: ../Codigos/diagramasDeDiagnostico/diagrama8988-6104.pn
+g  used on input line 472.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
+<../Codigos/diagramasDeDiagnostico/diagrama7495-6102.png, id=251, 462.528pt x 3
+46.896pt>
+File: ../Codigos/diagramasDeDiagnostico/diagrama7495-6102.png Graphic file (typ
+e png)
+<use ../Codigos/diagramasDeDiagnostico/diagrama7495-6102.png>
+Package luatex.def Info: ../Codigos/diagramasDeDiagnostico/diagrama7495-6102.pn
+g  used on input line 473.
 (luatex.def)             Requested size: 250.14749pt x 187.61217pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 496--497
-\TU/IBMPlexSerif(0)/m/n/9 por sus siglas en inglés) es una medida del ancho
+Underfull \hbox (badness 2818) in paragraph at lines 480--481
+[]\TU/IBMPlexSerif(0)/m/n/10 Para seguir avanzando en nuestro objetivo de
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 498--499
-\TU/IBMPlexSerif(0)/m/n/9 El \TU/IBMPlexSerif(0)/m/it/9 Sloan Digital Sky Survey
- \TU/IBMPlexSerif(0)/m/n/9 es uno de los proyectos
+Underfull \hbox (badness 2285) in paragraph at lines 480--481
+\TU/IBMPlexSerif(0)/m/n/10 con $\OML/cmm/m/it/10 n$ \TU/IBMPlexSerif(0)/m/n/10 
+igual al tamaño del cubo de datos en las
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 498--499
-\TU/IBMPlexSerif(0)/m/n/9 de investigación astronómica más grandes jamás
+
+! Undefined control sequence.
+<argument> \journallongtype 
+                 
+l.498 hdul_Hb 
+            = open(
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@orh ...{\journallongtype }} & \journalname 
+                                                  \hspace {21pt}\thepage \\ ...
+l.498 hdul_Hb 
+            = open(
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[9<./diagrama_ejemplo.png>]
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 505--506
+\TU/IBMPlexSerif(0)/m/n/10 que los 4 flujos tengan datos en la misma
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 498--499
-\TU/IBMPlexSerif(0)/m/n/9 sobre la evolución y estructura del espacio, y la
+Underfull \hbox (badness 2012) in paragraph at lines 505--506
+\TU/IBMPlexSerif(0)/m/n/10 Despues procedo a realizar las diviciones de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
-\TU/IBMPlexSerif(0)/m/it/9 Mapping Nearby Galaxies at APO \TU/IBMPlexSerif(0)/m
-/n/9 es un estudio
+
+! Undefined control sequence.
+<argument> \journallongtype 
+                 
+l.558   \begin{lstlisting}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@elh ...{\journallongtype }} & \journalname 
+                                                  \hspace {21pt}\thepage \\ ...
+l.558   \begin{lstlisting}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[10<../Codigos/diagramasDeDiagnostico/diagrama7960-3704.png><../Codigos/diagrama
+sDeDiagnostico/diagrama8988-6104.png><../Codigos/diagramasDeDiagnostico/diagrama
+7495-6102.png>]
+Underfull \hbox (badness 2181) in paragraph at lines 586--587
+\TU/IBMPlexSerif(0)/m/n/10 proporcional a la cantidad de puntos en el área
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 499--500
-\TU/IBMPlexSerif(0)/m/n/9 del Sloan Digital Sky Survey de cuarta generación
+Underfull \hbox (badness 1796) in paragraph at lines 586--587
+\TU/IBMPlexSerif(0)/m/n/10 en los resultados. Cabe mencionar que los datos
+ []
+
+<../Codigos/diagramasDeDiagnostico/diagrama7960-3704_fullres.png, id=380, 462.5
+28pt x 346.896pt>
+File: ../Codigos/diagramasDeDiagnostico/diagrama7960-3704_fullres.png Graphic f
+ile (type png)
+<use ../Codigos/diagramasDeDiagnostico/diagrama7960-3704_fullres.png>
+Package luatex.def Info: ../Codigos/diagramasDeDiagnostico/diagrama7960-3704_fu
+llres.png  used on input line 590.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
+<../Codigos/diagramasDeDiagnostico/diagrama8988-6104_fullres.png, id=381, 462.5
+28pt x 346.896pt>
+File: ../Codigos/diagramasDeDiagnostico/diagrama8988-6104_fullres.png Graphic f
+ile (type png)
+<use ../Codigos/diagramasDeDiagnostico/diagrama8988-6104_fullres.png>
+Package luatex.def Info: ../Codigos/diagramasDeDiagnostico/diagrama8988-6104_fu
+llres.png  used on input line 591.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
+<../Codigos/diagramasDeDiagnostico/diagrama7495-6102_fullres.png, id=382, 462.5
+28pt x 346.896pt>
+File: ../Codigos/diagramasDeDiagnostico/diagrama7495-6102_fullres.png Graphic f
+ile (type png)
+<use ../Codigos/diagramasDeDiagnostico/diagrama7495-6102_fullres.png>
+Package luatex.def Info: ../Codigos/diagramasDeDiagnostico/diagrama7495-6102_fu
+llres.png  used on input line 592.
+(luatex.def)             Requested size: 250.14749pt x 187.61217pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
+\TU/IBMPlexSerif(0)/m/n/10 como la espectroscopía integral de campo, el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--505
+Underfull \hbox (badness 1460) in paragraph at lines 598--599
+\TU/IBMPlexSerif(0)/m/n/10 manejo de archivos .fits y la creación de rutinas
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 600--601
+[]\TU/IBMPlexSerif(0)/m/n/10 No puedo negar que estos temas son bastante
+ []
+
+
+
+
+
+! Undefined control sequence.
+<argument> \journallongtype 
+                 
+l.603 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\f@nch@orh ...{\journallongtype }} & \journalname 
+                                                  \hspace {21pt}\thepage \\ ...
+l.603 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[11<../Codigos/diagramasDeDiagnostico/diagrama7960-3704_fullres.png><../Codigos/
+diagramasDeDiagnostico/diagrama8988-6104_fullres.png><../Codigos/diagramasDeDiag
+nostico/diagrama7495-6102_fullres.png>]
+Underfull \hbox (badness 1859) in paragraph at lines 604--605
+\TU/IBMPlexSerif(0)/m/n/10 desde un punto de vista computacional. Durante
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 604--605
+\TU/IBMPlexSerif(0)/m/n/10 aproximadamente seis semanas aprendí bastante
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 611--612
+\TU/IBMPlexSerif(0)/m/n/10 Un voxel (píxel volumétrico) se refiere a un
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 611--612
+\TU/IBMPlexSerif(0)/m/n/10 elemento de volumen (espacial × espacial ×
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 612--613
+\TU/IBMPlexSerif(0)/m/n/10 El desplazamiento al rojo, como lo indica su
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 613--614
+\TU/IBMPlexSerif(0)/m/n/10 La anchura completa a la mitad de la altura
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 614--615
+\TU/IBMPlexSerif(0)/m/n/10 Unidad de medida de distancia utilizada en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+\TU/IBMPlexSerif(0)/m/n/10 de investigación astronómica más grandes
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 616--617
+\TU/IBMPlexSerif(0)/m/it/10 Mapping Nearby Galaxies at APO \TU/IBMPlexSerif(0)/
+m/n/10 es un estudio
+ []
+
+
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 617--618
+\TU/IBMPlexSerif(0)/m/n/10 de longitud utilizada en astronomía para las
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 618--622
+\TU/IBMPlexSerif(0)/m/n/10 La relación señal-ruido (SNR, Signal-to-Noise
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 618--622
+\TU/IBMPlexSerif(0)/m/n/10 Ratio) mide qué tan bien se mide un objeto.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--622
 
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 505--506
-\TU/IBMPlexSerif(0)/m/n/9 principalmente para almacenar conjuntos de datos
+Underfull \hbox (badness 1331) in paragraph at lines 622--623
+\TU/IBMPlexSerif(0)/m/n/10 FITS (Flexible Image Transport System) es el
  []
 
 ! Misplaced alignment tab character &.
-l.506 ...BPT (llamados así por "Baldwin, Phillips &
+l.623 ...BPT (llamados así por "Baldwin, Phillips &
                                                    Terlevich") son un conjun...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3612,10 +3862,25 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+
+Underfull \hbox (badness 1867) in paragraph at lines 623--624
+\TU/IBMPlexSerif(0)/m/n/10 de líneas de emisión nebular utilizados para
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
+\TU/IBMPlexSerif(0)/m/n/10 distinguir el mecanismo de ionización del
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 623--624
+\TU/IBMPlexSerif(0)/m/n/10 gas nebular. La versión más famosa muestra
+ []
+
 ! Undefined control sequence.
 <argument> \pasp 
       
-l.510 
+l.627 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3626,7 +3891,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \pasp 
       
-l.510 
+l.627 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3637,20 +3902,58 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \pasp 
       
-l.510 
+l.627 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \mnras 
+       
+l.627 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \mnras 
+       
+l.627 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \mnras 
+       
+l.627 
+    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 627--627
+\TU/IBMPlexSans(0)/m/n/8 of micro-optical arrays using 3D diamond machining
+ []
 
 
 
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.510 
+l.627 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3659,9 +3962,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\f@nch@orh ...{\journallongtype }} & \journalname 
+\f@nch@elh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.510 
+l.627 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3669,49 +3972,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9<../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png>]
-! Undefined control sequence.
-<argument> \mnras 
-       
-l.510 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \mnras 
-       
-l.510 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \mnras 
-       
-l.510 
-    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 7397) in paragraph at lines 510--510
-\TU/IBMPlexSans(0)/m/n/8 of micro-optical arrays using 3D diamond machining
- []
-
+[12]
 ! Undefined control sequence.
 <argument> \aj 
     
-l.510 
+l.627 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3722,7 +3987,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.510 
+l.627 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3733,7 +3998,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \aj 
     
-l.510 
+l.627 
     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3742,24 +4007,24 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 510--510
+Underfull \hbox (badness 1270) in paragraph at lines 627--627
 \TU/IBMPlexSans(0)/m/n/8 Masters, K., Law, D. R., Rowlands, K., Weijmans, A.[]M.
 ,
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 510--510
+Underfull \hbox (badness 3108) in paragraph at lines 627--627
 \TU/IBMPlexSans(0)/m/n/8 Westfall, K., & Yan, R. (2019). Marvin: A Tool Kit for
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 510--510
+Underfull \hbox (badness 2197) in paragraph at lines 627--627
 [][]\TU/IBMPlexSans(0)/m/n/8 Olsen, C. (2021, abril). \TU/IBMPlexSans(0)/m/it/8
  The Birth of Astrophotography - Vatican
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--510
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 [][]\TU/IBMPlexSans(0)/m/n/8 Department of Astronomy, UW–Madison. (s.f.). Inte
 gral Field
  []
@@ -3771,7 +4036,7 @@ gral Field
 ! Undefined control sequence.
 <argument> \journallongtype 
                  
-l.511 \end{document}
+l.628 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3780,9 +4045,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-\f@nch@elh ...{\journallongtype }} & \journalname 
+\f@nch@orh ...{\journallongtype }} & \journalname 
                                                   \hspace {21pt}\thepage \\ ...
-l.511 \end{document}
+l.628 \end{document}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3790,16 +4055,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[10
+[13
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./main.aux
-LaTeX Info: Redefining \sptext on input line 43.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \sptext on input line 37.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 Package babel Info: No hyphenation patterns were set for
-(babel)             language 'spanish'. Reported on input line 43.
+(babel)             language 'spanish'. Reported on input line 37.
 )
  ***********
 LaTeX2e <2024-06-01> patch level 2
@@ -3814,21 +4079,25 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 31848 strings out of 475929
- 244265,1977958 words of node,token memory allocated
- 1036 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 local_par, 13 glue, 4 kern, 1 penalty, 3 glyph, 6
-3 attribute, 89 glue_spec, 33 attribute_list, 1 write, 15 pdf_action nodes
-   avail lists: 1:7,2:5117,3:797,4:975,5:2759,6:108,7:15614,8:88,9:6296,10:16,11
-:207,12:1
- 53617 multiletter control sequences out of 65536+600000
- 185 fonts using 23246415 bytes
+ 32020 strings out of 475929
+ 244263,1977958 words of node,token memory allocated
+ 1011 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 local_par, 12 glue, 4 kern, 1 penalty, 3 glyph, 5
+9 attribute, 89 glue_spec, 31 attribute_list, 1 write, 14 pdf_action nodes
+   avail lists: 1:7,2:6236,3:572,4:1292,5:3440,6:141,7:13599,8:88,9:8232,10:14,1
+1:276,12:1
+ 53681 multiletter control sequences out of 65536+600000
+ 185 fonts using 23246735 bytes
  87i,19n,106p,1530b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexMono-Regular
 .otf></home/renato/.miktex/texmfs/install/fonts/opentype/ibm/plex/IBMPlexSerif-B
@@ -3839,14 +4108,15 @@ x/IBMPlexSerif-Regular.otf></home/renato/.miktex/texmfs/install/fonts/opentype/i
 bm/plex/IBMPlexSans-Italic.otf></home/renato/.miktex/texmfs/install/fonts/openty
 pe/ibm/plex/IBMPlexSans-Bold.otf></home/renato/.miktex/texmfs/install/fonts/open
 type/ibm/plex/IBMPlexSans-Regular.otf></home/renato/.miktex/texmfs/install/fonts
-/type1/public/amsfonts/cmextra/cmex9.pfb></home/renato/.miktex/texmfs/install/fo
-nts/type1/public/amsfonts/cm/cmmi9.pfb></home/renato/.miktex/texmfs/install/font
-s/type1/public/amsfonts/cm/cmr6.pfb></home/renato/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmr9.pfb></home/renato/.miktex/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (10 pages, 2908135 bytes).
+/type1/public/amsfonts/cm/cmex10.pfb></home/renato/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></home/renato/.miktex/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></home/renato/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></home/renato/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></home/renato/.miktex/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (13 pages, 3103658 bytes).
 
-PDF statistics: 421 PDF objects out of 1000 (max. 8388607)
- 186 named destinations out of 1000 (max. 131072)
+PDF statistics: 545 PDF objects out of 1000 (max. 8388607)
+ 284 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

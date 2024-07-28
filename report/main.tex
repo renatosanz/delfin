@@ -1,4 +1,4 @@
-\documentclass[9pt,twocolumn,a4paper]{opticajnl}
+\documentclass[10pt,twocolumn,a4paper]{opticajnl}
 
 \nonstopmode
 \usepackage[utf8]{inputenc}
@@ -13,15 +13,7 @@
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=purple,
-    pdftitle={Proyecto Estancia Delfdef integrar(flujo):
-    suma = 0
-    for i in flujo:
-        if np.all(flujo == np.nan):
-            continue
-        for k in i:
-            if not np.isnan(k):
-                suma += k
-    return sumaín SLR 2024},
+    pdftitle={Proyecto Estancia Delfín - Renato Sanchez Loeza - 2024},
     }
 
 
@@ -31,13 +23,14 @@
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 
-\lstset{frame=tb,
-  language=Java,
+\lstset{
+  frame=tb,
+  language=Python,
   aboveskip=3mm,
   belowskip=3mm,
   showstringspaces=false,
   columns=flexible,
-  basicstyle={\small\ttfamily},
+  basicstyle={\ttfamily\footnotesize},
   numbers=none,
   numberstyle=\tiny\color{gray},
   keywordstyle=\color{blue},
@@ -45,9 +38,8 @@
   stringstyle=\color{mauve},
   breaklines=true,
   breakatwhitespace=true,
-  tabsize=3
+  tabsize=3,
 }
-
 \usepackage[style=apa,sorting=ynt]{biblatex}
 \addbibresource{refs.bib}
 
@@ -55,7 +47,7 @@
 \definecolor{color2b}{RGB}{105,105,105} % Header, authors, table lines
 
 \title{Diagramas de diagnóstico en galaxias observadas con espectroscopía de campo MaNGA del Sloan Digital Sky Survey}
-\author{Renato Sánchez Loeza}
+\author{Renato Sánchez Loeza - Estancia Verano 2024 Programa Delfín}
 
 \begin{document}
 \maketitle
@@ -411,7 +403,7 @@ De esta manera, obtuve resultados como los siguientes: imágenes con una gran ca
 \section*{Proyecto Final}
 
 \subsection*{Diagramas de diagnóstico / BPT}
-Los diagramas de diagnóstico ayudan a distinguir entre estrellas, núcleos activos de galaxias, choques, etc.
+Los diagramas de diagnóstico ayudan a distinguir cual es la fuente de ionización del objeto observado (estrellas, núcleos activos de galaxias, choques, etc.).
 
 \begin{figure}
   \begin{center}
@@ -472,20 +464,145 @@ ax.plot(
     \end{lstlisting}
 \end{enumerate} 
 
-Este proceso lo he repetido con los cubos de datos manga-8456-6101, manga-8988-6104 y 
+Este proceso lo he repetido con los cubos de datos manga-7495-6102, manga-8988-6104 y manga-7960-3704 de los cuales se obtieron resultados que reflejan formación estelar dentro de ellos. 
 
-\subsection*{}
-
-% subsection  (end)
-
-
-\begin{figure}
-  \begin{center}
-    \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagramadiag_7495-6102.png}
-  \end{center}
-  \caption{Diagrama de diagnóstico: 7495-6102}
-  \label{fig:diagramadiag_7495-6102}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagrama7960-3704.png}
+    \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagrama8988-6104.png}
+    \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagrama7495-6102.png}
+    \caption{Diagramas BPT de las galaxias manga-7495-6102, manga-8988-6104 y manga-7960-3704}
+    \label{fig:recent_files}
 \end{figure}
+
+
+\subsection*{Diagrama en resolución completa}
+Para seguir avanzando en nuestro objetivo de analizar la fuente ionización se propone la generación el anterior diagrama BPT a resolución completa ($nxn$, con $n$ igual al tamaño del cubo de datos en las dimensiones espaciales).
+
+Para lograr un analisis certero de las lineas de emision en cada pixel del cubo de datos se utilizaron las lineas de emisión del proceso anterior pero procesadas de una manera diferente.
+
+
+
+\begin{enumerate}
+  \item Primero se obtienen los flujos de las lineas de emision:
+  \begin{lstlisting}[language=Python]
+plateifu = "7960-3704"
+
+hdul_NII = open(
+    f"fits{plateifu}_[NII]_6548_.fits"
+)
+hdul_Ha = open(
+    f"fits{plateifu}_Ha_6564_.fits"
+)
+
+hdul_Hb = open(
+    f"fits{plateifu}_Hb_4861_.fits"
+)
+hdul_OIII = open(
+    f"fits{plateifu}_[OIII]_5007_.fits"
+)
+  \end{lstlisting}
+  \item Despues mediante una función me aseguro de que los 4 flujos tengan datos en la misma locacion para tener coherecia en los resultados. Despues procedo a realizar las diviciones de los datos de manera individual y guardando los datos dentro de un arreglo para cada uno de los procesos (\(\log_{10}(\text{NII}/\text{Ha})\) y \(\log_{10}(\text{OIII}/\text{Hb})\)) que posteriormente seran graficados.
+  \begin{lstlisting}[language=Python]
+def integracionPar(f1, f2, f3, f4):
+    f = f1.shape
+    datos_f1 = []
+    datos_f2 = []
+    datos_f3 = []
+    datos_f4 = []
+    for i in range(f[0]):
+        if np.all(f1[i] == np.nan) or np.all(f2[i] == np.nan):
+            continue
+        for k in range(f[1]):
+            if (
+                not np.isnan(f1[i][k])
+                and not np.isnan(f2[i][k])
+                and not np.isnan(f3[i][k])
+                and not np.isnan(f4[i][k])
+            ):
+                datos_f1.append(f1[i][k])
+                datos_f2.append(f2[i][k])
+                datos_f3.append(f3[i][k])
+                datos_f4.append(f4[i][k])
+    f1divf2 = []
+    f3divf4 = []
+
+    print(len(datos_f1), len(datos_f2), len(datos_f3), len(datos_f4))
+    for i in range(len(datos_f1)):
+        if (
+            datos_f1[i] != 0
+            and datos_f2[i] != 0
+            and datos_f3[i] != 0
+            and datos_f4[i] != 0
+        ):
+            try:
+                div1_2aux = log10(datos_f1[i] / datos_f2[i])
+                div3_4aux = log10(datos_f3[i] / datos_f4[i])
+                print(div1_2aux)
+                print(div3_4aux)
+                f1divf2.append(div1_2aux)
+                f3divf4.append(div3_4aux)
+            except Exception as e:
+                pass
+
+    return f1divf2, f3divf4
+
+flujoNII = hdul_NII[0].data
+flujoHa = hdul_Ha[0].data
+flujoHb = hdul_Hb[0].data
+flujoOIII = hdul_OIII[0].data
+
+Log10NIIdivHa, Log10OIIIdivHb = integracionPar(flujoNII, flujoHa, flujoOIII, flujoHb)
+  \end{lstlisting}
+  \item Finalmente graficamos los resultados:
+  \begin{lstlisting}
+    flg = plt.figure()
+ax = flg.add_subplot(111)
+ax.set_title(
+    f"Diagrama de Diagnostico (log10([NII]/Ha), log10([OIII]/Hb))\nNube de puntos : {plateifu}"
+)
+ax.set_xlabel("log10(NII/Ha)")
+ax.set_ylabel("log10(OIII/Hb)")
+
+
+X = np.linspace(-2, 0.049, 100)
+Y = 0.61 / (X - 0.05) + 1.3
+ax.plot(X, Y, c="k", linestyle="--", label="Y = 0.61/[X-0.05]+1.3")
+
+X1 = np.linspace(-2, 0.46, 1900)
+Y1 = 0.61 / (X1 - 0.47) + 1.19
+ax.plot(X1, Y1, label="Y1 = 0.61/[X1-0.47]+1.19")
+
+ax.set_xlim(-2, 1)  # Establece los límites del eje x
+ax.set_ylim(-2, 1.5)  # Establece los límites del eje y
+
+ax.plot(Log10NIIdivHa, Log10OIIIdivHb, "ro", markersize=1)
+plt.grid()
+plt.legend()
+plt.show()
+  \end{lstlisting} 
+\end{enumerate}
+
+Como resultado, se obtienen nubes de puntos que reflejan la fuente de ionización de dichos píxeles en el cubo. De la misma forma, se puede inferir que la fuente de ionización de cada objeto es directamente proporcional a la cantidad de puntos en el área bajo la curva de Kauffmann, tal como se observa en los resultados. Cabe mencionar que los datos obtenidos de este método son relativamente nuevos en el mundo del procesamiento de cubos de datos, por lo que no se han establecido referentes para delimitar comportamientos específicos como sí los tenemos en los diagramas BPT convencionales, como las funciones de Kauffmann y Kewley para la ubicación de fuentes de ionización.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagrama7960-3704_fullres.png}
+    \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagrama8988-6104_fullres.png}
+    \includegraphics[width=1\linewidth]{../Codigos/diagramasDeDiagnostico/diagrama7495-6102_fullres.png}
+    \caption{Diagramas BPT de las galaxias manga-7495-6102, manga-8988-6104 y manga-7960-3704 a resoluciones completas}
+    \label{fig:recent_files}
+\end{figure}
+
+\section*{Concluciones}
+Durante la estancia se trataron temas de interés como la espectroscopía integral de campo, el manejo de archivos .fits y la creación de rutinas de visualización para cubos de datos provenientes del MaNGA. Esto estuvo orientado a la ubicación de formación estelar usando los diagramas BPT.
+
+No puedo negar que estos temas son bastante complicados desde el punto de vista físico-matemático. Sin embargo, en el área de la programación y análisis de datos di todo lo que pude para obtener un producto terminado y listo para usarse, como lo es *InterVisor*. Este no está en su forma final, ya que en los siguientes meses estaré estudiando más opciones y mejoras que pueda hacer al sistema, tales como extracción de mapas de cinética, visualización 3D de la galaxia en cuestión o extracción de mapas de temperaturas.
+
+Reflexionando sobre los resultados obtenidos del análisis a resolución completa, propongo lo siguiente. Si observamos la morfología de las nubes de puntos, se notan ciertos puntos lejos de la multitud. Estos puntos podrían reflejar la presencia de un AGN o agujero negro supermasivo, el cual, si bien no es la principal fuente de ionización, se puede observar dentro de estos datos. Un ejemplo de este comportamiento lo encontramos en el resultado del \textbf{manga-7495-6102}.
+
+Para finalizar, quiero agradecer a mi asesor Jesús López Hernández, quien me introdujo a la astronomía desde un punto de vista computacional. Durante aproximadamente seis semanas aprendí bastante sobre el proceso detrás de los estudios interestelares, tanto de forma histórica, teórica como práctica.
+
 
 \section*{Definiciones}
 \begin{description}[style=nextline]

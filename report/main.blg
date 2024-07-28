@@ -1,23 +1,23 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [1] Config.pm:311> INFO - Logfile is 'main.blg'
-[131] biber:340> INFO - === jue jul 25, 2024, 11:05:24
-[158] Biber.pm:420> INFO - Reading 'main.bcf'
-[324] Biber.pm:994> INFO - Found 18 citekeys in bib section 0
-[365] Biber.pm:4463> INFO - Processing section 0
-[383] Biber.pm:4654> INFO - Looking for bibtex file 'refs.bib' for section 0
-[385] bibtex.pm:1713> INFO - LaTeX decoding ...
-[415] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[782] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[782] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[782] Biber.pm:4283> INFO - Sorting list 'ynt/apasortcite//global/global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
-[891] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[891] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[891] Biber.pm:4283> INFO - Sorting list 'ynt/global//global/global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
-[948] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[990] bbl.pm:779> INFO - Output to main.bbl
-[991] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'cana-2015' is not an integer - this will probably not sort properly.
-[991] Biber.pm:131> WARN - legacy month field 'April 7' in entry 'olsen2021birth' is not an integer - this will probably not sort properly.
-[991] Biber.pm:131> WARN - legacy year field '1999-2008' in entry 'eso_vimos' is not an integer - this will probably not sort properly.
-[991] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'marvin' is not an integer - this will probably not sort properly.
-[992] Biber.pm:131> WARN - legacy month field 'September' in entry 'suzuki2023fwhm' is not an integer - this will probably not sort properly.
-[992] Biber.pm:133> INFO - WARNINGS: 5
+[150] biber:340> INFO - === sáb jul 27, 2024, 18:07:18
+[181] Biber.pm:420> INFO - Reading 'main.bcf'
+[347] Biber.pm:994> INFO - Found 18 citekeys in bib section 0
+[394] Biber.pm:4463> INFO - Processing section 0
+[416] Biber.pm:4654> INFO - Looking for bibtex file 'refs.bib' for section 0
+[419] bibtex.pm:1713> INFO - LaTeX decoding ...
+[453] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[887] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[887] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[888] Biber.pm:4283> INFO - Sorting list 'ynt/apasortcite//global/global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
+[1008] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1008] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1008] Biber.pm:4283> INFO - Sorting list 'ynt/global//global/global/global' of type 'entry' with template 'ynt' and locale 'es-ES'
+[1072] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1119] bbl.pm:779> INFO - Output to main.bbl
+[1119] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'cana-2015' is not an integer - this will probably not sort properly.
+[1120] Biber.pm:131> WARN - legacy month field 'April 7' in entry 'olsen2021birth' is not an integer - this will probably not sort properly.
+[1120] Biber.pm:131> WARN - legacy year field '1999-2008' in entry 'eso_vimos' is not an integer - this will probably not sort properly.
+[1120] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'marvin' is not an integer - this will probably not sort properly.
+[1120] Biber.pm:131> WARN - legacy month field 'September' in entry 'suzuki2023fwhm' is not an integer - this will probably not sort properly.
+[1120] Biber.pm:133> INFO - WARNINGS: 5

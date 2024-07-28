@@ -73,8 +73,6 @@ def integracionPar(f1, f2, f3, f4):
             try:
                 div1_2aux = log10(datos_f1[i] / datos_f2[i])
                 div3_4aux = log10(datos_f3[i] / datos_f4[i])
-                print(div1_2aux)
-                print(div3_4aux)
                 f1divf2.append(div1_2aux)
                 f3divf4.append(div3_4aux)
             except Exception as e:
@@ -100,6 +98,8 @@ hdul_Hb = open(
 hdul_OIII = open(
     f"../extractorLineasEmision/fits/fits{plateifu}_lines/fits{plateifu}_[OIII]_5007_.fits"
 )
+
+print(hdul_Ha[0].data.shape)
 
 flujoNII = hdul_NII[0].data
 flujoHa = hdul_Ha[0].data

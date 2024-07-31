@@ -166,6 +166,179 @@
       \verb https://doi.org/10.1086/133562
       \endverb
     \endentry
+    \entry{2006MNRAS.372..961K}{article}{}{}
+      \name{author}{22}{}{%
+        {{un=0,uniquepart=base,hash=8e8edecc3c11bce29f18ffa583dbf4c1}{%
+           family={Kauffmann},
+           familyi={K\bibinitperiod},
+           given={Guinevere},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e094272379fe55727159944b950738c}{%
+           family={Heckman},
+           familyi={H\bibinitperiod},
+           given={Timothy\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04393094616177a4b8448cc28119da88}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Simon\bibnamedelimb D.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c845c36a385836cc239c16f1ee21bd6e}{%
+           family={Charlot},
+           familyi={C\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36f7922a94b9418947c4a8e8d633b32a}{%
+           family={Tremonti},
+           familyi={T\bibinitperiod},
+           given={Christy},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33ce0284454c5f1cc70f4c1b03775990}{%
+           family={Brinchmann},
+           familyi={B\bibinitperiod},
+           given={Jarle},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b947626fbb9243ce7cba817fae0b0778}{%
+           family={Bruzual},
+           familyi={B\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f45b00d582a3891249ed815663a03aff}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bca87ea0db31e4339be80371ddaf55d3}{%
+           family={Seibert},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54fefe97668f6bddd5e8bcad7b70e7fd}{%
+           family={Bernardi},
+           familyi={B\bibinitperiod},
+           given={Mariangela},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=642739c2601b9bf895267dcc16cba01f}{%
+           family={Blanton},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c742f75cf33b76a4023b7f6f1a080d58}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b47a5bb617fa49fcc570e985f37c8f6a}{%
+           family={Castander},
+           familyi={C\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c4a843c5ef6aa70d6c2e8b5f52ddc16}{%
+           family={Csábai},
+           familyi={C\bibinitperiod},
+           given={Istvan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f4fcdd99a738920e2c1e9735317015a}{%
+           family={Fukugita},
+           familyi={F\bibinitperiod},
+           given={Masataka},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a097f1e5e44339a16a27a7b61c5c8359}{%
+           family={Ivezic},
+           familyi={I\bibinitperiod},
+           given={Zeljko},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=538a46a646dacf172f626eded3c2017c}{%
+           family={Munn},
+           familyi={M\bibinitperiod},
+           given={Jeffrey\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb744917055d6fd29ef96dd064cc60d2}{%
+           family={Nichol},
+           familyi={N\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e4a1d62f13873454dee3dfc26ed4256}{%
+           family={Padmanabhan},
+           familyi={P\bibinitperiod},
+           given={Nikhil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cdffcf263e1d8c9b80839aa6ceee792}{%
+           family={Thakar},
+           familyi={T\bibinitperiod},
+           given={Aniruddha\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65e286d610af1c6170489dbe9a0cbba1}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f48eae0ba310e6c23efcd08de216625}{%
+           family={York},
+           familyi={Y\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{453378cd0fa0e02deea5d8246507b016}
+      \strng{fullhash}{f75aea95e5d71b5a93a22ea3c82221bd}
+      \strng{fullhashraw}{f75aea95e5d71b5a93a22ea3c82221bd}
+      \strng{bibnamehash}{d1d85d88fc0eea9bff3161027dabd31e}
+      \strng{authorbibnamehash}{d1d85d88fc0eea9bff3161027dabd31e}
+      \strng{authornamehash}{453378cd0fa0e02deea5d8246507b016}
+      \strng{authorfullhash}{f75aea95e5d71b5a93a22ea3c82221bd}
+      \strng{authorfullhashraw}{f75aea95e5d71b5a93a22ea3c82221bd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{We develop a new method to constrain the star formation histories, dust attenuation and stellar masses of galaxies. It is based on two stellar absorption-line indices, the 4000-Å break strength and the Balmer absorption-line index HδA. Together, these indices allow us to constrain the mean stellar ages of galaxies and the fractional stellar mass formed in bursts over the past few Gyr. A comparison with broad-band photometry then yields estimates of dust attenuation and of stellar mass. We generate a large library of Monte Carlo realizations of different star formation histories, including starbursts of varying strength and a range of metallicities. We use this library to generate median likelihood estimates of burst mass fractions, dust attenuation strengths, stellar masses and stellar mass-to-light ratios for a sample of 122 808 galaxies drawn from the Sloan Digital Sky Survey. The typical 95 per cent confidence range in our estimated stellar masses is ±40 per cent. We study how the stellar mass-to-light ratios of galaxies vary as a function of absolute magnitude, concentration index and photometric passband and how dust attenuation varies as a function of absolute magnitude and 4000-Å break strength. We also calculate how the total stellar mass of the present Universe is distributed over galaxies as a function of their mass, size, concentration, colour, burst mass fraction and surface mass density. We find that most of the stellar mass in the local Universe resides in galaxies that have, to within a factor of approximately 2, stellar masses ∼5× 1010 M⊙, half-light radii ∼3 kpc and half-light surface mass densities ∼109 M⊙ kpc−2. The distribution of Dn(4000) is strongly bimodal, showing a clear division between galaxies dominated by old stellar populations and galaxies with more recent star formation.}}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{05}
+      \field{number}{1}
+      \field{title}{{Stellar masses and star formation histories for 105 galaxies from the Sloan Digital Sky Survey}}
+      \field{volume}{341}
+      \field{year}{2003}
+      \field{pages}{33\bibrangedash 53}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1046/j.1365-8711.2003.06291.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/341/1/33/18650863/341-1-33.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1046/j.1365-8711.2003.06291.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1046/j.1365-8711.2003.06291.x
+      \endverb
+    \endentry
     \entry{vives2005original}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=79acdb9dc14abe25181ebcd07088156d}{%
@@ -249,89 +422,6 @@
       \verb{url}
       \verb https://fcaglp.fcaglp.unlp.edu.ar/~observacional/papers/PDFs/tech-spectroscopy/spec_allington2006newar50.pdf
       \endverb
-    \endentry
-    \entry{2006MNRAS.372..961K}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=4d67b5dbac98150825b63bfe0c4e23aa}{%
-           family={{Kauffmann}},
-           familyi={K\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6a605887571ccc40f0d60a9499d63881}{%
-           family={{Heckman}},
-           familyi={H\bibinitperiod},
-           given={T.\bibnamedelimi M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=377022f750372c6e83bc48bc14a9e363}{%
-           family={{De Lucia}},
-           familyi={D\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=99ff99d3d4347a92a1800ab327522f7c}{%
-           family={{Brinchmann}},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=69b8ff527cb022a2fbb71388c2865ee8}{%
-           family={{Charlot}},
-           familyi={C\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2fba6b4f811c1904d90d5855cf970cf4}{%
-           family={{Tremonti}},
-           familyi={T\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b6c6fe2ff35a586cc62a3180c1add3c8}{%
-           family={{White}},
-           familyi={W\bibinitperiod},
-           given={S.\bibnamedelimi D.\bibnamedelimi M.},
-           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ed36dd6d3cf21bd0bec8c27470e39d23}{%
-           family={{Brinkmann}},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8b9636c67f938342448a3ccce74db7eb}
-      \strng{fullhash}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{fullhashraw}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{bibnamehash}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{authorbibnamehash}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{authornamehash}{8b9636c67f938342448a3ccce74db7eb}
-      \strng{authorfullhash}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{authorfullhashraw}{c609456223b1315804c4b3e274fbcfd6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{astro-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{10}
-      \field{title}{{Stellar masses and star formation histories for 10$^{5}$ galaxies from the Sloan Digital Sky Survey}}
-      \field{volume}{372}
-      \field{year}{2006}
-      \field{pages}{961\bibrangedash 987}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1111/j.1365-2966.2006.10848.x
-      \endverb
-      \verb{eprint}
-      \verb astro-ph/0509878
-      \endverb
-      \keyw{galaxies: evolution,galaxies: formation,galaxies: stellar content,galaxies: fundamental parameters,galaxies: statistics}
     \endentry
     \entry{schmoll2006design}{article}{}{}
       \name{author}{3}{}{%
@@ -1024,6 +1114,179 @@
       \verb https://doi.org/10.1086/133562
       \endverb
     \endentry
+    \entry{2006MNRAS.372..961K}{article}{}{}
+      \name{author}{22}{}{%
+        {{un=0,uniquepart=base,hash=8e8edecc3c11bce29f18ffa583dbf4c1}{%
+           family={Kauffmann},
+           familyi={K\bibinitperiod},
+           given={Guinevere},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e094272379fe55727159944b950738c}{%
+           family={Heckman},
+           familyi={H\bibinitperiod},
+           given={Timothy\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04393094616177a4b8448cc28119da88}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Simon\bibnamedelimb D.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c845c36a385836cc239c16f1ee21bd6e}{%
+           family={Charlot},
+           familyi={C\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36f7922a94b9418947c4a8e8d633b32a}{%
+           family={Tremonti},
+           familyi={T\bibinitperiod},
+           given={Christy},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33ce0284454c5f1cc70f4c1b03775990}{%
+           family={Brinchmann},
+           familyi={B\bibinitperiod},
+           given={Jarle},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b947626fbb9243ce7cba817fae0b0778}{%
+           family={Bruzual},
+           familyi={B\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f45b00d582a3891249ed815663a03aff}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bca87ea0db31e4339be80371ddaf55d3}{%
+           family={Seibert},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54fefe97668f6bddd5e8bcad7b70e7fd}{%
+           family={Bernardi},
+           familyi={B\bibinitperiod},
+           given={Mariangela},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=642739c2601b9bf895267dcc16cba01f}{%
+           family={Blanton},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c742f75cf33b76a4023b7f6f1a080d58}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b47a5bb617fa49fcc570e985f37c8f6a}{%
+           family={Castander},
+           familyi={C\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c4a843c5ef6aa70d6c2e8b5f52ddc16}{%
+           family={Csábai},
+           familyi={C\bibinitperiod},
+           given={Istvan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f4fcdd99a738920e2c1e9735317015a}{%
+           family={Fukugita},
+           familyi={F\bibinitperiod},
+           given={Masataka},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a097f1e5e44339a16a27a7b61c5c8359}{%
+           family={Ivezic},
+           familyi={I\bibinitperiod},
+           given={Zeljko},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=538a46a646dacf172f626eded3c2017c}{%
+           family={Munn},
+           familyi={M\bibinitperiod},
+           given={Jeffrey\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb744917055d6fd29ef96dd064cc60d2}{%
+           family={Nichol},
+           familyi={N\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e4a1d62f13873454dee3dfc26ed4256}{%
+           family={Padmanabhan},
+           familyi={P\bibinitperiod},
+           given={Nikhil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cdffcf263e1d8c9b80839aa6ceee792}{%
+           family={Thakar},
+           familyi={T\bibinitperiod},
+           given={Aniruddha\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65e286d610af1c6170489dbe9a0cbba1}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f48eae0ba310e6c23efcd08de216625}{%
+           family={York},
+           familyi={Y\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{453378cd0fa0e02deea5d8246507b016}
+      \strng{fullhash}{f75aea95e5d71b5a93a22ea3c82221bd}
+      \strng{fullhashraw}{f75aea95e5d71b5a93a22ea3c82221bd}
+      \strng{bibnamehash}{d1d85d88fc0eea9bff3161027dabd31e}
+      \strng{authorbibnamehash}{d1d85d88fc0eea9bff3161027dabd31e}
+      \strng{authornamehash}{453378cd0fa0e02deea5d8246507b016}
+      \strng{authorfullhash}{f75aea95e5d71b5a93a22ea3c82221bd}
+      \strng{authorfullhashraw}{f75aea95e5d71b5a93a22ea3c82221bd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{We develop a new method to constrain the star formation histories, dust attenuation and stellar masses of galaxies. It is based on two stellar absorption-line indices, the 4000-Å break strength and the Balmer absorption-line index HδA. Together, these indices allow us to constrain the mean stellar ages of galaxies and the fractional stellar mass formed in bursts over the past few Gyr. A comparison with broad-band photometry then yields estimates of dust attenuation and of stellar mass. We generate a large library of Monte Carlo realizations of different star formation histories, including starbursts of varying strength and a range of metallicities. We use this library to generate median likelihood estimates of burst mass fractions, dust attenuation strengths, stellar masses and stellar mass-to-light ratios for a sample of 122 808 galaxies drawn from the Sloan Digital Sky Survey. The typical 95 per cent confidence range in our estimated stellar masses is ±40 per cent. We study how the stellar mass-to-light ratios of galaxies vary as a function of absolute magnitude, concentration index and photometric passband and how dust attenuation varies as a function of absolute magnitude and 4000-Å break strength. We also calculate how the total stellar mass of the present Universe is distributed over galaxies as a function of their mass, size, concentration, colour, burst mass fraction and surface mass density. We find that most of the stellar mass in the local Universe resides in galaxies that have, to within a factor of approximately 2, stellar masses ∼5× 1010 M⊙, half-light radii ∼3 kpc and half-light surface mass densities ∼109 M⊙ kpc−2. The distribution of Dn(4000) is strongly bimodal, showing a clear division between galaxies dominated by old stellar populations and galaxies with more recent star formation.}}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{05}
+      \field{number}{1}
+      \field{title}{{Stellar masses and star formation histories for 105 galaxies from the Sloan Digital Sky Survey}}
+      \field{volume}{341}
+      \field{year}{2003}
+      \field{pages}{33\bibrangedash 53}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1046/j.1365-8711.2003.06291.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/341/1/33/18650863/341-1-33.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1046/j.1365-8711.2003.06291.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1046/j.1365-8711.2003.06291.x
+      \endverb
+    \endentry
     \entry{vives2005original}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=79acdb9dc14abe25181ebcd07088156d}{%
@@ -1107,89 +1370,6 @@
       \verb{url}
       \verb https://fcaglp.fcaglp.unlp.edu.ar/~observacional/papers/PDFs/tech-spectroscopy/spec_allington2006newar50.pdf
       \endverb
-    \endentry
-    \entry{2006MNRAS.372..961K}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=4d67b5dbac98150825b63bfe0c4e23aa}{%
-           family={{Kauffmann}},
-           familyi={K\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6a605887571ccc40f0d60a9499d63881}{%
-           family={{Heckman}},
-           familyi={H\bibinitperiod},
-           given={T.\bibnamedelimi M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=377022f750372c6e83bc48bc14a9e363}{%
-           family={{De Lucia}},
-           familyi={D\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=99ff99d3d4347a92a1800ab327522f7c}{%
-           family={{Brinchmann}},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=69b8ff527cb022a2fbb71388c2865ee8}{%
-           family={{Charlot}},
-           familyi={C\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2fba6b4f811c1904d90d5855cf970cf4}{%
-           family={{Tremonti}},
-           familyi={T\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b6c6fe2ff35a586cc62a3180c1add3c8}{%
-           family={{White}},
-           familyi={W\bibinitperiod},
-           given={S.\bibnamedelimi D.\bibnamedelimi M.},
-           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ed36dd6d3cf21bd0bec8c27470e39d23}{%
-           family={{Brinkmann}},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8b9636c67f938342448a3ccce74db7eb}
-      \strng{fullhash}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{fullhashraw}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{bibnamehash}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{authorbibnamehash}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{authornamehash}{8b9636c67f938342448a3ccce74db7eb}
-      \strng{authorfullhash}{c609456223b1315804c4b3e274fbcfd6}
-      \strng{authorfullhashraw}{c609456223b1315804c4b3e274fbcfd6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{astro-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{10}
-      \field{title}{{Stellar masses and star formation histories for 10$^{5}$ galaxies from the Sloan Digital Sky Survey}}
-      \field{volume}{372}
-      \field{year}{2006}
-      \field{pages}{961\bibrangedash 987}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1111/j.1365-2966.2006.10848.x
-      \endverb
-      \verb{eprint}
-      \verb astro-ph/0509878
-      \endverb
-      \keyw{galaxies: evolution,galaxies: formation,galaxies: stellar content,galaxies: fundamental parameters,galaxies: statistics}
     \endentry
     \entry{schmoll2006design}{article}{}{}
       \name{author}{3}{}{%

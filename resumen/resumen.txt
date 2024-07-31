@@ -1,0 +1,90 @@
+PLANTEAMIENTO DEL PROBLEMA
+
+Desde los inicios de la astronomía, la tecnología ha sido clave para observar el firmamento. Los primeros telescopios ópticos, como los de Galileo Galilei, mejoraron la observación celeste, y la fotografía, iniciada por John William Draper en 1840, facilitó la precisión. La llegada de los CCD revolucionó la observación astronómica, capturando hasta el 95% de la luz y mejorando la distribución de datos. Técnicas avanzadas como el barrido con rendijas, el interferómetro de Fabry-Pérot y la espectroscopia multiobjetos (MOS) permitieron analizar en detalle la composición y velocidad de los objetos celestes.
+
+Hoy en día, la espectroscopía integral de campo (IFS) es el estándar, generando cubos de datos que combinan dimensiones espaciales y espectrales, facilitando el análisis de gas en galaxias distantes. Las Unidades Integrales de Campo (IFU) permiten estudiar objetos extensos en una sola observación. Los métodos en IFS incluyen arreglos de lentes, arreglos de fibras y cortadores, que optimizan la observación y el análisis astronómico. Actualmente, se planea analizar datos de galaxias del proyecto MaNGA para estudiar la formación estelar usando diagramas de diagnóstico BPT.
+
+METODOLOGÍA
+
+Para analizar los datos de la galaxia manga 7495-6102 utilizando el cubo de datos proporcionado, sigue estos pasos:
+
+Descarga del Cubo de Datos:
+1. Accede a Marvin.
+2. Dirígete a SkyServer.
+3. Selecciona Explore en la barra lateral derecha.
+4. Haz clic en MaNGA observation(s) y luego en LIN Data Cube.
+5. Descarga el archivo comprimido .fits.gz.
+
+ Procesamiento con Python:
+Utiliza las librerías Astropy, numpy y matplotlib. De manera que con la ayuda de la libreria Astropy podemos abrir cualquier archivo .fits y explorar sus atributos. 
+
+El cubo de datos tiene dimensiones de 6732 (espectral) x 54 (espacial) x 54 (espacial), resultando en 19,630,512 voxeles.
+
+Visualización de Datos:
+
+Para esto se requiere ubicar el spaxel a explorar en el cubo de datos, ya que recordemos que tiene 2 dimensiones espaciales y una espectral.
+Visualizacion de Espectro de un Spaxel: Extrae y grafica el espectro del spaxel en la posición (27, 27).
+
+Visualizacion de Imagen del Cubo de Datos: Muestra una imagen de la galaxia en una longitud de onda especifica.
+
+Ajuste de Longitudes de Onda:
+Utiliza el redshift de DAPall del SDSS para ajustar las longitudes de onda basadas en el PLATEIFU.
+
+Creación de Interfaz para Visualización de Datos Astronómicos:
+He desarrollado una interfaz gráfica llamada InterVisor usando Dearpygui.
+
+Características de InterVisor:
+1. Abrir Archivos: Permite abrir archivos .fits, .gz o .fits.gz.
+2. Visor de Espectro: Selecciona un spaxel (i, j) y un rango de longitud de onda para visualizar el espectro.
+3. Extractor de Imagen: Muestra la imagen de la galaxia en una longitud de onda específica.
+4. Información del Archivo: Proporciona detalles adicionales sobre el archivo .fits.
+
+Resultados:
+El programa proporciona una herramienta robusta para la visualización de archivos .fits del proyecto MaNGA. Utiliza Astropy, Numpy y Dearpygui para manejar y visualizar los datos de manera eficiente.
+
+Observación de Líneas de Emisión:
+Creación de Mapas de Intensidad:
+
+ Pasos para la extracción de datos de la línea de emisión:
+1. Filtrado de datos inválidos: Elimina bloques de datos llenos de ceros o valores infinitos.
+2. Definir el margen para extraer datos de la línea de emisión.
+3. Establecer un submargen para calcular la media del continuo.
+4. Calcular el FWHM para una sigma precisa.
+5. Ajustar una gaussiana a los datos de la línea de emisión.
+6. Integrar el área bajo la curva gaussiana y almacenarla.
+7. Generar la imagen con los datos de la línea de emisión.
+
+ Automatización:
+Este proceso se automatiza para cada píxel del cubo de datos, generando un mapa de líneas de emisión.
+
+ Diagramas de Diagnóstico BPT:
+
+Para generar diagramas de diagnóstico que proporcionen información sobre el objeto observado:
+
+1. Obtener las líneas de emisión y almacenarlas en un archivo .fits.
+2. Integrar los datos de las líneas de emisión [NII] 6548, Hα 6564, Hβ 4861, [OIII] 5007.
+3. Calcular log10(NII/Hα) y log10(OIII/Hβ).
+4. Graficar las relaciones en un diagrama de diagnóstico BPT.
+
+ Diagramas BPT a Resolución Completa:
+Para un análisis detallado, genera diagramas BPT a resolución completa.
+
+ Pasos:
+1. Obtener las líneas de emisión.
+2. Verificar que los flujos tengan datos en la misma locación.
+3. Dividir los datos y guardar los resultados.
+4. Graficar los resultados.
+
+Se obtienen nubes de puntos que reflejan la fuente de ionización de los píxeles en el cubo. El código utilizado se encuentra en mi repositorio de GitHub: https://github.com/renatosanz/delfin.
+
+Esto permite un análisis certero de las líneas de emisión y facilita la exploración de datos espectroscópicos y de imagen
+
+CONCLUSIONES
+
+Durante la estancia, se abordaron temas como la espectroscopía integral de campo, el manejo de archivos .fits y la creación de rutinas de visualización para cubos de datos del MaNGA, enfocados en la formación estelar con diagramas BPT.
+
+A pesar de la complejidad física y matemática de estos temas, me esforcé al máximo en programación y análisis de datos, desarrollando InterVisor. Este sistema aún no está finalizado, pero planeo mejorar su funcionalidad con opciones como mapas de cinética, visualización 3D y mapas de temperaturas.
+
+El análisis a resolución completa mostró nubes de puntos con algunos alejados de la multitud, posiblemente indicando la presencia de un AGN o agujero negro supermasivo, como en el caso de manga-7495-6102.
+
+Agradezco a mi asesor, Jesús López Hernández, por introducirme a la astronomía computacional. Durante seis semanas, aprendí mucho sobre estudios interestelares en aspectos históricos, teóricos y prácticos.

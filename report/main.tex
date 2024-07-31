@@ -125,7 +125,11 @@ También contamos con Starlink \cite{Berry_Starlink}, un proyecto de código abi
 \end{figure}
 
 \section*{Metodologia}
-Una vez claro el marco de referencia en el que nos encontramos, se procede a iniciar el proceso de análisis de datos y exploración de tecnologías a utilizar. Para ello, nos dirigiremos en un principio a la página web de \href{https://magrathea.sdss.org/marvin/}{Marvin} con el fin de hallar una galaxia que nos resulte interesante para comenzar a analizarla. Por ahora, tomaremos la galaxia \verb|manga 7495-6102| y descargaremos su cubo de datos \textbf{lineal}\footnote{Optamos por el cubo de datos lineal ya que el modelo logarítmico requiere de más técnica para poder manipularse} de la siguiente manera:
+Una vez claro el marco de referencia en el que nos encontramos, se procede a iniciar el proceso de análisis de datos y exploración de tecnologías a utilizar. Para ello, nos dirigiremos en un principio a la página web de \href{https://magrathea.sdss.org/marvin/}{Marvin} con el fin de hallar una galaxia que nos resulte interesante para comenzar a analizarla. 
+
+MaNGA (Mapping Nearby Galaxies at APO) es un estudio espectroscópico de campo integral de galaxias dentro de la cuarta generación del Sloan Digital Sky Survey (SDSS-IV). Mapeará la composición y cinemática del gas y las estrellas en 10.000 galaxias cercanas, utilizando 17 haces de fibras de diferentes tamaños. El objetivo de MaNGA es proporcionar nuevos conocimientos sobre la formación y evolución de galaxias, y ofrecer un punto de referencia local para los estudios actuales y futuros de alto desplazamiento al rojo.
+
+Por ahora, tomaremos la galaxia \verb|manga 7495-6102| y descargaremos su cubo de datos \textbf{lineal}\footnote{Optamos por el cubo de datos lineal ya que el modelo logarítmico requiere de más técnica para poder manipularse} de la siguiente manera:
 \begin{enumerate}
     \item En el inicio de la pagina click en el botón \textbf{Go to SkyServer}
     \item El la barra lateral derecha click al enlace \textbf{Explore}
@@ -477,10 +481,9 @@ Este proceso lo he repetido con los cubos de datos manga-7495-6102, manga-8988-6
 
 
 \subsection*{Diagrama en resolución completa}
-Para seguir avanzando en nuestro objetivo de analizar la fuente ionización se propone la generación el anterior diagrama BPT a resolución completa ($nxn$, con $n$ igual al tamaño del cubo de datos en las dimensiones espaciales).
+Para seguir avanzando en nuestro objetivo de analizar la fuente ionización se propone la generación del anterior diagrama BPT a resolución completa ($nxn$, con $n$ igual al tamaño del cubo de datos en las dimensiones espaciales).
 
 Para lograr un analisis certero de las lineas de emision en cada pixel del cubo de datos se utilizaron las lineas de emisión del proceso anterior pero procesadas de una manera diferente.
-
 
 
 \begin{enumerate}
@@ -594,7 +597,7 @@ Como resultado, se obtienen nubes de puntos que reflejan la fuente de ionizació
     \label{fig:recent_files}
 \end{figure}
 
-\section*{Concluciones}
+\section*{Conclusiones}
 Durante la estancia se trataron temas de interés como la espectroscopía integral de campo, el manejo de archivos .fits y la creación de rutinas de visualización para cubos de datos provenientes del MaNGA. Esto estuvo orientado a la ubicación de formación estelar usando los diagramas BPT.
 
 No puedo negar que estos temas son bastante complicados desde el punto de vista físico-matemático. Sin embargo, en el área de la programación y análisis de datos di todo lo que pude para obtener un producto terminado y listo para usarse, como lo es *InterVisor*. Este no está en su forma final, ya que en los siguientes meses estaré estudiando más opciones y mejoras que pueda hacer al sistema, tales como extracción de mapas de cinética, visualización 3D de la galaxia en cuestión o extracción de mapas de temperaturas.

@@ -1,9 +1,0 @@
-
-# Planteamiento
-Se plantea el análisis y procesamiento de datos de galaxias observadas con espectroscopia integral de campo (IFS) MaNGA del Sloan Digital Sky Survey, con el objetivo de estudiar galaxias que presenten formación estelar reflejada en diagramas de diagnóstico BPT.
-
-# Metodología  
-Se empleó análisis de cubos de datos con Python, usando las librerías Astropy, Numpy y Matplotlib, además de ajustes a funciones gaussianas para el cálculo de valores para la extracción de líneas de emisión. Posteriormente, se tomaron dichos resultados para generar diagramas BPT basados en log 10 (NII/Ha) y log 10 (OIII/Hb) para la determinación de la fuente de ionización. Finalmente, se generaron diagramas de diagnóstico utilizando la resolución completa de los datos, obteniendo una nube de puntos para cada galaxia. Durante el proceso se crearon rutinas de visualización que facilitaron el procesamiento de altas cantidades de datos, así como un programa con interfaz gráfica para hacer más interactivo su uso.
-
-# Conclusiones
-El proceso para analizar datos de observaciones de galaxias con espectroscopia integral de campo es realmente diverso e interesante. Las herramientas libres para el uso público, sin embargo, el conocimiento para manejarlas es riguroso y complejo. Por lo tanto, me resultó fascinante descubrir los métodos utilizados para obtener resultados de este tipo, además de entrenar mis habilidades para la programación en general al resolver problemas abstractos como la extracción de líneas de emisión o el proceso de creación del programa con interfaz gráfica. Al finalizar la estancia, los resultados fueron los esperados, como las rutinas de visualización y obtención de diagramas de diagnóstico en resolución completa, los cuales presentan información nueva para la cual hace falta el desarrollo de nuevas teorías y estudios.
